@@ -1,0 +1,26 @@
+#! /usr/bin/env expect
+
+set ip [lindex $argv 0 ]
+set p [lindex $argv 1]
+set timeout -1
+set node_ip $ip
+set port $p 
+if {[llength $argv] == 2} {
+        spawn telnet 192.168.143.$node_ip $port
+        set node_spawn_id $spawn_id
+        expect "login: "
+        send "guest\r"
+        expect "Password: "
+        send "iltwat\r"
+        expect "> "
+        send "su\r"
+        expect "Password: "
+        send "swtn100tj\r"
+        expect "# "
+        send "cat /usr/sbin/tejas/version.h\r"
+        expect "# "
+        send "cd \/etc\/tejas\/builds\/cef5\r"
+        expect "# "
+        send "uptime\r"
+}
+interact

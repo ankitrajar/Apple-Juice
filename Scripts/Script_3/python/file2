@@ -1,0 +1,22 @@
+ > "LEFT">Node inventory ________________________CHASSIS_1_
+(TJ1600_MODEL_POTP)________________________
+|Slot|Card_type|Operational_Status|Equipment__|Product_Code___|Serial_Number__|
+|0___|BackPlane|UP________________|Present____|170-PCA000001-E|EO-2234-33-3345|
+|4___|CEF-5____|UP________________|Present____|170-PCA000117-E|AB-2314-34-1967|
+|5___|HCPXCC01_|UP________________|Present____|170-PCA000005-E|AC-0610-28-0247|
+|6___|HCPXCC01_|DOWN______________|Not_Present|170-PCA000005-E|AB-0413-36-0183|
+|12__|HCPPFU01_|UP________________|Present____|170-PCA000004-E|AC-4210-25-3221|
+|14__|HCPOAM01_|UP________________|Present____|170-PCA000003-E|AC-0411-21-5100|
+|15__|HCPFTU01_|UP________________|Present____|170-PCA000002-E|AC-1209-13-1424|
+Delete_Cards Delete_SFPs
+_____________________________________SFP_____________________________________
+|Name |Port |Operational|Is |Laser Type |Product |Serial Number |
+|________|_____|Status_____|Present|______________|Code______|________________|
+|P10GETH-| | | | | | | |1-4-1 |ETH- | | |10GÂ BaseÂ ER/|SXP3101SV-| | |
+[Unknown|1-4-1|UP |Present|EWÂ 40kmÂ 1550|03Â Â Â Â |02E141N00058Â Â | Â 
+|INPUT | | | | | | |
+|type]___|_____|___________|_______|______________|__________|________________|
+|P10GETH-| | | | | | | |1-4-2 |ETH- | | |10GÂ BaseÂ ER/|SXP3101SV-| | |
+[Unknown|1-4-2|UP |Present|EWÂ 40kmÂ 1550|03Â Â Â Â |02E141N00055Â Â | Â 
+|INPUT | | | | | | |
+|type]___|_____|___________|_______|______________|__________|________________|

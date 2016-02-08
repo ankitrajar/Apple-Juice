@@ -1,0 +1,3 @@
+kernel//home/parmil/myscripts/kernel_programming/./hello_world.ko
+kernel//home/parmil/myscripts/kernel_programming/./mem_allocate.ko
+kernel//home/parmil/myscripts/kernel_programming/./ram_stresser.ko

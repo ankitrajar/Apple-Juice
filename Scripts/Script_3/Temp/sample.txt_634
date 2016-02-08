@@ -1,0 +1,6 @@
+##################################################################################################
+          Total No. of Warnings of Type 634 is : 2
+##################################################################################################
+
+WARNING:HDLCompiler:634 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 688: Net <TXPRECURS ORINV_IN> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 305: Net <GT0_TXPCSRES ET_IN> does not have a driver.

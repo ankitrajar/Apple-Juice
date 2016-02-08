@@ -1,0 +1,283 @@
+Downloading/unpacking eyeD3
+  Getting page http://pypi.python.org/simple/eyeD3
+  URLs to search for versions for eyeD3:
+  * http://pypi.python.org/simple/eyeD3
+  Analyzing links from page https://pypi.python.org/simple/eyed3/
+    Found link https://pypi.python.org/packages/source/e/eyeD3/eyeD3-0.7.8.tar.gz#md5=2783538edb56d7f583b7c8a5801b51dc (from https://pypi.python.org/simple/eyed3/), version: 0.7.8
+    Found link https://pypi.python.org/packages/source/e/eyeD3/eyeD3-0.7.8.zip#md5=2b867238c5e235ce52ac03c3a40074ca (from https://pypi.python.org/simple/eyed3/), version: 0.7.8
+  Using version 0.7.8 (newest of versions: 0.7.8, 0.7.8)
+  Downloading from URL https://pypi.python.org/packages/source/e/eyeD3/eyeD3-0.7.8.zip#md5=2b867238c5e235ce52ac03c3a40074ca (from https://pypi.python.org/simple/eyed3/)
+  Running setup.py egg_info for package eyeD3
+    running egg_info
+    creating pip-egg-info/eyeD3.egg-info
+    writing pip-egg-info/eyeD3.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/eyeD3.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/eyeD3.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/eyeD3.egg-info/SOURCES.txt'
+    reading manifest file 'pip-egg-info/eyeD3.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    writing manifest file 'pip-egg-info/eyeD3.egg-info/SOURCES.txt'
+  Source in ./build/eyeD3 has version 0.7.8, which satisfies requirement eyeD3
+Installing collected packages: eyeD3
+  Running setup.py install for eyeD3
+    Running command /usr/bin/python -c "import setuptools; __file__='/home/parmil/myscripts/combine_images/build/eyeD3/setup.py'; execfile('/home/parmil/myscripts/combine_images/build/eyeD3/setup.py')" install --single-version-externally-managed --record /tmp/pip-PiP9sY-record/install-record.txt --install-headers /home/parmil/myscripts/combine_images/lib/include
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-i686-2.6
+    creating build/lib.linux-i686-2.6/eyed3
+    copying src/eyed3/__init__.py -> build/lib.linux-i686-2.6/eyed3
+    copying src/eyed3/core.py -> build/lib.linux-i686-2.6/eyed3
+    copying src/eyed3/compat.py -> build/lib.linux-i686-2.6/eyed3
+    copying src/eyed3/main.py -> build/lib.linux-i686-2.6/eyed3
+    copying src/eyed3/info.py -> build/lib.linux-i686-2.6/eyed3
+    creating build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/__init__.py -> build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/console.py -> build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/prompt.py -> build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/cli.py -> build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/binfuncs.py -> build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/art.py -> build/lib.linux-i686-2.6/eyed3/utils
+    copying src/eyed3/utils/log.py -> build/lib.linux-i686-2.6/eyed3/utils
+    creating build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/xep_118.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/__init__.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/genres.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/fixup.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/pymod.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/lameinfo.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/itunes.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/nfo.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/statistics.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/classic.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    copying src/eyed3/plugins/art.py -> build/lib.linux-i686-2.6/eyed3/plugins
+    creating build/lib.linux-i686-2.6/eyed3/mp3
+    copying src/eyed3/mp3/__init__.py -> build/lib.linux-i686-2.6/eyed3/mp3
+    copying src/eyed3/mp3/headers.py -> build/lib.linux-i686-2.6/eyed3/mp3
+    creating build/lib.linux-i686-2.6/eyed3/id3
+    copying src/eyed3/id3/tag.py -> build/lib.linux-i686-2.6/eyed3/id3
+    copying src/eyed3/id3/__init__.py -> build/lib.linux-i686-2.6/eyed3/id3
+    copying src/eyed3/id3/frames.py -> build/lib.linux-i686-2.6/eyed3/id3
+    copying src/eyed3/id3/apple.py -> build/lib.linux-i686-2.6/eyed3/id3
+    copying src/eyed3/id3/headers.py -> build/lib.linux-i686-2.6/eyed3/id3
+    copying src/eyed3/info.py.in -> build/lib.linux-i686-2.6/eyed3
+    running build_scripts
+    creating build/scripts-2.6
+    copying bin/eyeD3 -> build/scripts-2.6
+    changing mode of build/scripts-2.6/eyeD3 from 644 to 755
+    running install_lib
+    creating /usr/local/lib/python2.6/dist-packages/eyed3
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/home/parmil/myscripts/combine_images/build/eyeD3/setup.py", line 10, in <module>
+        paver.tasks.main()
+      File "paver-minilib.zip/paver/tasks.py", line 878, in main
+      File "paver-minilib.zip/paver/tasks.py", line 858, in _launch_pavement
+      File "paver-minilib.zip/paver/tasks.py", line 809, in _process_commands
+      File "paver-minilib.zip/paver/setuputils.py", line 173, in __call__
+      File "paver-minilib.zip/paver/setuputils.py", line 58, in _dispatch_setuptools_install
+      File "/usr/lib/python2.6/distutils/dist.py", line 995, in run_command
+        cmd_obj.run()
+      File "/usr/lib/python2.6/dist-packages/setuptools/command/install.py", line 53, in run
+        return _install.run(self)
+      File "/usr/lib/python2.6/distutils/command/install.py", line 627, in run
+        self.run_command(cmd_name)
+      File "/usr/lib/python2.6/distutils/cmd.py", line 333, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python2.6/distutils/dist.py", line 995, in run_command
+        cmd_obj.run()
+      File "/usr/lib/python2.6/dist-packages/setuptools/command/install_lib.py", line 21, in run
+        outfiles = self.install()
+      File "/usr/lib/python2.6/distutils/command/install_lib.py", line 119, in install
+        outfiles = self.copy_tree(self.build_dir, self.install_dir)
+      File "/usr/lib/python2.6/dist-packages/setuptools/command/install_lib.py", line 50, in copy_tree
+        return _install_lib.copy_tree(self, infile, outfile)
+      File "/usr/lib/python2.6/distutils/cmd.py", line 389, in copy_tree
+        dry_run=self.dry_run)
+      File "/usr/lib/python2.6/distutils/dir_util.py", line 172, in copy_tree
+        dry_run=dry_run))
+      File "/usr/lib/python2.6/distutils/dir_util.py", line 153, in copy_tree
+        mkpath(dst)
+      File "/usr/lib/python2.6/distutils/dir_util.py", line 80, in mkpath
+        "could not create '%s': %s" % (head, exc[-1])
+    distutils.errors.DistutilsFileError: could not create '/usr/local/lib/python2.6/dist-packages/eyed3': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools; __file__='/home/parmil/myscripts/combine_images/build/eyeD3/setup.py'; execfile('/home/parmil/myscripts/combine_images/build/eyeD3/setup.py')" install --single-version-externally-managed --record /tmp/pip-PiP9sY-record/install-record.txt --install-headers /home/parmil/myscripts/combine_images/lib/include:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-i686-2.6
+
+creating build/lib.linux-i686-2.6/eyed3
+
+copying src/eyed3/__init__.py -> build/lib.linux-i686-2.6/eyed3
+
+copying src/eyed3/core.py -> build/lib.linux-i686-2.6/eyed3
+
+copying src/eyed3/compat.py -> build/lib.linux-i686-2.6/eyed3
+
+copying src/eyed3/main.py -> build/lib.linux-i686-2.6/eyed3
+
+copying src/eyed3/info.py -> build/lib.linux-i686-2.6/eyed3
+
+creating build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/__init__.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/console.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/prompt.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/cli.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/binfuncs.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/art.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+copying src/eyed3/utils/log.py -> build/lib.linux-i686-2.6/eyed3/utils
+
+creating build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/xep_118.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/__init__.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/genres.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/fixup.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/pymod.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/lameinfo.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/itunes.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/nfo.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/statistics.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/classic.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+copying src/eyed3/plugins/art.py -> build/lib.linux-i686-2.6/eyed3/plugins
+
+creating build/lib.linux-i686-2.6/eyed3/mp3
+
+copying src/eyed3/mp3/__init__.py -> build/lib.linux-i686-2.6/eyed3/mp3
+
+copying src/eyed3/mp3/headers.py -> build/lib.linux-i686-2.6/eyed3/mp3
+
+creating build/lib.linux-i686-2.6/eyed3/id3
+
+copying src/eyed3/id3/tag.py -> build/lib.linux-i686-2.6/eyed3/id3
+
+copying src/eyed3/id3/__init__.py -> build/lib.linux-i686-2.6/eyed3/id3
+
+copying src/eyed3/id3/frames.py -> build/lib.linux-i686-2.6/eyed3/id3
+
+copying src/eyed3/id3/apple.py -> build/lib.linux-i686-2.6/eyed3/id3
+
+copying src/eyed3/id3/headers.py -> build/lib.linux-i686-2.6/eyed3/id3
+
+copying src/eyed3/info.py.in -> build/lib.linux-i686-2.6/eyed3
+
+running build_scripts
+
+creating build/scripts-2.6
+
+copying bin/eyeD3 -> build/scripts-2.6
+
+changing mode of build/scripts-2.6/eyeD3 from 644 to 755
+
+running install_lib
+
+creating /usr/local/lib/python2.6/dist-packages/eyed3
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "/home/parmil/myscripts/combine_images/build/eyeD3/setup.py", line 10, in <module>
+
+    paver.tasks.main()
+
+  File "paver-minilib.zip/paver/tasks.py", line 878, in main
+
+  File "paver-minilib.zip/paver/tasks.py", line 858, in _launch_pavement
+
+  File "paver-minilib.zip/paver/tasks.py", line 809, in _process_commands
+
+  File "paver-minilib.zip/paver/setuputils.py", line 173, in __call__
+
+  File "paver-minilib.zip/paver/setuputils.py", line 58, in _dispatch_setuptools_install
+
+  File "/usr/lib/python2.6/distutils/dist.py", line 995, in run_command
+
+    cmd_obj.run()
+
+  File "/usr/lib/python2.6/dist-packages/setuptools/command/install.py", line 53, in run
+
+    return _install.run(self)
+
+  File "/usr/lib/python2.6/distutils/command/install.py", line 627, in run
+
+    self.run_command(cmd_name)
+
+  File "/usr/lib/python2.6/distutils/cmd.py", line 333, in run_command
+
+    self.distribution.run_command(command)
+
+  File "/usr/lib/python2.6/distutils/dist.py", line 995, in run_command
+
+    cmd_obj.run()
+
+  File "/usr/lib/python2.6/dist-packages/setuptools/command/install_lib.py", line 21, in run
+
+    outfiles = self.install()
+
+  File "/usr/lib/python2.6/distutils/command/install_lib.py", line 119, in install
+
+    outfiles = self.copy_tree(self.build_dir, self.install_dir)
+
+  File "/usr/lib/python2.6/dist-packages/setuptools/command/install_lib.py", line 50, in copy_tree
+
+    return _install_lib.copy_tree(self, infile, outfile)
+
+  File "/usr/lib/python2.6/distutils/cmd.py", line 389, in copy_tree
+
+    dry_run=self.dry_run)
+
+  File "/usr/lib/python2.6/distutils/dir_util.py", line 172, in copy_tree
+
+    dry_run=dry_run))
+
+  File "/usr/lib/python2.6/distutils/dir_util.py", line 153, in copy_tree
+
+    mkpath(dst)
+
+  File "/usr/lib/python2.6/distutils/dir_util.py", line 80, in mkpath
+
+    "could not create '%s': %s" % (head, exc[-1])
+
+distutils.errors.DistutilsFileError: could not create '/usr/local/lib/python2.6/dist-packages/eyed3': Permission denied
+
+----------------------------------------
+Command /usr/bin/python -c "import setuptools; __file__='/home/parmil/myscripts/combine_images/build/eyeD3/setup.py'; execfile('/home/parmil/myscripts/combine_images/build/eyeD3/setup.py')" install --single-version-externally-managed --record /tmp/pip-PiP9sY-record/install-record.txt --install-headers /home/parmil/myscripts/combine_images/lib/include failed with error code 1
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 252, in main
+    self.run(options, args)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 410, in run
+    requirement_set.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 2017, in install
+    requirement.install(install_options)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 1515, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.6/dist-packages/pip.py", line 3543, in call_subprocess
+    % (command_desc, proc.returncode))
+InstallationError: Command /usr/bin/python -c "import setuptools; __file__='/home/parmil/myscripts/combine_images/build/eyeD3/setup.py'; execfile('/home/parmil/myscripts/combine_images/build/eyeD3/setup.py')" install --single-version-externally-managed --record /tmp/pip-PiP9sY-record/install-record.txt --install-headers /home/parmil/myscripts/combine_images/lib/include failed with error code 1

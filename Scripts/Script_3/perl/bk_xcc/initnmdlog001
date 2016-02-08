@@ -1,0 +1,724 @@
+13/04/15 17:17:58:394: UNKNOWN :2385: ===========================================
+13/04/15 17:17:58:394: UNKNOWN :2385:  NM started with pid =2385
+13/04/15 17:17:58:395: UNKNOWN :2385: ===========================================
+13/04/15 17:17:58:402: UNKNOWN :2385: Install modules called
+13/04/15 17:17:58:402: UNKNOWN :2385: Module::Module creating SDH
+13/04/15 17:17:58:402: UNKNOWN :2385: ModuleRegistry::Register Registering SDH
+13/04/15 17:17:58:402: UNKNOWN :2385: Module::Module creating ETH_COMMON
+13/04/15 17:17:58:402: UNKNOWN :2385: ModuleRegistry::Register Registering ETH_COMMON
+13/04/15 17:17:58:402: UNKNOWN :2385: Module::Module creating L2_SWITCH
+13/04/15 17:17:58:402: UNKNOWN :2385: ModuleRegistry::Register Registering L2_SWITCH
+13/04/15 17:17:58:402: UNKNOWN :2385: Module::Module creating TJ2K
+13/04/15 17:17:58:402: UNKNOWN :2385: ModuleRegistry::Register Registering TJ2K
+13/04/15 17:17:58:402: UNKNOWN :2385: Module::Module creating OTN
+13/04/15 17:17:58:402: UNKNOWN :2385: ModuleRegistry::Register Registering OTN
+13/04/15 17:17:58:402: UNKNOWN :2385: Module::Module creating DWDM
+13/04/15 17:17:58:402: UNKNOWN :2385: ModuleRegistry::Register Registering DWDM
+13/04/15 17:17:58:403: UNKNOWN :2385: Initializing NMDbgMgr
+13/04/15 17:17:58:406: UNKNOWN :2385: CosmoInit::CosmoInit : BootMode = 0
+13/04/15 17:17:58:407: UNKNOWN :2385: getLicenseStr(MODE)=SDH_OR_SONET
+13/04/15 17:17:58:407: UNKNOWN :2385: Tl1Mode not found in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: getLicenseStr (CAPABILITY) = STM64
+13/04/15 17:17:58:407: UNKNOWN :2385: setting capabality to ANY
+13/04/15 17:17:58:407: UNKNOWN :2385: getLicenseStr (REDUNDANCYMODE) = REDUNDANT
+13/04/15 17:17:58:407: UNKNOWN :2385: setting redundancyMode to Redundant
+13/04/15 17:17:58:407: UNKNOWN :2385: EXPANSION_CHASSIS is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385: AUTO_DISCOVERY is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: OEM -cannot copy to oemName- invalid license file ?
+13/04/15 17:17:58:407: UNKNOWN :2385: OrderWire is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: VRRP is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385: OSPF is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: SNMP is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: TCM_FEATURE is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385: SILVX_MGR is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: EMS_GUI is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: SSM is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: LTC_ETHERNET is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385: ETCSWITCHING is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385: PDH_PROTECTION is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385: OVERHEAD_TUNNEL is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: NES_DOC is DISABLED
+13/04/15 17:17:58:407: UNKNOWN :2385:  TERMSERVER is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: LOGIN_APP is enabled in license file
+13/04/15 17:17:58:407: UNKNOWN :2385: TRIBPROTECTION not licensed 
+13/04/15 17:17:58:408: UNKNOWN :2385: getLicenseStr(AU-MODE)=AU4_OR_AU3
+13/04/15 17:17:58:408: UNKNOWN :2385: BLSR/MS-SPRing is enabled in license file
+13/04/15 17:17:58:408: UNKNOWN :2385:  STRICT_SFP_CHECK is DISABLED
+13/04/15 17:17:58:408: UNKNOWN :2385:  ALLOW_ALL_SFP is ENABLED
+13/04/15 17:17:58:408: UNKNOWN :2385: GATEWAY Configuration is not Supported
+13/04/15 17:17:58:408: UNKNOWN :2385: CosmoInit::CosmoInit :Licensed for NodeType = TJMC16006
+13/04/15 17:17:58:408: UNKNOWN :2385: CosmoInit::CosmoInit Node Type = TJMC16006
+13/04/15 17:17:58:408: UNKNOWN :2385: DBManager :: Creating the DBManager Instance)
+13/04/15 17:17:58:423: UNKNOWN :2385: handleCorruptDB SqlErr:0  is DBCorrupt:true
+13/04/15 17:17:58:423: UNKNOWN :2385: handleCorruptDB: Database seems MALFORMED. Deleting DB, all logged changes will be lost !!
+13/04/15 17:17:58:423: UNKNOWN :2385: handleCorruptDB: unlinked 
+13/04/15 17:17:58:423: UNKNOWN :2385: handleCorruptDB: opened/etc/tejas/config/db/system.db
+13/04/15 17:17:58:805: UNKNOWN :2385: SQLDBMgr::getFileConfVersionConfig file /etc/tejas/config/SysConf.dat not found
+13/04/15 17:17:58:805: UNKNOWN :2385: SQLDBMgr::getFileConfVersionConfig file /etc/tejas/config/backconf.dat not found
+13/04/15 17:17:58:805: UNKNOWN :2385: SQLDBMgr::SQLDBManager: Doing nothing with /etc/tejas/config/SysConf.dat & /etc/tejas/config/backconf.dat
+13/04/15 17:17:58:806: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/db/node.db, 2385) command name : DEL_NODE command statement : DELETE from node where Key=@object : ErrNo: 1 Error: no such table: node
+13/04/15 17:17:58:806: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/db/node.db, 2385) command name : INS_NODE command statement : INSERT INTO node (Key,Value, CreateTime) values(@object, @config, datetime('now')) : ErrNo: 1 Error: no such table: node
+13/04/15 17:17:58:806: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/db/node.db, 2385) command name : UPDT_NODE command statement : Update node SET Value=@config, UpdateTime=datetime('now') where Key=@object : ErrNo: 1 Error: no such table: node
+13/04/15 17:17:58:807: UNKNOWN :2385: SQLDBMgr::determineFileStatestable node doesnot exists in the db/etc/tejas/config/db/node.db
+13/04/15 17:17:58:807: UNKNOWN :2385: SQLDBMgr::determineFileStatestable DBInfo doesnot exists in the db/etc/tejas/config/db/node.db
+13/04/15 17:17:58:807: UNKNOWN :2385: SQLDBMgr::checkSystemVariableInDb: query #2 FAILED! Error Msg: no such table: node
+13/04/15 17:17:58:807: UNKNOWN :2385: SQLDBMgr::determineFileStatesDB file missing /etc/tejas/config/backup/backup.dberrno:2¿öR 
+º
+13/04/15 17:17:58:807: UNKNOWN :2385: CfgMgr::DetermineInitialFileStates: State of config files: /etc/tejas/config/db/node.db CORRUPTED /etc/tejas/config/backup/backup.db MISSING 
+13/04/15 17:17:58:807: UNKNOWN :2385: SQLDBMgr::deleteDBFile : Backing up sysConf for debugging in /tmp/ !!!!
+13/04/15 17:17:58:814: UNKNOWN :2385: SQLDBMgr::deleteDBFile: /etc/tejas/config/db/node.db
+13/04/15 17:18:01:704: UNKNOWN :2385: SQLDBMgr::initConfigManager: upgradeFromDB Failed : Seems to be in SLAT Mode
+13/04/15 17:18:01:704: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/db/node.db, 2385) command name : DEL_NODE command statement : DELETE from node where Key=@object : ErrNo: 1 Error: no such table: node
+13/04/15 17:18:01:705: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/db/node.db, 2385) command name : INS_NODE command statement : INSERT INTO node (Key,Value, CreateTime) values(@object, @config, datetime('now')) : ErrNo: 1 Error: no such table: node
+13/04/15 17:18:01:705: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/db/node.db, 2385) command name : UPDT_NODE command statement : Update node SET Value=@config, UpdateTime=datetime('now') where Key=@object : ErrNo: 1 Error: no such table: node
+13/04/15 17:18:02:082: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/backup/backup.db, 2385) command name : DEL_NODE command statement : DELETE from node where Key=@object : ErrNo: 1 Error: no such table: node
+13/04/15 17:18:02:082: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/backup/backup.db, 2385) command name : INS_NODE command statement : INSERT INTO node (Key,Value, CreateTime) values(@object, @config, datetime('now')) : ErrNo: 1 Error: no such table: node
+13/04/15 17:18:02:083: UNKNOWN :2385:  SQLDB::prepare_statements()WARNING : sqlite3_prepare_v2() FAILED for (/etc/tejas/config/backup/backup.db, 2385) command name : UPDT_NODE command statement : Update node SET Value=@config, UpdateTime=datetime('now') where Key=@object : ErrNo: 1 Error: no such table: node
+13/04/15 17:18:03:315: UNKNOWN :2385: CosmoInit::CosmoInitInitilizations for module DWDM
+13/04/15 17:18:03:315: UNKNOWN :2385: CosmoInit::CosmoInitInitilizations for module ETH_COMMON
+13/04/15 17:18:03:315: UNKNOWN :2385: CosmoInit::CosmoInitInitilizations for module L2_SWITCH
+13/04/15 17:18:03:316: UNKNOWN :2385: Factory::RegisterMIBObjectCreatorFunction found
+13/04/15 17:18:03:316: UNKNOWN :2385: CosmoInit::CosmoInitInitilizations for module OTN
+13/04/15 17:18:03:316: UNKNOWN :2385: CosmoInit::CosmoInitInitilizations for module SDH
+13/04/15 17:18:03:316: UNKNOWN :2385: CosmoInit::CosmoInitInitilizations for module TJ2K
+13/04/15 17:18:03:316: UNKNOWN :2385: Factory::RegisterMIBObjectCreatorFunction found
+13/04/15 17:18:03:316: UNKNOWN :2385: Factory::RegisterMIBObjectCreatorFunction found
+13/04/15 17:18:03:316: UNKNOWN :2385: Factory::RegisterMIBObjectCreatorFunction found
+13/04/15 17:18:03:317: UNKNOWN :2385: In daemonSocketsThread::daemonSocketsThread. Node type is 43
+13/04/15 17:18:03:317: UNKNOWN :2385: In daemonSocketsThread::daemonSocketsThread. Chassis type is TJMC16006
+13/04/15 17:18:03:318: UNKNOWN :2385:  getChassisRef(): Oops! Chassis has NOT been created yet
+13/04/15 17:18:03:319: UNKNOWN :2385:  getChassisRef(): calling tn100_chassis::create() for Default ChassisType
+13/04/15 17:18:03:319: UNKNOWN :2385: tn100_chassis::create: Called with ChassisType:Chassis_Unknown
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis::tj1700_chassis: Called with Chassis Type:Chassis_Unknown
+13/04/15 17:18:03:319: UNKNOWN :2385: getCTfrmcardident::got pss card type eCard_Magic_Flag
+13/04/15 17:18:03:319: UNKNOWN :2385: getPSSCardType: got card type eCard_OSMC
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis Card Type = eCard_OSMC pssCardType = eCard_OSMC
+13/04/15 17:18:03:319: UNKNOWN :2385: getSystemVariant called.
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis::SystemVariantType->SYSTEM_TJ16006
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis created !!!! ChassisType:Chassis_TJMC16006
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_jijo:: Called with ChassisType:Chassis_TJMC16006
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis::configSlotInterrupts():: configuring Slot interrupts foreCard_OSMC ChassisTypeChassis_TJMC16006
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis::identifyMySlot returns slotNo: a
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis::cardInfoUtil called for xccCardType:eCard_OSMC
+13/04/15 17:18:03:319: UNKNOWN :2385: tj1700_chassis::identifyMySlot returns slotNo: a
+13/04/15 17:18:03:319: UNKNOWN :2385:  ohxcMgr::ohxcMgridentifyMySlot() returns me myslot as :10
+13/04/15 17:18:03:320: UNKNOWN :2385: ChassisMgr:: ChassisMgr:  Called with BaseChasseType =Chassis_TJMC16006
+13/04/15 17:18:03:320: UNKNOWN :2385: ChassisMgr:: createChassis: 
+13/04/15 17:18:03:320: UNKNOWN :2385: ChassisMgr:: createChassis:  ChId = 1
+13/04/15 17:18:03:320: UNKNOWN :2385: ChassisMgr:: createChassis:  Creating Chassis Agent for chasse 1at 127.0.0.1
+13/04/15 17:18:03:321: UNKNOWN :2399: AgentsCommnThread: Started with pid = 2399
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:05:328: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:05:329: UNKNOWN :2399: ChassisMgr:: chassisAgentConnEstHndlr:  Connection established with remote Chasse Agent in Chassis = 1
+13/04/15 17:18:05:329: UNKNOWN :2399: ChassisMgr:: RegisterCardMgrAlarms:  Registering the CardMgr to NM alarms
+13/04/15 17:18:05:335: UNKNOWN :2399: ChassisMgr:: chassisAgentConnEstHndlr:  Time Out Secs = 300
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:05:335: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:05:337: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:05:338: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:05:376: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:07:386: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:08:320: UNKNOWN :2385: CosmoInit::CosmoInitRegistering connections for module DWDM
+13/04/15 17:18:08:320: UNKNOWN :2385: CosmoInit::CosmoInitRegistering connections for module ETH_COMMON
+13/04/15 17:18:08:320: UNKNOWN :2385: CosmoInit::CosmoInitRegistering connections for module L2_SWITCH
+13/04/15 17:18:08:320: UNKNOWN :2385: CosmoInit::CosmoInitRegistering connections for module OTN
+13/04/15 17:18:08:320: UNKNOWN :2385: CosmoInit::CosmoInitRegistering connections for module SDH
+13/04/15 17:18:08:320: UNKNOWN :2385: CosmoInit::CosmoInitRegistering connections for module TJ2K
+13/04/15 17:18:08:320: UNKNOWN :2385: CfgSrv::startConnectionMgmtDEBUG:before starting daemonSocketsThread
+13/04/15 17:18:08:320: UNKNOWN :2385: CfgSrv::startConnectionMgmtDEBUG:after starting daemonSocketsThread
+13/04/15 17:18:08:320: UNKNOWN :2400: daemonSocketsThread started with pid 2400
+13/04/15 17:18:08:321: UNKNOWN :2401: daemonCtlClientThread started with pid 2401
+13/04/15 17:18:08:321: UNKNOWN :2400: virtual ReturnT CircuitNMIface::initializeConnections(): NMTjCircuit_ifaceServerStubSetUp started with nmsigd_ifacePort="21028"
+13/04/15 17:18:08:322: UNKNOWN :2400: virtual ReturnT CircuitServer::initializeConnections(): SigDTjCircuit_ifaceServerStub started with sigd_ifacePort="21027"
+13/04/15 17:18:08:322: UNKNOWN :2400: virtual ReturnT IfConfigClient::initializeConnections()
+13/04/15 17:18:08:322: UNKNOWN :2400: virtual ReturnT IfConfigClient::initializeConnections() END
+13/04/15 17:18:08:323: UNKNOWN :2400: virtual ReturnT SVCMgrConfigClient::initializeConnections()
+13/04/15 17:18:08:323: UNKNOWN :2400: ReturnT SVCMgrConfigClient::connect()
+13/04/15 17:18:08:323: UNKNOWN :2400: virtual ReturnT SVCMgrConfigClient::initializeConnections() END
+13/04/15 17:18:08:323: UNKNOWN :2400: virtual ReturnT TJ2KPmIface::initializeConnections()
+13/04/15 17:18:08:323: UNKNOWN :2400: virtual ReturnT TJ2KPmIface::initializeConnections() END
+13/04/15 17:18:08:323: UNKNOWN :2400: CfgSrv::run: Starting Loop
+13/04/15 17:18:08:324: UNKNOWN :2400: virtual ReturnT IfConfigClient::initializeConnections()
+13/04/15 17:18:08:324: UNKNOWN :2400: virtual ReturnT IfConfigClient::initializeConnections() END
+13/04/15 17:18:08:324: UNKNOWN :2400: virtual ReturnT SVCMgrConfigClient::initializeConnections()
+13/04/15 17:18:08:324: UNKNOWN :2400: ReturnT SVCMgrConfigClient::connect()
+13/04/15 17:18:08:324: UNKNOWN :2400: virtual ReturnT SVCMgrConfigClient::initializeConnections() END
+13/04/15 17:18:08:324: UNKNOWN :2400: virtual ReturnT TJ2KPmIface::initializeConnections()
+13/04/15 17:18:08:324: UNKNOWN :2400: virtual ReturnT TJ2KPmIface::initializeConnections() END
+13/04/15 17:18:08:328: UNKNOWN :2400: ECC_Mgr_IfaceConnectionEstablished()
+13/04/15 17:18:08:328: UNKNOWN :2400: ecc_client_t::commitNmsNetif ifname not yet set
+13/04/15 17:18:08:329: UNKNOWN :2400: virtual ReturnT IfConfigClient::initializeConnections()
+13/04/15 17:18:08:329: UNKNOWN :2400: virtual ReturnT IfConfigClient::initializeConnections() END
+13/04/15 17:18:08:329: UNKNOWN :2400: virtual ReturnT SVCMgrConfigClient::initializeConnections()
+13/04/15 17:18:08:329: UNKNOWN :2400: ReturnT SVCMgrConfigClient::connect()
+13/04/15 17:18:08:329: UNKNOWN :2400: virtual ReturnT SVCMgrConfigClient::initializeConnections() END
+13/04/15 17:18:08:329: UNKNOWN :2400: virtual ReturnT TJ2KPmIface::initializeConnections()
+13/04/15 17:18:08:329: UNKNOWN :2400: virtual ReturnT TJ2KPmIface::initializeConnections() END
+13/04/15 17:18:08:330: UNKNOWN :2401: DaemonCtlClient::connectionEstablishedHandler
+13/04/15 17:18:08:333: UNKNOWN :2401: DaemonCtlClient::connectedToServer Called taskListSize=14
+13/04/15 17:18:08:340: UNKNOWN :2401: DaemonCtlClient::currentSystemStateHandler pssState=SIMPLEX rebootType=COLD_REBOOT
+13/04/15 17:18:08:340: UNKNOWN :2401: dCtlCliThr::SystemCurrentStateHandler : Got SysInfo 
+ Reboot Type  =  COLD_REBOOT
+ pssState     =  SIMPLEX
+ chassisType  =  41
+ Self Id      =  1
+ EowEnabled   =  1
+ GmplsEnabled =  0
+ OemNortel    =  0
+ SlatMode     =  1
+ MultiShelf   =  0
+ state        =  INITIAL
+13/04/15 17:18:08:340: UNKNOWN :2385: CosmoInit::CosmoInit : ChassisType =Chassis_TJMC16006
+13/04/15 17:18:08:340: UNKNOWN :2385: CosmoInit::determineSLATMode
+13/04/15 17:18:08:340: UNKNOWN :2385: CosmoInit::determineSLATModeSysConf is missing or corrupted enter in to SLATMode
+13/04/15 17:18:08:340: UNKNOWN :2385: CosmoInit::CosmoInitNE in SLAT Mode
+13/04/15 17:18:08:340: UNKNOWN :2385: CosmoInit::CosmoInit Constructor Done
+13/04/15 17:18:08:340: UNKNOWN :2385: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:08:341: UNKNOWN :2385: ChassisMgr:: resolveActStdby:  Resolved with State = SIMPLEX in Slot = 10
+13/04/15 17:18:08:342: UNKNOWN :2385: CosmoInit::resolveRedundancyState My Card State = SIMPLEX
+13/04/15 17:18:08:342: UNKNOWN :2385: ChassisMgr:: getSelfChassisId:  Chassis Id = 1
+13/04/15 17:18:08:343: UNKNOWN :2385: CosmoInit::resolveRedundancyState inform NM stated to tn_init.d
+13/04/15 17:18:08:345: UNKNOWN :2385: CosmoInit::resolveRedundancyState: redundancyState = SIMPLEX for nodeType = TJMC16006, synchronization using RSYNC
+13/04/15 17:18:08:345: UNKNOWN :2385: CosmoInit::resolveRedundancyState: calling initPrimary()
+13/04/15 17:18:08:345: UNKNOWN :2385: CosmoInit::initPrimary called
+13/04/15 17:18:08:345: UNKNOWN :2385: Ntp::Ntp: Ntp Task created with serverip = 0.0.0.0
+13/04/15 17:18:08:345: UNKNOWN :2385: CosmoInit::initPrimary instantiate NTP Done slat mode = true
+13/04/15 17:18:08:345: UNKNOWN :2385: CosmoInit::initPrimary Done
+13/04/15 17:18:08:345: UNKNOWN :2402: Ntp::run(): Thread instantiated with PID:2402
+13/04/15 17:18:08:372: UNKNOWN :2401: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+13/04/15 17:18:08:372: UNKNOWN :2401: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED
+13/04/15 17:18:08:373: UNKNOWN :2401: DaemonCtlClient::performTaskHandler taskType=MGMT_CONFIG_REPLAY rebootType=COLD_REBOOT
+13/04/15 17:18:08:373: UNKNOWN :2401: DaemonCtlClient::performTaskHandler calling app specific handler for task=MGMT_CONFIG_REPLAY
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:09:396: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:11:406: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:13:416: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:15:426: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:17:436: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:19:446: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:21:456: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:23:466: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:25:476: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:27:486: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:29:496: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:31:506: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:33:373: UNKNOWN :2401: createEventDbInfo : eventDbInfo version : (4 , 1 )  currfile : 1 wrapcount: 0
+13/04/15 17:18:33:375: UNKNOWN :2401: lowName = /etc/tejas/config/fm/ef000001 mLogFileName = /etc/tejas/config/fm/ef000001
+13/04/15 17:18:33:376: UNKNOWN :2401: SuppressAlarmManager: Creating SuppressAlarmManager Object
+13/04/15 17:18:33:376: UNKNOWN :2401: CosmoInit::initializeFromConfigInitializing the EventDistributionSubsystem
+13/04/15 17:18:33:380: UNKNOWN :2403: EventLog::eventTask started with pid = 2403
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:33:516: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:35:524: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:36:388: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:36:388: UNKNOWN :2401: Can't open file/etc/tejas/.BumpedMap
+13/04/15 17:18:36:389: UNKNOWN :2401: NodeImpl::init
+13/04/15 17:18:36:390: UNKNOWN :2401: NetworkInterface::makeEmsName() -----  Channel index is 0 portIndex is 0
+13/04/15 17:18:36:392: UNKNOWN :2401: assignIpV6Address()
+13/04/15 17:18:36:393: UNKNOWN :2401: isDcnFunctionalityRestricted Port_SDH object is null
+13/04/15 17:18:36:394: UNKNOWN :2401: TjNetworkInterfaceImpl::update 	-ifMtu	1500	-ifName	eth1	-ifType	mac	-ipAddress	192.168.1.1	-ipBcastAddr	192.168.1.255	-ipNetmask	255.255.255.0	-ifDescr	LAN-1-6	-Initialized	1	-ipNetMaskLen	24
+13/04/15 17:18:36:394: UNKNOWN :2401: TjNetworInterfaceImpl::update: initialized changed
+13/04/15 17:18:36:394: UNKNOWN :2401: in TjNetIf::fillinfo function
+13/04/15 17:18:36:394: UNKNOWN :2401: Netif::fillOSI_Info(), invalid MAC Address : 
+13/04/15 17:18:36:395: UNKNOWN :2401:  ecc_client_t::ProvisionDCN: called with ifname = eth1
+13/04/15 17:18:36:395: UNKNOWN :2401: SGRE and Ethernet case only - interface nameeth1
+13/04/15 17:18:36:395: UNKNOWN :2401: ecc_client_t::Create_NetIf: calling for eth1
+13/04/15 17:18:36:395: UNKNOWN :2401: in TjNetIf::fillinfo function
+13/04/15 17:18:36:395: UNKNOWN :2401: Netif::fillOSI_Info(), invalid MAC Address : 
+13/04/15 17:18:36:395: UNKNOWN :2401: ecc_client_t::Create_NetIf: calling for eth1
+13/04/15 17:18:36:395: UNKNOWN :2401: NodeImpl::init setting OSPF multiAreaSupported flag to False
+13/04/15 17:18:36:395: UNKNOWN :2401: NodeImpl::init setting OSPF multiAreaSupported flag to False
+13/04/15 17:18:36:395: UNKNOWN :2401: Executing command for dummy interface /sbin/ifconfig dummy 192.168.1.254 netmask 255.255.255.255 up
+13/04/15 17:18:36:404: UNKNOWN :2401: HelperUtils::tjSystem: cmd = /sbin/ifconfig dummy 192.168.1.254 netmask 255.255.255.255 up returned with exit_status = 1
+13/04/15 17:18:36:404: UNKNOWN :2401: HelperUtils::tjSystem: cmd = /sbin/ifconfig dummy 192.168.1.254 netmask 255.255.255.255 up exited via signal 1, exit_status = -1
+13/04/15 17:18:36:407: UNKNOWN :2401: TZ Env: IST-5:30:0
+13/04/15 17:18:36:407: UNKNOWN :2401: TimeZone Setting : export TZ=IST-5:30:0
+13/04/15 17:18:36:415: UNKNOWN :2401: IfConfigClient::SettingTimezoneEnv called for timezoneIST-5:30:0
+13/04/15 17:18:36:419: UNKNOWN :2401: Hostname being set to : Default
+13/04/15 17:18:36:425: UNKNOWN :2401: HelperUtils::tjSystem: cmd = hostname Default returned with exit_status = 0
+13/04/15 17:18:36:430: UNKNOWN :2401:  makeSID: the NodeName = Default, SID = DEFAULT
+13/04/15 17:18:36:471: UNKNOWN :2401: ChassisMgr:: declareNewAlarm: 
+13/04/15 17:18:36:471: UNKNOWN :2401: inside NESecuritySettingsImpl::constructor
+13/04/15 17:18:36:472: UNKNOWN :2401: inside init
+13/04/15 17:18:36:537: UNKNOWN :2401: deleting temp user lock file  command /bin/rm -f /etc/tejas/config/userlock_enable passed with status :0
+13/04/15 17:18:36:544: UNKNOWN :2401: removing UserLock Database file command /bin/rm -f /etc/tejas/log/login_limit passed with status :0
+13/04/15 17:18:36:588: UNKNOWN :2401: NESecuritySettingsImpl::postinit
+13/04/15 17:18:36:594: UNKNOWN :2401: Block Service command  passed with status :0
+13/04/15 17:18:36:595: UNKNOWN :2401: Populating the License Object
+13/04/15 17:18:36:597: UNKNOWN :2401: Creating ODUAlarmProfile-1
+13/04/15 17:18:36:598: UNKNOWN :2401: Creating ODUAlarmProfile-2
+13/04/15 17:18:36:599: UNKNOWN :2401: Creating ODUAlarmProfile-3
+13/04/15 17:18:36:600: UNKNOWN :2401: Creating ODUAlarmProfile-4
+13/04/15 17:18:36:600: UNKNOWN :2401: Creating ODUAlarmProfile-5
+13/04/15 17:18:36:601: UNKNOWN :2401: Creating ODUAlarmProfile-6
+13/04/15 17:18:36:602: UNKNOWN :2401: Creating OTUPortAlarmProfile-1
+13/04/15 17:18:36:604: UNKNOWN :2401: Creating OTUPortAlarmProfile-2
+13/04/15 17:18:36:607: UNKNOWN :2401: Creating PathAlarmProfile-1
+13/04/15 17:18:36:608: UNKNOWN :2401: Creating PathAlarmProfile-2
+13/04/15 17:18:36:608: UNKNOWN :2401: Creating PathAlarmProfile-3
+13/04/15 17:18:36:609: UNKNOWN :2401: Creating PathAlarmProfile-4
+13/04/15 17:18:36:610: UNKNOWN :2401: Creating PathAlarmProfile-5
+13/04/15 17:18:36:611: UNKNOWN :2401: Creating STMPortProfile-1
+13/04/15 17:18:36:613: UNKNOWN :2401: Creating STMPortProfile-2
+13/04/15 17:18:36:616: UNKNOWN :2401: Creating DynamicLicense-1
+13/04/15 17:18:36:750: UNKNOWN :2401: DynamicLicense creation failed: value of valid and check00
+13/04/15 17:18:36:750: UNKNOWN :2401: NodeImpl::CreateDynamicLicenseFeature: The following error occured Invalid KEY is uploaded
+13/04/15 17:18:36:750: UNKNOWN :2401: Invalid KEY is uploaded
+13/04/15 17:18:36:750: UNKNOWN :2401: Creating DynamicLicense-1
+13/04/15 17:18:36:840: UNKNOWN :2401: DynamicLicense creation failed: value of valid and check00
+13/04/15 17:18:36:840: UNKNOWN :2401: NodeImpl::CreateDynamicLicenseFeature: The following error occured Invalid KEY is uploaded
+13/04/15 17:18:36:840: UNKNOWN :2401: Invalid KEY is uploaded
+13/04/15 17:18:36:840: UNKNOWN :2401: After coming up from slat mode initial  creation of license object from license file failed
+13/04/15 17:18:36:841: UNKNOWN :2401: Creating DynamicLicense-1
+13/04/15 17:18:36:931: UNKNOWN :2401: DynamicLicense creation failed: value of valid and check00
+13/04/15 17:18:36:931: UNKNOWN :2401: NodeImpl::CreateDynamicLicenseFeature: The following error occured Invalid KEY is uploaded
+13/04/15 17:18:36:931: UNKNOWN :2401: Invalid KEY is uploaded
+13/04/15 17:18:36:931: UNKNOWN :2401: Creating DynamicLicense-1
+13/04/15 17:18:37:021: UNKNOWN :2401: DynamicLicense creation failed: value of valid and check00
+13/04/15 17:18:37:021: UNKNOWN :2401: NodeImpl::CreateDynamicLicenseFeature: The following error occured Invalid KEY is uploaded
+13/04/15 17:18:37:021: UNKNOWN :2401: Invalid KEY is uploaded
+13/04/15 17:18:37:021: UNKNOWN :2401: After coming up from slat mode initial  creation of license object from license file failed
+13/04/15 17:18:37:022: UNKNOWN :2401: License AU mode is 4 Node AU mode needs to derived either by SLAT or from SysConf. From SysConf au_mode_uninitialized
+13/04/15 17:18:37:022: UNKNOWN :2401: NodeImpl::init: Unable to derive node AU Mode. Setting it to DEFAULT_NODE_AU_MODE
+13/04/15 17:18:37:022: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:37:023: UNKNOWN :2401: GetTimeSlotAllocator for CardType = eCard_OSMC
+13/04/15 17:18:37:030: UNKNOWN :2401: HelperUtils::tjSystem: cmd = /bin/rm -f /etc/tejas/config/radius_enable returned with exit_status = 0
+13/04/15 17:18:37:030: UNKNOWN :2401: deleting radius enable file  command /bin/rm -f /etc/tejas/config/radius_enable passed with status :0
+13/04/15 17:18:37:031: UNKNOWN :2401: NodeImpl::postinit
+13/04/15 17:18:37:031: UNKNOWN :2401: CardCfgSrv::ReportNERedundancyMode: PSS state is SIMPLEX and redundancy mode Redundant
+13/04/15 17:18:37:031: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:37:031: UNKNOWN :2401: ChassisMgr:: setRedundancyMode: 
+13/04/15 17:18:37:031: UNKNOWN :2401: Communication with OSPFd uninitialised
+13/04/15 17:18:37:033: UNKNOWN :2401: Communication with OSPFd uninitialised
+13/04/15 17:18:37:034: UNKNOWN :2401: NodeImpl::upgradeOSPFConfigurationObjects  OSPF_Area object does not exists
+13/04/15 17:18:37:034: UNKNOWN :2401: area id is: 0.0.0.1 stub is: 0 no_summaries is: 0
+13/04/15 17:18:37:040: UNKNOWN :2401: Creating SSM-1
+13/04/15 17:18:37:041: UNKNOWN :2401: SVCMgrConfigClient:: DbReplay Start 
+13/04/15 17:18:37:041: UNKNOWN :2401: Connection to L2SVC NOT happened
+13/04/15 17:18:37:041: UNKNOWN :2401: IfMgrConfigServer:: DbReplay Start
+13/04/15 17:18:37:041: UNKNOWN :2401: Connection to IfMgr NOT happened
+13/04/15 17:18:37:041: UNKNOWN :2401: RtConfigClient:: DbReplay Start
+13/04/15 17:18:37:042: UNKNOWN :2401: PM DB File version mismatch . Hence deleting the files in '/etc/tejas/config/pm/' folder
+13/04/15 17:18:37:049: UNKNOWN :2401: verifyPMDBVersionPM DB version 6.0
+13/04/15 17:18:37:049: UNKNOWN :2401: Creating Shelf-1
+13/04/15 17:18:37:050: UNKNOWN :2401: ShelfImpl::init:  : mChassisId = 1
+13/04/15 17:18:37:068: UNKNOWN :2401: ChassisMgr:: getSystemType:  System Type = SYSTEM_TJ16006
+13/04/15 17:18:37:069: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-0 Created
+13/04/15 17:18:37:069: UNKNOWN :2401: creating object name : EqptHolder-1-0
+13/04/15 17:18:37:069: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-1 Created
+13/04/15 17:18:37:069: UNKNOWN :2401: creating object name : EqptHolder-1-1
+13/04/15 17:18:37:070: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-2 Created
+13/04/15 17:18:37:070: UNKNOWN :2401: creating object name : EqptHolder-1-2
+13/04/15 17:18:37:070: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-3 Created
+13/04/15 17:18:37:070: UNKNOWN :2401: creating object name : EqptHolder-1-3
+13/04/15 17:18:37:071: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-4 Created
+13/04/15 17:18:37:071: UNKNOWN :2401: creating object name : EqptHolder-1-4
+13/04/15 17:18:37:071: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-5 Created
+13/04/15 17:18:37:071: UNKNOWN :2401: creating object name : EqptHolder-1-5
+13/04/15 17:18:37:071: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-6 Created
+13/04/15 17:18:37:071: UNKNOWN :2401: creating object name : EqptHolder-1-6
+13/04/15 17:18:37:072: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-7 Created
+13/04/15 17:18:37:072: UNKNOWN :2401: creating object name : EqptHolder-1-7
+13/04/15 17:18:37:072: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-8 Created
+13/04/15 17:18:37:072: UNKNOWN :2401: creating object name : EqptHolder-1-8
+13/04/15 17:18:37:073: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-9 Created
+13/04/15 17:18:37:073: UNKNOWN :2401: creating object name : EqptHolder-1-9
+13/04/15 17:18:37:073: UNKNOWN :2401: eqptHolder::postinit: : EqptHolder-1-10 Created
+13/04/15 17:18:37:073: UNKNOWN :2401: creating object name : EqptHolder-1-10
+13/04/15 17:18:37:073: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:37:073: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 1
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 2
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 3
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 4
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 5
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 6
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 7
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 8
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 9
+13/04/15 17:18:37:074: UNKNOWN :2401: ChassisMgr:: fillValidSlotVector:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:37:074: UNKNOWN :2401: Reporting Base Chassis Creation..!!
+13/04/15 17:18:37:074: UNKNOWN :2401: CardConfigServer::ReportChassisCreated
+13/04/15 17:18:37:076: UNKNOWN :2401: ShelfImpl::CreateBackPlaneAndSelfCard:  : ShelfIndex = 1 ShelfId = 1
+13/04/15 17:18:37:076: UNKNOWN :2401: TJ1700ShelfImpl::CardCreationPreCondition cardType = eCard_BackPlane 0
+13/04/15 17:18:37:076: UNKNOWN :2401: ShelfImpl::createMibCard: eCard_BackPlane is not Intelligent
+13/04/15 17:18:37:076: UNKNOWN :2401: ShelfImpl::createMibCard:  Cardtype = eCard_BackPlane
+13/04/15 17:18:37:076: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:37:077: UNKNOWN :2401: Successfully created Card_BackPlane-1-0 in MIB with correct config, IsPresent: true , cardType = eCard_BackPlane
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:37:541: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:39:482: UNKNOWN :2401: ChassisMgr:: createCard:  Chassis No = 1 Slot No = 0 Present Status = 1
+13/04/15 17:18:39:482: UNKNOWN :2401: ShelfImpl::createHwCard: Created card eCard_BackPlane in slot 0
+13/04/15 17:18:39:482: UNKNOWN :2401: ChassisMgr:: getCardInfo:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:39:559: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:41:572: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:41:849: UNKNOWN :2401: ShelfImpl::doCardRefImplSpecificChecks: 
+13/04/15 17:18:41:850: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: : chassis=1, slot=0, cardType=eCard_BackPlane
+13/04/15 17:18:41:851: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: :Shelf Type = TJMC16006 PSS CardType =eCard_Unknown
+13/04/15 17:18:41:851: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo:  mMateSlotId =255
+13/04/15 17:18:41:851: UNKNOWN :2401: ChassisMgr:: updateConfigStruct:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:41:851: UNKNOWN :2401: ChassisMgr:: getCardInfo:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:41:854: UNKNOWN :2401: CardCfgSrv::ReportCardUpdated: 1 ccs.redundancyStatus= Non Redundant cardPresent = 1 si.SlotNo = 0
+13/04/15 17:18:41:854: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:41:854: UNKNOWN :2401: ChassisMgr:: updateConfigStruct:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:41:854: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: : chassisId = 1, slot = 0
+13/04/15 17:18:41:854: UNKNOWN :2401: ReportCardUpdatedWithCardInfo: Sending config update for Slot-1-0 to card_mgr first
+13/04/15 17:18:41:855: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:41:855: UNKNOWN :2401: ChassisMgr:: updateConfigStruct:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:41:855: UNKNOWN :2401: CardCfgSrv::ReportCardUpdated: 1 ccs.redundancyStatus= Non Redundant cardPresent = 1 si.SlotNo = 0
+13/04/15 17:18:41:855: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: : Slot 0 lmonsupp 0 pmonsupp 0
+13/04/15 17:18:41:855: UNKNOWN :2401: ChassisMgr:: getCardInfo:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:43:580: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:45:590: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:46:858: UNKNOWN :2401: ChassisMgr:: cardCreationComplete:  Chassis No = 1 Slot No = 0 Do FMECA switchover = 0 is Card Usable = 0 is Card Active = 1
+13/04/15 17:18:46:858: UNKNOWN :2401: Inside updateIOPanelPortsOperStatus function for slot-0
+13/04/15 17:18:46:858: UNKNOWN :2401: Not a tributary protection related card. Returning
+13/04/15 17:18:46:858: UNKNOWN :2401: ChassisMgr:: getCardInfo:  Chassis No = 1 Slot No = 0
+13/04/15 17:18:46:860: UNKNOWN :2399: ChassisMgr:: FPGAVersionStatusHandler:  Chassis Id = 1 Slot = 0 fpgaStatus = AtBaseLine
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:46:860: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:46:862: UNKNOWN :2401: ChassisCharacteristics::getMateSlotNo mateSlot = 9
+13/04/15 17:18:46:862: UNKNOWN :2401: TJ1700ShelfImpl::CardCreationPreCondition cardType = eCard_OSMC 10
+13/04/15 17:18:46:862: UNKNOWN :2401: ShelfImpl::createMibCard: eCard_OSMC is Intelligent
+13/04/15 17:18:46:862: UNKNOWN :2401: ShelfImpl::createMibCard:  Cardtype = eCard_OSMC
+13/04/15 17:18:46:862: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:46:862: UNKNOWN :2401: Card_OSMCImpl::init
+13/04/15 17:18:46:863: UNKNOWN :2401: Card_OSMCImpl::InitializeOscPort
+13/04/15 17:18:46:865: UNKNOWN :2401: StmPortImplementation::init: new PortTSTAllocator
+13/04/15 17:18:46:869: UNKNOWN :2401: ChassisMgr:: createPort:  Chassis Id = 1 Slot = 10 Port No = 1
+13/04/15 17:18:46:870: UNKNOWN :2401: StmImpl::postinit reporting portCreated to other daemons
+13/04/15 17:18:46:871: UNKNOWN :2401: extd_ecc_client_t::ConfigUpdated
+13/04/15 17:18:46:871: UNKNOWN :2401: Conversion from port to otn port failed
+13/04/15 17:18:46:871: UNKNOWN :2401: Conversion from port to sdh port failed
+13/04/15 17:18:46:871: UNKNOWN :2401: extd_ecc_client_t::ConfigUpdated(Port_SDH-1-1-10-1)
+13/04/15 17:18:46:873: UNKNOWN :2401: Port_SDH-1-1-10-1 successfully created.
+13/04/15 17:18:46:874: UNKNOWN :2401: StmPortImplementation::init: new PortTSTAllocator
+13/04/15 17:18:46:875: UNKNOWN :2401: ChassisMgr:: createPort:  Chassis Id = 1 Slot = 10 Port No = 2
+13/04/15 17:18:46:877: UNKNOWN :2401: StmImpl::postinit reporting portCreated to other daemons
+13/04/15 17:18:46:877: UNKNOWN :2401: extd_ecc_client_t::ConfigUpdated
+13/04/15 17:18:46:877: UNKNOWN :2401: Conversion from port to otn port failed
+13/04/15 17:18:46:877: UNKNOWN :2401: Conversion from port to sdh port failed
+13/04/15 17:18:46:877: UNKNOWN :2401: extd_ecc_client_t::ConfigUpdated(Port_SDH-1-1-10-2)
+13/04/15 17:18:46:879: UNKNOWN :2401: Port_SDH-1-1-10-2 successfully created.
+13/04/15 17:18:46:879: UNKNOWN :2401: Successfully created Card_OSMC-1-10 in MIB with correct config, IsPresent: true , cardType = eCard_OSMC
+13/04/15 17:18:46:879: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: : chassis=1, slot=10, cardType=eCard_OSMC
+13/04/15 17:18:46:879: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: :Shelf Type = TJMC16006 PSS CardType =eCard_OSMC
+13/04/15 17:18:46:879: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo:  mMateSlotId =9
+13/04/15 17:18:46:879: UNKNOWN :2401: ChassisMgr:: updateConfigStruct:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:46:881: UNKNOWN :2401: ChassisMgr:: setBackPlaneSerialLines:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:46:881: UNKNOWN :2401: ChassisMgr:: getCardInfo:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:47:074: UNKNOWN :2401: ChassisMgr:: getSoftwareVersion:  Chassis No = 1 Slot No = 10 Software Version = branch: BR_10_0_2 PrivateBuild:parmil, Fri Mar 13 15:09:48 2015
+13/04/15 17:18:47:074: UNKNOWN :2401: ChassisMgr:: getDisplaySoftwareVersion:  Chassis No = 1 Slot No = 10 Software Version = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:18:47:076: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:47:076: UNKNOWN :2401: ChassisMgr:: updateConfigStruct:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:47:076: UNKNOWN :2401: CardCfgSrv::ReportCardUpdated: 1 ccs.redundancyStatus= Card Primary cardPresent = 1 si.SlotNo = 10
+13/04/15 17:18:47:077: UNKNOWN :2401: ShelfImpl::validateCardParameters: : CPLD version not checked for card in slot 10
+13/04/15 17:18:47:077: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: : chassisId = 1, slot = 10
+13/04/15 17:18:47:077: UNKNOWN :2401: ReportCardUpdatedWithCardInfo: Sending config update for Slot-1-10 to card_mgr first
+13/04/15 17:18:47:077: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:47:077: UNKNOWN :2401: ChassisMgr:: updateConfigStruct:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:47:077: UNKNOWN :2401: CardCfgSrv::ReportCardUpdated: 1 ccs.redundancyStatus= Card Primary cardPresent = 1 si.SlotNo = 10
+13/04/15 17:18:47:077: UNKNOWN :2401: ShelfImpl::readHardwareAndFillCardInfo: : Slot 10 lmonsupp 1 pmonsupp 1
+13/04/15 17:18:47:077: UNKNOWN :2401: ChassisMgr:: getTemperature:  Chassis No = 1 Slot No = 10
+13/04/15 17:18:47:124: UNKNOWN :2401: ChassisMgr:: cardCreationComplete:  Chassis No = 1 Slot No = 10 Do FMECA switchover = 0 is Card Usable = 0 is Card Active = 1
+13/04/15 17:18:47:125: UNKNOWN :2401: ShelfImpl::createSelfCardSFPs: 
+13/04/15 17:18:47:125: UNKNOWN :2401: ChassisMgr:: isSFPPresent:  Chassis Id = 1 Slot = 10 Port No = 1
+13/04/15 17:18:47:127: UNKNOWN :2399: ChassisMgr:: FPGAVersionStatusHandler:  Chassis Id = 1 Slot = 10 fpgaStatus = AtBaseLine
+13/04/15 17:18:47:127: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:47:127: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:47:127: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:47:128: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:47:128: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:47:128: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:47:128: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:47:174: UNKNOWN :2401: ChassisMgr:: isSFPPresent: false
+13/04/15 17:18:47:174: UNKNOWN :2401: ChassisMgr:: isSFPPresent:  Chassis Id = 1 Slot = 10 Port No = 2
+13/04/15 17:18:47:175: UNKNOWN :2401: ChassisMgr:: isSFPPresent: false
+13/04/15 17:18:47:175: UNKNOWN :2401: ChassisMgr:: isSFPPresent:  Chassis Id = 1 Slot = 10 Port No = 3
+13/04/15 17:18:47:176: UNKNOWN :2401: ChassisMgr:: isSFPPresent: false
+13/04/15 17:18:47:176: UNKNOWN :2401: ChassisMgr:: isSFPPresent:  Chassis Id = 1 Slot = 10 Port No = 4
+13/04/15 17:18:47:176: UNKNOWN :2401: ChassisMgr:: isSFPPresent: false
+13/04/15 17:18:47:177: UNKNOWN :2401: NodeImplementation::createMibCardsInConfig   MAX_SLOT_ID 15
+13/04/15 17:18:47:185: UNKNOWN :2401: NE ConnectionType = 2
+13/04/15 17:18:47:210: UNKNOWN :2401: daemonSocketsThread::getChassisMgr cm_cs found
+13/04/15 17:18:47:210: UNKNOWN :2401: GetTimeSlotAllocator for CardType = eCard_OSMC
+13/04/15 17:18:47:211: UNKNOWN :2401: NE Capability = Degree=1
+13/04/15 17:18:47:212: UNKNOWN :2401: NE Capability = Degree=1
+13/04/15 17:18:47:215: UNKNOWN :2401: NodeImpl::postinit Environmental Alarms Created
+13/04/15 17:18:47:215: UNKNOWN :2401: ChassisMgr:: reportOutStandingAlarms: 
+13/04/15 17:18:47:262: UNKNOWN :2401: NE Capability = Degree=1
+13/04/15 17:18:47:264: UNKNOWN :2401: CosmoInit::initializeFromConfig : I AM PRIMARY
+13/04/15 17:18:47:264: UNKNOWN :2401: CosmoInit::initializeFromConfig : sharing TelecomBus calling createHwCardsPresent
+13/04/15 17:18:47:265: UNKNOWN :2401: ChassisMgr:: getChassisType:  Chassis No = 1ChassisType = 41
+13/04/15 17:18:47:265: UNKNOWN :2401: ShelfImpl::createHwCardsPresent: : for ChassisNo=1, ShelfType=Chassis_TJMC16006
+13/04/15 17:18:47:265: UNKNOWN :2401: ShelfImpl::createHwCardsPresent: : 1st PASS - creating MIB Cards
+13/04/15 17:18:47:265: UNKNOWN :2401: ShelfImpl::createHwCardsPresent: :Number of intelligent Cards = 0
+13/04/15 17:18:47:265: UNKNOWN :2401: ShelfImpl::createHwCardsPresent: : completed
+13/04/15 17:18:47:265: UNKNOWN :2401: CosmoInit::initializeFromConfig : sharing TelecomBus calling postInitAndCards
+13/04/15 17:18:47:265: UNKNOWN :2401: static void ServiceSwitchImpl::replayL2Config()
+13/04/15 17:18:47:266: UNKNOWN :2401: iISISEnable:falseIntermediateRoutingLevel:1MAA1:490000MAA2:MAA3:PartitionRepair:falselocalSystemID00:04:95:0c:4d:0f
+13/04/15 17:18:47:268: UNKNOWN :2401: comming out of createOTNObjectsAfterCards().
+13/04/15 17:18:47:288: UNKNOWN :2401: tj1700MgmtImpl::getChannelCount(), channel count: 2
+13/04/15 17:18:47:289: UNKNOWN :2401: MCImplementation::preinit(): netif ref:  end.
+13/04/15 17:18:47:289: UNKNOWN :2401: EMPTY
+13/04/15 17:18:47:290: UNKNOWN :2401: getCardRevisionNos with SerialNo = AC-5311-10-8237, majorNo = 1, minorNo = 0
+13/04/15 17:18:47:291: UNKNOWN :2401: Unable to find port corresponding to . Configure E1/DS1 card in E1 mode for E1/VC12 management to work
+13/04/15 17:18:47:291: UNKNOWN :2401: tj1700MgmtImpl::getChannelCount(), channel count: 2
+13/04/15 17:18:47:292: UNKNOWN :2401: MCImplementation::preinit(): netif ref:  end.
+13/04/15 17:18:47:292: UNKNOWN :2401: EMPTY
+13/04/15 17:18:47:293: UNKNOWN :2401: getCardRevisionNos with SerialNo = AC-5311-10-8237, majorNo = 1, minorNo = 0
+13/04/15 17:18:47:293: UNKNOWN :2401: Unable to find port corresponding to . Configure E1/DS1 card in E1 mode for E1/VC12 management to work
+13/04/15 17:18:47:294: UNKNOWN :2401: tj1700MgmtImpl::getChannelCount(), channel count: 2
+13/04/15 17:18:47:298: UNKNOWN :2401: OSPFImpl::update() : changes = 	-Area	0.0.0.0	-OspfMultiAreaSupported	Partial
+13/04/15 17:18:47:298: UNKNOWN :2401: ospf_area_changed = 0.0.0.0
+13/04/15 17:18:47:299: UNKNOWN :2401: GmplsCrossConnectImpl::GMPLS_XC_upgrade
+13/04/15 17:18:47:299: UNKNOWN :2401: GmplsCrossConnectImpl::GMPLS_XC_upgrade gmplsXCCount :0
+13/04/15 17:18:47:300: UNKNOWN :2401: GmplsCrossConnectImpl::print_gmplsXCMap size:0
+13/04/15 17:18:47:300: UNKNOWN :2401: GmplsCrossConnectImpl::print_gmplsXCMap size:0
+13/04/15 17:18:47:300: UNKNOWN :2401: GmplsCrossConnectImpl::gmplsXCAudit
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:49:150: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:51:160: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:53:168: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:55:176: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:57:186: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:18:59:196: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:19:01:204: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:19:03:214: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:19:05:224: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:19:07:234: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:19:09:244: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 2
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 3
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 4
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 5
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 6
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 7
+13/04/15 17:19:11:255: UNKNOWN :2399: handleRemoteAgents Waiting for node init completion. Not Connecting for ChId = 8
+13/04/15 17:19:12:318: UNKNOWN :2401: Creating Tejusers-1
+13/04/15 17:19:12:319: UNKNOWN :2401: Creating Tejusers-2
+13/04/15 17:19:12:320: UNKNOWN :2401: Creating Tejusers-3
+13/04/15 17:19:12:321: UNKNOWN :2401: Creating Tejusers-4
+13/04/15 17:19:12:321: UNKNOWN :2401: Creating Tejusers-5
+13/04/15 17:19:12:322: UNKNOWN :2401: Creating Tejusers-6
+13/04/15 17:19:12:324: UNKNOWN :2401: impl_utils::getSerialPortSlot not found
+13/04/15 17:19:12:324: UNKNOWN :2401: NTPImpl:constructor()
+13/04/15 17:19:12:325: UNKNOWN :2401: NTPImpl::postinit
+13/04/15 17:19:12:325: UNKNOWN :2401: NTPImpl::enableNTPClient = Disable
+13/04/15 17:19:12:325: UNKNOWN :2401: NTP Stopping NTP Client
+13/04/15 17:19:12:325: UNKNOWN :2401: NTPImpl::restartNTP/usr/sbin/tejas/xntpdS stop
+13/04/15 17:19:12:354: UNKNOWN :2401: calling => report_InitializationCompleted

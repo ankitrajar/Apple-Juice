@@ -1,0 +1,18 @@
+451 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 205: Assignment to ti     ed_to_vcc_i ignored, since the identifier is never used
+ 452 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 206: Assignment to ti     ed_to_vcc_vec_i ignored, since the identifier is never used
+ 453 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 213: Assignment to      tied_to_vcc_vec_i ignored, since the identifier is never used
+ 454 WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 555: Size mismatch      in connection of port <RXSYSCLKSEL>. Formal port size is 2-bit while actual signal size is 32-bit.
+ 455 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 565: Assignment to      rxchariscomma_float_i ignored, since the identifier is never used
+ 456 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 566: Assignment to      rxcharisk_float_i ignored, since the identifier is never used
+ 457 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 567: Assignment to      rxdisperr_float_i ignored, since the identifier is never used
+ 458 WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 568: Assignment to      rxnotintable_float_i ignored, since the identifier is never used
+ 459 WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 694: Size mismatch      in connection of port <TXSYSCLKSEL>. Formal port size is 2-bit while actual signal size is 32-bit.
+ 460 WARNING:HDLCompiler:634 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 688: Net <TXPRECURS     ORINV_IN> does not have a driver.
+ 461 WARNING:HDLCompiler:634 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 305: Net <GT0_TXPCSRES     ET_IN> does not have a driver.
+ 462 WARNING:HDLCompiler:552 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 227: Input port CPLLPD     _IN is not connected on this instance
+ 463 WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 411: Size mismatch in co     nnection of port <GT0_QPLLCLK_IN>. Formal port size is 1-bit while actual signal size is 32-bit.
+ 464 WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 412: Size mismatch in co     nnection of port <GT0_QPLLREFCLK_IN>. Formal port size is 1-bit while actual signal size is 32-bit.
+ 465 WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 491: Size mismatch in co     nnection of port <GT0_DRPADDR_IN>. Formal port size is 9-bit while actual signal size is 8-bit.
+ 466 WARNING:HDLCompiler:413 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/packages/telecom/hdl/oofa_sm.v" Line 163: Result of 17-bit expre     ssion is truncated to fit in 16-bit target.
+ 467 WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 976: Size mismatch in co     nnection of port <cntr_len>. Formal port size is 17-bit while actual signal size is 18-bit.
+

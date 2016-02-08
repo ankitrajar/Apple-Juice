@@ -1,0 +1,17 @@
+06/02/15 12:01:50:471: CEF5_initl2SvcAgentdlog001: mainTask :1957: =========================================== 
+06/02/15 12:01:50:471: CEF5_initl2SvcAgentdlog001: mainTask :1957:  L2SVCAGENTTASK started with pid =1957
+06/02/15 12:01:50:471: CEF5_initl2SvcAgentdlog001: mainTask :1957: =========================================== 
+06/02/15 12:01:50:558: CEF5_initl2SvcAgentdlog001: mainTask :1957: [1957] Scheduling policy = 2
+06/02/15 12:01:50:558: CEF5_initl2SvcAgentdlog001: mainTask :1957: [1957] Scheduling priority = 20
+06/02/15 12:01:50:559: CEF5_initl2SvcAgentdlog001: mainTask :1957: EventReactorBase::clockTicks=100
+06/02/15 12:01:50:559: CEF5_initl2SvcAgentdlog001: mainTask :1957: L2SVCAgent InitTask done
+06/02/15 12:01:50:559: CEF5_initl2SvcAgentdlog001: mainTask :1957: L2SvcAgentTask::InitTask() completed
+06/02/15 12:01:50:559: CEF5_initl2SvcAgentdlog001: mainTask :1957: setAgentState moving from 1 --> 2
+06/02/15 12:01:50:560: CEF5_initl2SvcAgentdlog001: mainTask :1957: DaemonCtlClient::connectionEstablishedHandler
+06/02/15 12:01:50:561: CEF5_initl2SvcAgentdlog001: ErpAgent :1981: =========================================== 
+06/02/15 12:01:50:561: CEF5_initl2SvcAgentdlog001: ErpAgent :1981:  ERP AGENT Started with pid=1981
+06/02/15 12:01:50:561: CEF5_initl2SvcAgentdlog001: ErpAgent :1981: =========================================== 
+06/02/15 12:01:50:562: CEF5_initl2SvcAgentdlog001: ErpAgent :1981: ErpAgent::IfAgentNotifConnectionEstablishedHndlr
+06/02/15 12:01:50:566: CEF5_initl2SvcAgentdlog001: mainTask :1957: DaemonCtlClient::currentSystemStateHandler pssState=BOOTING rebootType=NOT_KNOWN
+06/02/15 12:01:50:566: CEF5_initl2SvcAgentdlog001: mainTask :1957: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+06/02/15 12:01:50:566: CEF5_initl2SvcAgentdlog001: mainTask :1957: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED

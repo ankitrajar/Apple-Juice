@@ -1,0 +1,327 @@
+diff --git a/src/DebugFrameWork/DebugMgr.cpp b/src/DebugFrameWork/DebugMgr.cpp
+index 2ad571c..fa6d9e6 100755
+--- a/src/DebugFrameWork/DebugMgr.cpp
++++ b/src/DebugFrameWork/DebugMgr.cpp
+@@ -1,5 +1,9 @@
+ #include <iomanip>
+-#include <vector>
++#ifndef EMULATOR
++    #include <vector.h>
++#else
++    #include <vector>
++#endif
+ #include <stdio.h>
+ #include <ctype.h>
+ #include <strings.h>
+@@ -20,7 +24,9 @@
+ #include <limits.h>
+ #include <errno.h>
+ #include <time.h>
+-//#include <asm/user.h>
++#ifndef EMULATOR
++    #include <asm/user.h>
++#endif
+ #include <sys/wait.h>
+ #include <sched.h>
+ #include <sys/resource.h>
+diff --git a/src/DebugFrameWork/DebugMgr.h b/src/DebugFrameWork/DebugMgr.h
+index 0cbd8b9..e91e540 100755
+--- a/src/DebugFrameWork/DebugMgr.h
++++ b/src/DebugFrameWork/DebugMgr.h
+@@ -13,7 +13,11 @@
+ 
+ 
+ #include <bits/siginfo.h>
+-#include <string>
++#ifndef EMULATOR
++ #include <string>
++#else
++#include <cstring>
++#endif
+ #include <map>
+ #include <sstream>
+ #include "SocketMgr.h"
+diff --git a/src/DebugFrameWork/SegHndlr.cpp b/src/DebugFrameWork/SegHndlr.cpp
+index a4d85b9..d36b381 100755
+--- a/src/DebugFrameWork/SegHndlr.cpp
++++ b/src/DebugFrameWork/SegHndlr.cpp
+@@ -187,12 +187,15 @@ void print_backtrace(int signum, siginfo_t * info, void *ptr)
+     }
+     while (bp && ip)
+     {
++#ifndef EMULATOR
+         if (!dladdr(ip, &dlinfo))
+         {
+          
+           fprintf(stderr, "could n't get symbol info:\n");
+           break;
+         }
++#else
++#endif
+ 
+         const char *symname = dlinfo.dli_sname;
+ 
+diff --git a/src/app/common/blocks/NetD/Netd_ECC_Agent/makefile b/src/app/common/blocks/NetD/Netd_ECC_Agent/makefile
+index e28a385..5a0d808 100755
+--- a/src/app/common/blocks/NetD/Netd_ECC_Agent/makefile
++++ b/src/app/common/blocks/NetD/Netd_ECC_Agent/makefile
+@@ -34,7 +34,7 @@ ADDED_C++_INCLUDES = -I$(SOFTWARE_ROOT)/hal/common \
+ 					 -I$(ETHCOMMON_ROOT) \
+ 					 -I$(ETHCOMMON_ROOT)/include \
+ 					 -I$(ETHCOMMON_ROOT)/hal/common
+-ADDED_C++FLAGS = -DTHREADED -DCOSMO_CAL -Werror
++ADDED_C++FLAGS = -DTHREADED -DCOSMO_CAL 
+ 
+ ################################################################################
+ include $(SOFTWARE_ROOT)/make/rules.tn100
+diff --git a/src/app/common/blocks/NetD/Netd_Mgr/makefile b/src/app/common/blocks/NetD/Netd_Mgr/makefile
+index cc192c2..8b5108b 100644
+--- a/src/app/common/blocks/NetD/Netd_Mgr/makefile
++++ b/src/app/common/blocks/NetD/Netd_Mgr/makefile
+@@ -35,7 +35,7 @@ ADDED_C++_INCLUDES =-I $(SOFTWARE_ROOT)/hal/common \
+                     -I $(ETHCOMMON_ROOT) \
+                     -I $(ETHCOMMON_ROOT)/include 
+ 
+-ADDED_C++FLAGS = -DTHREADED -DCOSMO_CAL -Werror
++ADDED_C++FLAGS = -DTHREADED -DCOSMO_CAL 
+ 
+ ################################################################################
+ include $(SOFTWARE_ROOT)/make/rules.tn100
+diff --git a/src/app/common/blocks/dhcp/dhcp.cpp b/src/app/common/blocks/dhcp/dhcp.cpp
+index 1957d2a..3696aac 100755
+--- a/src/app/common/blocks/dhcp/dhcp.cpp
++++ b/src/app/common/blocks/dhcp/dhcp.cpp
+@@ -1,8 +1,10 @@
+ #include <string>
+-#include <cstring>
+ #include <stdio.h>
++#ifndef EMULATOR
++#include <string>
++#else
+ #include <cstring>
+-
++#endif
+ #include "dhcp.h"
+ static const string dhcp_config_file("/etc/tejas/config/dhcpd.conf");
+ static const string dhcp_leases_file("/etc/tejas/config/dhcpd.leases");
+diff --git a/src/app/common/nm/nm/webpages/genpages/datalib/makefile b/src/app/common/nm/nm/webpages/genpages/datalib/makefile
+index adc2614..84bebc4 100755
+--- a/src/app/common/nm/nm/webpages/genpages/datalib/makefile
++++ b/src/app/common/nm/nm/webpages/genpages/datalib/makefile
+@@ -17,7 +17,7 @@ ADDED_C++_INCLUDES = \
+ 	-I$(SWITCHING_ROOT)/app/common/nm \
+ 	-I$(ETHTRANSPORT_ROOT)/include \
+ 	-I$(ETHCOMMON_ROOT)/include
+-ADDED_C++FLAGS = -Werror
++ADDED_C++FLAGS = 
+ 
+ 
+ ################################################################################
+diff --git a/src/app/tj1700/nm/impl/tj1700Shelf.cpp b/src/app/tj1700/nm/impl/tj1700Shelf.cpp
+index 5b725cc..e45e703 100755
+--- a/src/app/tj1700/nm/impl/tj1700Shelf.cpp
++++ b/src/app/tj1700/nm/impl/tj1700Shelf.cpp
+@@ -397,9 +397,8 @@ void TJ1700ShelfImpl::createSimulatedCards(const string & /* nodeConfStr */)
+         //createMibCard(5, Card::card_XCC360G, "\t-CardType\tcard_XCC360G", true);
+ 
+         Handle<Card_ELAN04> hElan04Card;
+-
++		Handle<Card> hCEF5Card;
+         {
+-            Handle<Card> hCEF5Card;
+             createMibCard(1, Card::card_CEF5, nullString, true);
+             hCEF5Card = getCard(1);
+             hElan04Card = DYNAMIC_CAST<Card, Card_ELAN04>(hCEF5Card);
+@@ -416,7 +415,6 @@ void TJ1700ShelfImpl::createSimulatedCards(const string & /* nodeConfStr */)
+         }
+         {
+ 
+-            Handle<Card> hCEF5Card;
+             createMibCard(2, Card::card_CEF5, nullString, true);
+             hCEF5Card = getCard(2);
+             hElan04Card = DYNAMIC_CAST<Card, Card_ELAN04>(hCEF5Card);
+@@ -433,7 +431,6 @@ void TJ1700ShelfImpl::createSimulatedCards(const string & /* nodeConfStr */)
+ 
+         }
+         {
+-            Handle<Card> hCEF5Card;
+             createMibCard(3, Card::card_CEF5, nullString, true);
+             hCEF5Card = getCard(3);
+             hElan04Card = DYNAMIC_CAST<Card, Card_ELAN04>(hCEF5Card);
+@@ -448,9 +445,23 @@ void TJ1700ShelfImpl::createSimulatedCards(const string & /* nodeConfStr */)
+                 hElan04Card->commit(pluginUser);
+             }
+         }
+-
+-        createMibCard(4, Card::card_AGG20, "\t-NumOfSTM64s\t2", true);
+-        createMibCard(7, Card::card_AGG40, nullString, true);
++        {
++            createMibCard(4, Card::card_CEF5, nullString, true);
++            hCEF5Card = getCard(4);
++            hElan04Card = DYNAMIC_CAST<Card, Card_ELAN04>(hCEF5Card);
++            if (hElan04Card)
++            {   
++                hElan04Card->setValues("\t-NumOfFEPorts\t16\t-NumOfGEPorts\t4\t-NumOfEthernetPorts\t20\t-NumOfVCGPorts\t10");
++                hElan04Card->setNumOfVCGPorts(20);
++                hElan04Card->setNumOfSFPports(0);
++                hElan04Card->setNumOfTwistedPairPorts(16);
++                tjAssertMessage(hElan04Card->verify(), __FUNCTION__
++                        << ": verify() failed for setting Elan04Card params in slot 4");
++                hElan04Card->commit(pluginUser);
++            }   
++        }
++       // createMibCard(4, Card::card_AGG20, "\t-NumOfSTM64s\t2", true);
++       // createMibCard(7, Card::card_AGG40, nullString, true);
+         //createMibCard(7, Card::card_AGG20, "\t-NumOfSTM64s\t2", true);
+ #ifdef L2_SWITCHING_SUPPORT
+         Handle<Card> hCard;
+@@ -485,15 +496,27 @@ void TJ1700ShelfImpl::createSimulatedCards(const string & /* nodeConfStr */)
+                     << ": verify() failed for setting Elan04Card params in slot 9");
+             hElan04Card->commit(pluginUser);
+         }
+-
+-        Handle<Card> hCEF5Card;
++       /* 
++        createMibCard(9, Card::card_CEF5, nullString, true);
++        hCEF5Card = getCard(9);
++        hElan04Card = DYNAMIC_CAST<Card, Card_ELAN04>(hCEF5Card);
++        if (hElan04Card) {
++            hElan04Card->setValues("\t-NumOfFEPorts\t16\t-NumOfGEPorts\t4\t-NumOfEthernetPorts\t20");
++            hElan04Card->setNumOfVCGPorts(0);
++            hElan04Card->setNumOfSFPports(0);
++            hElan04Card->setNumOfTwistedPairPorts(16);
++            tjAssertMessage(hElan04Card->verify(), __FUNCTION__
++                    << ": verify() failed for setting Elan04Card params in slot 9");
++            hElan04Card->commit(pluginUser);
++        }
++*/
+         createMibCard(10, Card::card_CEF5, nullString, true);
+         hCEF5Card = getCard(10);
+         hElan04Card = DYNAMIC_CAST<Card, Card_ELAN04>(hCEF5Card);
+         if (hElan04Card)
+         {
+-            hElan04Card->setValues("\t-NumOfFEPorts\t16\t-NumOfGEPorts\t4\t-NumOfEthernetPorts\t20\t-NumOfVCGPorts\t10");
+-            hElan04Card->setNumOfVCGPorts(20);
++            hElan04Card->setValues("\t-NumOfFEPorts\t16\t-NumOfGEPorts\t4\t-NumOfEthernetPorts\t20");
++            hElan04Card->setNumOfVCGPorts(0);
+             hElan04Card->setNumOfSFPports(0);
+             hElan04Card->setNumOfTwistedPairPorts(16);
+             tjAssertMessage(hElan04Card->verify(), __FUNCTION__
+@@ -502,6 +525,8 @@ void TJ1700ShelfImpl::createSimulatedCards(const string & /* nodeConfStr */)
+         }
+ 
+ #else
++		createMibCard(2, Card::card_AGG21, nullString, true);
++		createMibCard(3, Card::card_AGG21, nullString, true);
+ 		createMibCard(9, Card::card_AGG21, nullString, true);
+         createMibCard(10, Card::card_AGG21, nullString, true);
+ #endif
+diff --git a/src/cal/conn/UdpServerOS.h b/src/cal/conn/UdpServerOS.h
+index e034fd1..936e1b5 100755
+--- a/src/cal/conn/UdpServerOS.h
++++ b/src/cal/conn/UdpServerOS.h
+@@ -3,7 +3,11 @@
+ 
+ #include <iostream>
+ #include <map>
++#ifndef EMULATOR
+ #include <string>
++#else
++#include <cstring>
++#endif
+ #include "serverOS.h"
+ #include <include/tj_types.h>
+ using namespace std;
+diff --git a/src/hal/common/makefile b/src/hal/common/makefile
+index 8b4e710..5b346dc 100755
+--- a/src/hal/common/makefile
++++ b/src/hal/common/makefile
+@@ -44,7 +44,7 @@ ADDED_C++_INCLUDES = -I$(SOFTWARE_ROOT)/hal/drivers/char \
+ ADDED_C++FLAGS = 
+ 
+ ifneq ($(MODE), EMULATOR)
+-	ADDED_C++FLAGS += -Werror
++	ADDED_C++FLAGS += 
+ endif
+ 
+ $(SOFTWARE_ROOT)/common/cardCharacteristics.o: ADDED_C++FLAGS += -fexceptions 
+diff --git a/src/hal/devices/VtTermWrapper.cpp b/src/hal/devices/VtTermWrapper.cpp
+index b62023a..4735cfc 100755
+--- a/src/hal/devices/VtTermWrapper.cpp
++++ b/src/hal/devices/VtTermWrapper.cpp
+@@ -471,7 +471,7 @@ VtTermWrapper::VtTermWrapper(vtTerm *vt_terms[], const UInt32 &num_vt_terms,
+ vtTerm(vt_stm_multiplicity), numVtTerms(num_vt_terms)
+ {
+     vtTerms = new vtTerm *[num_vt_terms];
+-    memcpy(vtTerms, vt_terms, (num_vt_terms * sizeof(vtTerm *)));
++    //memcpy(vtTerms, vt_terms, (num_vt_terms * sizeof(vtTerm *)));
+     vtStmMultiplicity = vt_stm_multiplicity;
+ 
+     callbackDataArray = new VtEventHandlerWrapper[numVtTerms];
+diff --git a/src/lib/threadPool.cpp b/src/lib/threadPool.cpp
+index 058d0ac..e4d156b 100755
+--- a/src/lib/threadPool.cpp
++++ b/src/lib/threadPool.cpp
+@@ -68,7 +68,7 @@ ThreadPool::ThreadPool(int num_threads)
+     waitingForThreadResource = 0;
+     mNumThreads = num_threads;
+     sem_init(&ThreadPool::mSemThread, 0, 1);
+-    SEM_WAIT(&ThreadPool::mSemThread) ; // Initial state is 1 (non-blocked)
++    SEM_WAIT(&mSemThread) ; // Initial state is 1 (non-blocked)
+ }
+ 
+ 
+@@ -175,7 +175,7 @@ threadElement* ThreadPool::getThread(char *name, int pri, void(*run)(void *),
+                 TRC( "ThreadPool::getThread: WaitingForThreadResource on Semaphore");
+             }
+ 
+-            SEM_WAIT (&ThreadPool::mSemThread) ;
++            SEM_WAIT (&mSemThread) ;
+         }
+     }
+     return t;
+diff --git a/src/sstream b/src/sstream
+deleted file mode 100755
+index 7fbb6ba..0000000
+--- a/src/sstream
++++ /dev/null
+@@ -1,19 +0,0 @@
+-#if __GNUC__ < 3
+-#ifdef UNIX
+-#include <stl/linuxsstream.h>
+-#endif
+-
+-#ifdef VXWORKS 
+-#include <stl/stringstream.h>
+-#endif
+-
+-#ifdef WIN32
+-#error
+-#endif
+-#else
+-#if (__GNUC__ == 4 && __GNUC_MINOR__ >= 2)
+-#include "/opt/ELDK42/ppc_85xx/usr/include/c++/4.2.2/sstream"
+-#else 
+-#include "/opt/ELDK41/ppc_6xx/usr/include/c++/4.0.0/sstream"
+-#endif
+-#endif
+diff --git a/src/string b/src/string
+deleted file mode 100755
+index 9ac4e0b..0000000
+--- a/src/string
++++ /dev/null
+@@ -1,14 +0,0 @@
+-#if __GNUC__ < 3
+-#ifdef WIN32
+-#error
+-#else
+-#include <stl/std_string.h>
+-#endif
+-#else
+-#if (__GNUC__ == 4 && __GNUC_MINOR__ >= 2)
+-#include "/opt/ELDK42/ppc_85xx/usr/include/c++/4.2.2/string"
+-#else 
+-#include "/opt/ELDK41/ppc_6xx/usr/include/c++/4.0.0/string"
+-#endif
+-#endif
+-

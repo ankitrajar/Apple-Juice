@@ -1,0 +1,22 @@
+06/02/15 12:01:49:970: CEF5_initifagentdlog001: UNKNOWN :1956: =========================================== 
+06/02/15 12:01:49:970: CEF5_initifagentdlog001: UNKNOWN :1956:  IFAGENTD started with pid =1956
+06/02/15 12:01:49:970: CEF5_initifagentdlog001: UNKNOWN :1956: =========================================== 
+06/02/15 12:01:49:970: CEF5_initifagentdlog001: UNKNOWN :1956: Starting IfAgentTask initialization
+06/02/15 12:01:49:978: CEF5_initifagentdlog001: mainTask :1956:  IfAgentTask::InitTask: HalConnectTimer timer started
+06/02/15 12:01:49:979: CEF5_initifagentdlog001: mainTask :1956: going to connect to hal client
+06/02/15 12:01:49:979: CEF5_initifagentdlog001: mainTask :1956: Asking for new HalPm Daemon Connection
+06/02/15 12:01:49:979: CEF5_initifagentdlog001: mainTask :1956: Asking for new Eth Phy Hal Daemon Connection
+06/02/15 12:01:49:979: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask::InitTask() completed
+06/02/15 12:01:49:979: CEF5_initifagentdlog001: mainTask :1956: DaemonCtlClient::connectionEstablishedHandler
+06/02/15 12:01:49:980: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask::Connection Esatblished with tn_init daemon
+13/04/15 17:21:51:810: CEF5_initifagentdlog001: mainTask :1956: DaemonCtlClient::currentSystemStateHandler pssState=BOOTING rebootType=NOT_KNOWN
+13/04/15 17:21:51:810: CEF5_initifagentdlog001: mainTask :1956: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+13/04/15 17:21:51:810: CEF5_initifagentdlog001: mainTask :1956: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED
+13/04/15 17:23:34:168: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask:: Connection Established to EzHalPmDaemon
+13/04/15 17:23:34:450: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask:: Connection Established to EthPhy
+13/04/15 17:23:34:451: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask:: Connected with EzHalDaemon
+13/04/15 17:23:34:451: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask::IfAgentTask::ezHalDaemonConnectionEstablishedHndlr : Deleting HalConnectTimer
+13/04/15 17:23:34:451: CEF5_initifagentdlog001: mainTask :1956: EventReactorBase::clockTicks=100
+13/04/15 17:23:34:451: CEF5_initifagentdlog001: mainTask :1956: IfAgentTask::Start New Thread here
+13/04/15 17:23:34:451: CEF5_initifagentdlog001: PMThread :2015: virtual void IfPmAgent::InitTask()
+13/04/15 17:23:34:451: CEF5_initifagentdlog001: PMThread :2015: InitTask Starting Server with default Port 

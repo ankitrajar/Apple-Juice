@@ -1,0 +1,11 @@
+##################################################################################################
+          Total No. of Warnings of Type 1127 is : 7
+##################################################################################################
+
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 205: Assignment to ti ed_to_vcc_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 206: Assignment to ti ed_to_vcc_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 213: Assignment to tied_to_vcc_vec_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 565: Assignment to rxchariscomma_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 566: Assignment to rxcharisk_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 567: Assignment to rxdisperr_float_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 568: Assignment to rxnotintable_float_i ignored, since the identifier is never used

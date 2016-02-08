@@ -1,0 +1,575 @@
+13/04/15 17:17:56:842: XCC_chAgentdlog001: UNKNOWN :2353: =========================================== 
+13/04/15 17:17:56:842: XCC_chAgentdlog001: UNKNOWN :2353:  ChassisAgent started with pid =2353
+13/04/15 17:17:56:843: XCC_chAgentdlog001: UNKNOWN :2353: =========================================== 
+13/04/15 17:17:56:843: XCC_chAgentdlog001: UNKNOWN :2353: DaemonCtlClient::connectionEstablishedHandler
+13/04/15 17:17:56:846: XCC_chAgentdlog001: UNKNOWN :2353: ChassisAgent:: daemonCtlConnected: 
+13/04/15 17:17:56:846: XCC_chAgentdlog001: UNKNOWN :2353: ChassisAgent:: sendSystemInfo:  filled Chassis Id = 1
+13/04/15 17:17:56:846: XCC_chAgentdlog001: UNKNOWN :2353: ChassisAgent:: sendSystemInfo:  filling is MultiShelf = 0
+13/04/15 17:17:56:846: XCC_chAgentdlog001: UNKNOWN :2353: ChassisAgent:: sendSystemInfo: Sending SysInfo to Tn_initd
+13/04/15 17:17:56:850: XCC_chAgentdlog001: UNKNOWN :2353: DaemonCtlClient::currentSystemStateHandler pssState=SIMPLEX rebootType=COLD_REBOOT
+13/04/15 17:17:56:890: XCC_chAgentdlog001: UNKNOWN :2353: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+13/04/15 17:17:56:890: XCC_chAgentdlog001: UNKNOWN :2353: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED
+13/04/15 17:17:57:124: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::subChasseClientConnected
+13/04/15 17:18:05:332: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr: Client connected
+13/04/15 17:18:08:341: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::resolveActStdby : Already Resolved with my State = SIMPLEX in Slot = 10
+13/04/15 17:18:36:472: XCC_chAgentdlog001: UNKNOWN :2353: tn100_chassis::switchHooterOwAlarmOut: Clearing orderwire alarm on slot 6
+13/04/15 17:18:37:068: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getSystemType: SYSTEM_TJ16006
+13/04/15 17:18:37:075: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::clearValidSlotVector : ValidSlotVector cleared : 
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 0
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 1
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 2
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 3
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 4
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 5
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 6
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 7
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 8
+13/04/15 17:18:37:112: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 9
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::fillValidSlotVector : Filling slotNo in CardMgr : 10
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-0 of type eCard_BackPlane
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: fpgaFID is :No Feature
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::initialize: called for Slot 0, eCard_BackPlane
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::instantiateBoard: Instantiating eCard_BackPlane in slot 0
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: fpgaFID is :No Feature
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: tn100_chassis::instantiateCardAndHandleFailure: Instantiating eCard_BackPlane in slot 0 on master
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: tj1700_chassis :: Inside virtual ReturnT tj1700_chassis::cardInstantiateOrDestroy(const CardInfoStruct&, CardOperationT, bool) for card:eCard_BackPlane
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): Instantiating eCard_BackPlane in slot :0
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: getCardDetails BackPlane data for psscard type :eCard_OSMC
+13/04/15 17:18:37:113: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo():  Serial,Part = AA1214A41100011, 170-PCA000131-E. slotNo = 0, card type = 5
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): returning success, slotNo = 0
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): Card Major Revision 1 Minor Revision 0
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): CPLD Major Revision 0 Minor Revision 0
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: bp_InstantiateOrDestroy: Config file for card major rev = 1 selected.
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: For slotno 0 card type eCard_BackPlane
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: tn100_board::createCard: Creating eCard_BackPlane in slot 0, with PSS slot 10
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createCard: board_instantiate[0] = true
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::initialize: finished for Slot 0, eCard_BackPlane
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::initializetidl call to send the initialization parameters to ezHal
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: Start new thread for communication with ezHal
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::addToCAgtRegistry: slot = 0 cardType = eCard_BackPlane
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::addToCAgtRegistry: slot = 0 6958
+13/04/15 17:18:39:481: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::registerAlarmsCAgt: register for alarms with cardAgt in slot 0
+13/04/15 17:18:39:482: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,0)
+13/04/15 17:18:39:482: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-0, cardPresent = 1
+13/04/15 17:18:39:482: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-0 from card-agent
+13/04/15 17:18:41:849: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:18:41:849: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000131-E serialNumber = AA1214A41100011 macAddr = 00:04:95:0c:4d:0f: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:18:41:849: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.0) finished returning
+13/04/15 17:18:41:851: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_BackPlane in slot 0
+13/04/15 17:18:41:851: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-0
+13/04/15 17:18:41:851: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 0 with adminStatus = 1 card presence = 1
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_BackPlane
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,0)
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-0, cardPresent = 1
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-0 from card-agent
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000131-E serialNumber = AA1214A41100011 macAddr = 00:04:95:0c:4d:0f: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:18:41:852: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.0) finished returning
+13/04/15 17:18:41:856: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_BackPlane in slot 0
+13/04/15 17:18:41:856: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-0
+13/04/15 17:18:41:856: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 0 with adminStatus = 1 card presence = 1
+13/04/15 17:18:41:857: XCC_chAgentdlog001: UNKNOWN :2353: setCardConfig: slot 0, waiting for 5 secs ...
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_BackPlane
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_BackPlane in slot 0
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-0
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 0 with adminStatus = 1 card presence = 1
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_BackPlane
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,0)
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-0, cardPresent = 1
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-0 from card-agent
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000131-E serialNumber = AA1214A41100011 macAddr = 00:04:95:0c:4d:0f: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:18:46:857: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.0) finished returning
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::cardCreationComplete: for slot 0
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::setCardLeds: asking CAgt to set ACTIVE led cardType = eCard_BackPlane
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::readFPGAVersion: FPGA Below Baseline status for 0 is false
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,0)
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-0, cardPresent = 1
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-0 from card-agent
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000131-E serialNumber = AA1214A41100011 macAddr = 00:04:95:0c:4d:0f: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:18:46:859: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.0) finished returning
+13/04/15 17:18:46:870: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,10)
+13/04/15 17:18:46:870: XCC_chAgentdlog001: UNKNOWN :2353: initializePort: portNo = 1 portType =  STM portCap = STM1
+13/04/15 17:18:46:870: XCC_chAgentdlog001: UNKNOWN :2353: createStmPort
+13/04/15 17:18:46:870: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::createStmPort: 
+13/04/15 17:18:46:876: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,10)
+13/04/15 17:18:46:876: XCC_chAgentdlog001: UNKNOWN :2353: initializePort: portNo = 2 portType =  STM portCap = STM1
+13/04/15 17:18:46:876: XCC_chAgentdlog001: UNKNOWN :2353: createStmPort
+13/04/15 17:18:46:876: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::createStmPort: 
+13/04/15 17:18:46:880: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_OSMC in slot 10
+13/04/15 17:18:46:880: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "	-SdhSonetMode	UnInitialized" in Slot-1-10
+13/04/15 17:18:46:880: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 10 with adminStatus = 1 card presence = 1
+13/04/15 17:18:46:880: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::initializeCardConfig: Skipping initialization of Card Config at present for OSMC
+13/04/15 17:18:46:880: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::initializeOscPorts: 
+13/04/15 17:18:46:881: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_OSMC
+13/04/15 17:18:46:881: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:18:46:881: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:18:46:916: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-10 from card-agent
+13/04/15 17:18:47:073: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:18:47:073: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000095-E serialNumber = AC-5311-10-8237 macAddr = 00:04:95:0b:83:90: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:18:47:073: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.10) finished returning
+13/04/15 17:18:47:073: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getSoftwareVersion: slot = 10, softwareVersion = branch: BR_10_0_2 PrivateBuild:parmil, Fri Mar 13 15:09:48 2015
+13/04/15 17:18:47:074: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::getDisplayCardSwVersion: swver = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:18:47:074: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getDisplaySoftwareVersion: slot = 10, displaySoftwareVersion = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:18:47:078: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_OSMC in slot 10
+13/04/15 17:18:47:078: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "	-SdhSonetMode	UnInitialized" in Slot-1-10
+13/04/15 17:18:47:078: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 10 with adminStatus = 1 card presence = 1
+13/04/15 17:18:47:080: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::initializeCardConfig: Skipping initialization of Card Config at present for OSMC
+13/04/15 17:18:47:080: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::initializeOscPorts: 
+13/04/15 17:18:47:080: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_OSMC
+13/04/15 17:18:47:080: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:18:47:080: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:18:47:123: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_OSMC in slot 10
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "	-SdhSonetMode	UnInitialized" in Slot-1-10
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 10 with adminStatus = 1 card presence = 1
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::initializeCardConfig: Skipping initialization of Card Config at present for OSMC
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::initializeOscPorts: 
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_OSMC
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:18:47:124: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:18:47:126: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::cardCreationComplete: for slot 10
+13/04/15 17:18:47:126: XCC_chAgentdlog001: UNKNOWN :2353:  LedCntlExtd::setLedState: Setting Status to Green in /dev/slot10/ledcntl1
+13/04/15 17:18:47:126: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::setCardLeds: NOT asking CAgt to switch active leds cardType = eCard_OSMC
+13/04/15 17:18:47:126: XCC_chAgentdlog001: UNKNOWN :2353: tn100_osmc::getFpgaVersionsMap called
+13/04/15 17:18:47:126: XCC_chAgentdlog001: UNKNOWN :2353: tn100_board::getFPGAVersionStatus FPGA version curMfpgaVer: 17 newMfpgaVer: 17
+13/04/15 17:18:47:127: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::readFPGAVersion: FPGA Below Baseline status for 10 is false
+13/04/15 17:18:47:216: XCC_chAgentdlog001: UNKNOWN :2353: alarmInCtrlIface : MFC card not present
+13/04/15 17:18:47:265: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getChassisType: Decoding partNumber TBD, returning Chassis Type Chassis_TJMC16006
+13/04/15 17:19:12:382: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getChassisType: Decoding partNumber TBD, returning Chassis Type Chassis_TJMC16006
+13/04/15 17:19:12:382: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,1)
+13/04/15 17:19:12:382: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:false
+13/04/15 17:19:12:382: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-1, cardPresent = 0
+13/04/15 17:19:12:383: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,2)
+13/04/15 17:19:12:383: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:false
+13/04/15 17:19:12:383: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-2, cardPresent = 0
+13/04/15 17:19:12:384: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:19:12:384: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:384: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:19:12:385: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getChassisType: Decoding partNumber TBD, returning Chassis Type Chassis_TJMC16006
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardType: called with slot:3
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: getCardDetails called with cardType = eCard_None
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): CPLD version register reads: 44, CardType = eCard_Magic_Flag1
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): Extended Card Type is eCard_CEF5
+13/04/15 17:19:12:386: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): returning success, slotNo = 3
+13/04/15 17:19:12:387: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: called in slot 3
+13/04/15 17:19:12:387: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:387: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:387: XCC_chAgentdlog001: UNKNOWN :2353: getCardDetails called with cardType = eCard_None
+13/04/15 17:19:12:387: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): CPLD version register reads: 44, CardType = eCard_Magic_Flag1
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): Extended Card Type is eCard_CEF5
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): returning success, slotNo = 3
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: fpgaFID is :No Feature
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::instantiateBoard: Instantiating eCard_CEF5 in slot 3
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: fpgaFID is :No Feature
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: tn100_chassis::instantiateCardAndHandleFailure: Instantiating eCard_CEF5 in slot 3 on master
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: tj1700_chassis :: Inside virtual ReturnT tj1700_chassis::cardInstantiateOrDestroy(const CardInfoStruct&, CardOperationT, bool) for card:eCard_CEF5
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): Instantiating eCard_CEF5 in slot :3
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: getCardDetails called with cardType = eCard_CEF5
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): CPLD version register reads: 44, CardType = eCard_Magic_Flag1
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): Extended Card Type is eCard_CEF5
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): returning success, slotNo = 3
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): Card revision number is :0
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): Card Major Revision 0 Minor Revision 0
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): CPLD Major Revision 2 Minor Revision 12
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:instantiateOrDestroy(): Hardcoding card revision for CEF5 card in slot=3 as 1.0
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cef5_pss_InstantiateOrDestroy: Config file for card major rev = 1 selected.
+13/04/15 17:19:12:388: XCC_chAgentdlog001: UNKNOWN :2353: cef5_pss_InstantiateOrDestroy: Config file for cpld1 rev = 1.0 selected.
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: cef5_pss_InstantiateOrDestroy: Removing devices from cpld1 rev = 1.0
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: tn100_board::createCard: Creating eCard_CEF5 in slot 3, with PSS slot 10
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createCard: board_instantiate[3] = true
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: creating cardagt stub for slot 3
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createIntellCAgtStub: si = Slot-1-3
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardType: called with slot:3
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: getCardDetails called with cardType = eCard_None
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): CPLD version register reads: 44, CardType = eCard_Magic_Flag1
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): Extended Card Type is eCard_CEF5
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): returning success, slotNo = 3
+13/04/15 17:19:12:389: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createIntellCAgtStub: isControlCard failed for slot=3, chassis=Chassis_TJMC16006
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardType: called with slot:3
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: getCardDetails called with cardType = eCard_None
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): CPLD version register reads: 44, CardType = eCard_Magic_Flag1
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): Extended Card Type is eCard_CEF5
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: cardInstUtil:getCardInfo(): returning success, slotNo = 3
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: CardCommunicationManager::setUpControlTribCommunication called
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: In CardCommunicationManager::setUpControlTribCommunication InterCardCommunicator object is NULL
+13/04/15 17:19:12:390: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createIntellCAgtStub: CardAgtServer IP = 127.7.1.3 for card in (Ch.Sl) = (1.3)
+13/04/15 17:19:12:391: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,4)
+13/04/15 17:19:12:391: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:false
+13/04/15 17:19:12:391: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-4, cardPresent = 0
+13/04/15 17:19:12:392: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:12:392: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:392: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:12:393: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getChassisType: Decoding partNumber TBD, returning Chassis Type Chassis_TJMC16006
+13/04/15 17:19:12:393: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardType: called with slot:5
+13/04/15 17:19:12:393: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:12:393: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:393: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: called in slot 5
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createNonTrafficCard : Creating Card = eCard_FANTRAYin Slot = 5
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-5 of type eCard_FANTRAY
+13/04/15 17:19:12:394: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 5 with adminStatus = 1 card presence = 1
+13/04/15 17:19:12:395: XCC_chAgentdlog001: UNKNOWN :2551: IntellCAgtCommnThread started with pid = 2551
+13/04/15 17:19:12:399: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: Card jacked in to Slot-1-5 of type eCard_FANTRAY, reporting to listeners
+13/04/15 17:19:12:403: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:19:12:403: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:403: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:19:12:403: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getChassisType: Decoding partNumber TBD, returning Chassis Type Chassis_TJMC16006
+13/04/15 17:19:12:404: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardType: called with slot:6
+13/04/15 17:19:12:404: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:19:12:404: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:404: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:19:12:404: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: called in slot 6
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createNonTrafficCard : Creating Card = eCard_OAM_16006in Slot = 6
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-6 of type eCard_OAM_16006
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 6 with adminStatus = 1 card presence = 1
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: tn100_chassis::switchHooterOwAlarmOut: Clearing orderwire alarm on slot 6
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353:  LedCntlExtd::setLedState: Setting Status to Green in /dev/slot6/ledcntl0
+13/04/15 17:19:12:405: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: Card jacked in to Slot-1-6 of type eCard_OAM_16006, reporting to listeners
+13/04/15 17:19:12:406: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,7)
+13/04/15 17:19:12:406: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:false
+13/04/15 17:19:12:406: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-7, cardPresent = 0
+13/04/15 17:19:12:407: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:19:12:407: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:407: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:19:12:407: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getChassisType: Decoding partNumber TBD, returning Chassis Type Chassis_TJMC16006
+13/04/15 17:19:12:408: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardType: called with slot:8
+13/04/15 17:19:12:408: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:19:12:408: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:408: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:19:12:408: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: called in slot 8
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createNonTrafficCard : Creating Card = eCard_PSUin Slot = 8
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-8 of type eCard_PSU
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 8 with adminStatus = 1 card presence = 1
+13/04/15 17:19:12:409: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::processJackin: Card jacked in to Slot-1-8 of type eCard_PSU, reporting to listeners
+13/04/15 17:19:12:410: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,9)
+13/04/15 17:19:12:410: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-9, cardPresent = 0
+13/04/15 17:19:12:411: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:12:411: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:12:411: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:12:411: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-5 from card-agent
+13/04/15 17:19:13:283: XCC_chAgentdlog001: UNKNOWN :2353: tj16006faneeprom::getIdProm:CardType::1 Product Code::170-PCA000255-E Serial No::AA3453453453453 MacAddress::00:04:95:00:00:00
+13/04/15 17:19:13:283: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:19:13:283: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000255-E serialNumber = AA3453453453453 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:19:13:283: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.5) finished returning
+13/04/15 17:19:14:492: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:14:492: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:14:492: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:14:493: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-5 of type eCard_FANTRAY
+13/04/15 17:19:14:493: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 5 with adminStatus = 1 card presence = 1
+13/04/15 17:19:14:495: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:14:495: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:14:495: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:14:495: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-5 from card-agent
+13/04/15 17:19:15:368: XCC_chAgentdlog001: UNKNOWN :2353: tj16006faneeprom::getIdProm:CardType::1 Product Code::170-PCA000255-E Serial No::AA3453453453453 MacAddress::00:04:95:00:00:00
+13/04/15 17:19:15:368: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:19:15:368: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000255-E serialNumber = AA3453453453453 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:19:15:368: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.5) finished returning
+13/04/15 17:19:15:406: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:15:406: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:15:406: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:15:407: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_FANTRAY in slot 5
+13/04/15 17:19:15:407: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-5
+13/04/15 17:19:15:407: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 5 with adminStatus = 1 card presence = 1
+13/04/15 17:19:15:409: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_FANTRAY
+13/04/15 17:19:15:409: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:19:15:409: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:19:15:444: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:15:444: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:15:444: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:15:444: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-5 from card-agent
+13/04/15 17:19:16:317: XCC_chAgentdlog001: UNKNOWN :2353: tj16006faneeprom::getIdProm:CardType::1 Product Code::170-PCA000255-E Serial No::AA3453453453453 MacAddress::00:04:95:00:00:00
+13/04/15 17:19:16:317: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:19:16:317: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000255-E serialNumber = AA3453453453453 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:19:16:317: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.5) finished returning
+13/04/15 17:19:16:826: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:16:826: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:16:826: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:16:827: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_FANTRAY in slot 5
+13/04/15 17:19:16:827: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-5
+13/04/15 17:19:16:827: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 5 with adminStatus = 1 card presence = 1
+13/04/15 17:19:16:829: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_FANTRAY
+13/04/15 17:19:16:829: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:19:16:829: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:19:16:864: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:16:864: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:16:864: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:16:865: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:16:865: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:16:865: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:16:866: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:16:866: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:16:866: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:16:866: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-5 from card-agent
+13/04/15 17:19:18:006: XCC_chAgentdlog001: UNKNOWN :2353: tj16006faneeprom::getIdProm:CardType::1 Product Code::170-PCA000255-E Serial No::AA3453453453453 MacAddress::00:04:95:00:00:00
+13/04/15 17:19:18:006: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:19:18:006: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000255-E serialNumber = AA3453453453453 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:19:18:006: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.5) finished returning
+13/04/15 17:19:18:007: XCC_chAgentdlog001: UNKNOWN :2353:  resourceCheckerThread: starting thread
+13/04/15 17:19:18:007: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::startResourceMon: PSSCAgt Resource check thread started.
+13/04/15 17:19:18:007: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::cardCreationComplete: for slot 5
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::setCardLeds: asking CAgt to set ACTIVE led cardType = eCard_FANTRAY
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353:  LedCntlExtd::setLedState: Error! Rejecting as /dev/slot5/fanfpga0 owns Status, but input is for Active
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::readFPGAVersion: FPGA Below Baseline status for 5 is false
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:19:18:009: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-5 from card-agent
+13/04/15 17:19:19:370: XCC_chAgentdlog001: UNKNOWN :2353: tj16006faneeprom::getIdProm:CardType::1 Product Code::170-PCA000255-E Serial No::AA3453453453453 MacAddress::00:04:95:00:00:00
+13/04/15 17:19:19:370: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:19:19:370: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000255-E serialNumber = AA3453453453453 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:19:19:370: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.5) finished returning
+13/04/15 17:20:21:408: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::InitializationComplete
+13/04/15 17:20:21:942: XCC_chAgentdlog001: UNKNOWN :2383: CardAgent::deleteSFPInHardware: Deleting SFP in slot 10, port 1
+13/04/15 17:20:21:942: XCC_chAgentdlog001: UNKNOWN :2383: tn100_osmc::delete_sfp_mon_device: PortNo = 1
+13/04/15 17:20:21:943: XCC_chAgentdlog001: UNKNOWN :2383: CardAgent::deleteSFPInHardware: Deleting SFP in slot 10, port 2
+13/04/15 17:20:21:943: XCC_chAgentdlog001: UNKNOWN :2383: tn100_osmc::delete_sfp_mon_device: PortNo = 2
+13/04/15 17:20:22:512: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:22:512: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:22:512: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:22:513: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-6 of type eCard_OAM_16006
+13/04/15 17:20:22:513: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 6 with adminStatus = 1 card presence = 1
+13/04/15 17:20:22:513: XCC_chAgentdlog001: UNKNOWN :2353: tn100_chassis::switchHooterOwAlarmOut: Clearing orderwire alarm on slot 6
+13/04/15 17:20:22:514: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:22:514: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:22:514: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:22:514: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-6 from card-agent
+13/04/15 17:20:24:945: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:24:945: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000096-E serialNumber = EO4567891230982 macAddr = 00:04:95:35:0d:ee: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:24:945: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.6) finished returning
+13/04/15 17:20:24:992: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,5)
+13/04/15 17:20:24:992: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:24:992: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-5, cardPresent = 1
+13/04/15 17:20:24:993: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:24:993: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:24:993: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:24:996: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,10)
+13/04/15 17:20:25:474: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:25:475: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:25:475: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:25:475: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStructNot Processing updateConfigStruct
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-6 from card-agent
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000096-E serialNumber = EO4567891230982 macAddr = 00:04:95:35:0d:ee: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:25:512: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.6) finished returning
+13/04/15 17:20:25:513: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:25:513: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:25:513: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:25:514: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStructNot Processing updateConfigStruct
+13/04/15 17:20:25:552: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:25:552: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:25:552: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:26:241: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:26:241: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:26:241: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:26:242: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStructNot Processing updateConfigStruct
+13/04/15 17:20:26:280: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:26:280: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:26:280: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:26:282: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:26:282: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:26:282: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-6 from card-agent
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000096-E serialNumber = EO4567891230982 macAddr = 00:04:95:35:0d:ee: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:26:283: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.6) finished returning
+13/04/15 17:20:26:284: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::cardCreationComplete: for slot 6
+13/04/15 17:20:26:284: XCC_chAgentdlog001: UNKNOWN :2353:  LedCntlExtd::setLedState: Setting Status to Green in /dev/slot6/ledcntl0
+13/04/15 17:20:26:284: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::setCardLeds: asking CAgt to set ACTIVE led cardType = eCard_OAM_16006
+13/04/15 17:20:26:284: XCC_chAgentdlog001: UNKNOWN :2353:  LedCntlExtd::setLedState: Setting Active to Green in /dev/slot6/ledcntl1
+13/04/15 17:20:26:284: XCC_chAgentdlog001: UNKNOWN :2353: tn100_board::getFPGAVersionStatus FPGA version curMfpgaVer: 13 newMfpgaVer: 13
+13/04/15 17:20:26:285: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::readFPGAVersion: FPGA Below Baseline status for 6 is false
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,6)
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-6, cardPresent = 1
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-6 from card-agent
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000096-E serialNumber = EO4567891230982 macAddr = 00:04:95:35:0d:ee: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:26:320: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.6) finished returning
+13/04/15 17:20:27:476: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:27:476: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:27:476: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:27:476: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-8 of type eCard_PSU
+13/04/15 17:20:27:476: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 8 with adminStatus = 1 card presence = 1
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-8 from card-agent
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000113-E serialNumber = AA2343454564564 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:27:477: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.8) finished returning
+13/04/15 17:20:27:876: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:27:876: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:27:876: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:27:877: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_PSU in slot 8
+13/04/15 17:20:27:877: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-8
+13/04/15 17:20:27:877: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 8 with adminStatus = 1 card presence = 1
+13/04/15 17:20:27:877: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_PSU
+13/04/15 17:20:27:877: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:20:27:877: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-8 from card-agent
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000113-E serialNumber = AA2343454564564 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:27:916: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.8) finished returning
+13/04/15 17:20:28:542: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:28:542: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:28:542: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:28:543: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_PSU in slot 8
+13/04/15 17:20:28:543: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "" in Slot-1-8
+13/04/15 17:20:28:543: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 8 with adminStatus = 1 card presence = 1
+13/04/15 17:20:28:543: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_PSU
+13/04/15 17:20:28:543: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:20:28:543: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:20:28:580: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:28:580: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:28:580: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:28:581: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:28:581: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:28:581: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-8 from card-agent
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000113-E serialNumber = AA2343454564564 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:28:582: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.8) finished returning
+13/04/15 17:20:28:583: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::cardCreationComplete: for slot 8
+13/04/15 17:20:28:583: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::setCardLeds: asking CAgt to set ACTIVE led cardType = eCard_PSU
+13/04/15 17:20:28:584: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::readFPGAVersion: FPGA Below Baseline status for 8 is false
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,8)
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-8, cardPresent = 1
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-8 from card-agent
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::fillCardEepromInfo: productCode = 170-PCA000113-E serialNumber = AA2343454564564 macAddr = 00:04:95:00:00:00: OEM product, serial and clei codes: ,  ,  mPDHCardMonCapability NoMonSupport
+13/04/15 17:20:28:620: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.8) finished returning
+13/04/15 17:21:50:652: XCC_chAgentdlog001: UNKNOWN :2551:  interFace: TBASE_UNKNOWN Local IP: 127.1.1.254 socketType: Sync( Blocking ) Port :49997 FileDes: 86
+13/04/15 17:21:50:652: XCC_chAgentdlog001: UNKNOWN :2551:  interFace: TBASE_UNKNOWN Peer IP: 127.7.1.3 socketType: Sync( Blocking ) Port: 21002 FileDes: 86
+13/04/15 17:21:50:652: XCC_chAgentdlog001: UNKNOWN :2551: IntellCAgtConnEstHndlr: Called for (Ch.Sl) => (1.3) PID= 2551
+13/04/15 17:21:50:652: XCC_chAgentdlog001: UNKNOWN :2551: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:50:652: XCC_chAgentdlog001: UNKNOWN :2551: getCardDetails called with cardType = eCard_None
+13/04/15 17:21:50:653: XCC_chAgentdlog001: UNKNOWN :2551: cardInstUtil:isMagicFlagSetInCardIdentifier(): Magic flag found Unset
+13/04/15 17:21:50:653: XCC_chAgentdlog001: UNKNOWN :2551: cardInstUtil:getCardInfo(): CPLD version register reads: 44, CardType = eCard_Magic_Flag1
+13/04/15 17:21:50:653: XCC_chAgentdlog001: UNKNOWN :2551: cardInstUtil:getCardInfo(): Extended Card Type is eCard_CEF5
+13/04/15 17:21:50:653: XCC_chAgentdlog001: UNKNOWN :2551: cardInstUtil:getCardInfo(): returning success, slotNo = 3
+13/04/15 17:21:50:653: XCC_chAgentdlog001: UNKNOWN :2551: IntellCAgtConnEstHndlr: CAgt_Iface syncSocket Timeout = 120
+13/04/15 17:21:51:794: XCC_chAgentdlog001: UNKNOWN :2551: CardAgent::getCardVersionString: swver = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:21:51:794: XCC_chAgentdlog001: UNKNOWN :2551: IntellCAgtConnEstHndlr: SelfSwVersion = branch: BR_10_0_2 PrivateBuild:parmil, IntellSwVersion = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:21:51:803: XCC_chAgentdlog001: UNKNOWN :2551: HelperUtils::tjSystem: cmd = rm -fr /tmp/elan/ returned with exit_status = 0
+13/04/15 17:21:51:803: XCC_chAgentdlog001: UNKNOWN :2551: CardMgr::readFPGAVersion: cardagent iface is NULL
+13/04/15 17:21:51:803: XCC_chAgentdlog001: UNKNOWN :2551:  interFace: TBASE_UNKNOWN Local IP: 127.1.1.254 socketType: ASync( NonBlocking ) Port :49994 FileDes: 85
+13/04/15 17:21:51:808: XCC_chAgentdlog001: UNKNOWN :2551:  interFace: TBASE_UNKNOWN Peer IP: 127.7.1.3 socketType: ASync( NonBlocking ) Port: 21002 FileDes: 85
+13/04/15 17:21:53:028: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:53:028: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:53:028: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:54:743: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:54:744: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:54:744: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:54:744: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: Creating card in Slot-1-3 of type eCard_CEF5
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: fpgaFID is :No Feature
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::initialize: called for Slot 3, eCard_CEF5
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::instantiateBoard: No Action: Board already instantiated in Slot 3
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createCard: No Action: card already created in Slot 
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::initialize: finished for Slot 3, eCard_CEF5
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::initializetidl call to send the initialization parameters to ezHal
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: Start new thread for communication with ezHal
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::addToCAgtRegistry: slot = 3 cardType = eCard_CEF5
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::addToCAgtRegistry: slot = 3 6958
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::registerAlarmsCAgt: register for alarms with cardAgt in slot 3
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::createCard: setting RmtIface in CardAgent for slot 3
+13/04/15 17:21:54:745: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::registerAlarmsCAgt: register for alarms with cardAgt in slot 3
+13/04/15 17:21:54:748: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:54:748: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:54:748: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:54:748: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-3 from card-agent
+13/04/15 17:21:54:749: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.3) finished returning
+13/04/15 17:21:55:376: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:55:376: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:55:376: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:55:377: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_CEF5 in slot 3
+13/04/15 17:21:55:377: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :" in Slot-1-3
+13/04/15 17:21:55:377: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 3 with adminStatus = 1 card presence = 1
+13/04/15 17:21:55:383: XCC_chAgentdlog001: UNKNOWN :2551: CardMgr::ca_lineCardFirmwareMismatchHndlrraise mismatch alarm, slot No: 3alarmStatus : 0
+13/04/15 17:21:55:384: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_CEF5
+13/04/15 17:21:55:384: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:21:55:384: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:21:55:416: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:55:416: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:55:416: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:55:416: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-3 from card-agent
+13/04/15 17:21:55:417: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.3) finished returning
+13/04/15 17:21:55:418: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getSoftwareVersion: slot = 3, softwareVersion = branch: BR_10_0_2 PrivateBuild:parmil, Fri Mar 13 15:08:08 2015
+13/04/15 17:21:55:419: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::getDisplayCardSwVersion: swver = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:21:55:420: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getDisplaySoftwareVersion: slot = 3, displaySoftwareVersion = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:21:56:052: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:56:052: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:56:052: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:56:053: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::updateBoardConfig: Updating eCard_CEF5 in slot 3
+13/04/15 17:21:56:053: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct: Setting configuration "2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :" in Slot-1-3
+13/04/15 17:21:56:053: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::setCardConfig: Setting configuration for slot 3 with adminStatus = 1 card presence = 1
+13/04/15 17:21:56:412: XCC_chAgentdlog001: UNKNOWN :2551: CardMgr::ca_lineCardFirmwareMismatchHndlrraise mismatch alarm, slot No: 3alarmStatus : 0
+13/04/15 17:21:56:413: XCC_chAgentdlog001: UNKNOWN :2353: TBModeT ChassisCharacteristics::getBPTelecomBusMode(ChassisEnumT, CardEnumT) ChassisType: Chassis_TJMC16006, CardType: eCard_CEF5
+13/04/15 17:21:56:413: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct Self Card Type:eCard_OSMC
+13/04/15 17:21:56:413: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::updateConfigStruct card tbmode:2
+13/04/15 17:21:56:414: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:56:414: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:56:414: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:56:415: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:21:56:415: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:21:56:415: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:21:56:425: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createSFPInHardware: Creating SFP for port 1 in slot 3
+13/04/15 17:21:57:872: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createSFPInHardware: Creating SFP for port 2 in slot 3
+13/04/15 17:21:58:404: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createSFPInHardware: Creating SFP for port 5 in slot 3
+13/04/15 17:22:02:195: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createSFPInHardware: Creating SFP for port 7 in slot 3
+13/04/15 17:22:05:864: XCC_chAgentdlog001: UNKNOWN :2353: CardAgent::createSFPInHardware: Creating SFP for port 9 in slot 3
+13/04/15 17:22:09:536: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::cardCreationComplete: for slot 3
+13/04/15 17:22:09:536: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::setCardLeds: asking CAgt to set ACTIVE led cardType = eCard_CEF5
+13/04/15 17:22:09:575: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::readFPGAVersion: FPGA Below Baseline status for 3 is false
+13/04/15 17:22:09:576: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot SlotIndex(ci,si)= (1,3)
+13/04/15 17:22:09:576: XCC_chAgentdlog001: UNKNOWN :2353: virtual ReturnT tj1700_jijo::checkIfCardPresent(UInt8, bool&) constReturn Status:0 Card Present Status:true
+13/04/15 17:22:09:576: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardPresentInSlot: si = Slot-1-3, cardPresent = 1
+13/04/15 17:22:09:576: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: Retrieving CardInfo for Slot-1-3 from card-agent
+13/04/15 17:22:09:577: XCC_chAgentdlog001: UNKNOWN :2353: CardMgr::getCardInfo: for (Ch.Sl) = (1.3) finished returning

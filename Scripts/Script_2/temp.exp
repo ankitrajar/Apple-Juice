@@ -1,0 +1,12 @@
+#!/usr/bin/expect   
+set release_base_dir "/home/swtn100/releases";
+    set release_build_mode_string "rel";
+    set release_build_branch_name "10_0_2";
+set final "${release_base_dir}_hhh_${release_build_mode_string}"
+puts $final
+    spawn ls
+        expect -re {(\S+)-ppc}
+
+    set my_ipaddr $expect_out(1,string)
+puts "\nmy ip is $my_ipaddr";
+    

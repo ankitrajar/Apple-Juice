@@ -1,0 +1,271 @@
+#!/usr/bin/env expect 
+##########################################################Generic Auto SSH (gas)###########################################################
+if {[llength $argv] < 9} {
+puts "\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\
+\n         Usages: uen EMS_IP_or_IP_part  EMS_Username  EMS_Password  NMS_IP_or_IP_part  NMS_Username  NMS_Password  Remove_DB(y/n)  Version   Tag\n 
+\
+\n         IP    :   102 will be treated as 192.168.230.102\
+\n                   241.244 will be treated as 192.168.241.244\
+\n                   169.200.100 will be treated as 192.169.200.100\
+\n                   172.124.143.102 will be Taken as complete IP as it is given.\n
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+if {[llength $argv] < 9} { exit;
+}
+}
+ # timeout -1 means infinite
+    set timeout 30000
+    set ems_ip_part [lindex $argv 0];
+    set ems_user [lindex $argv 1];
+    set ems_user_pass [lindex $argv 2];
+    set nms_ip_part [lindex $argv 3];
+    set nms_user [lindex $argv 4];
+    set nms_user_pass [lindex $argv 5];
+    set remove_db [lindex $argv 6]
+    set upgrade_to_version [lindex $argv 7];
+    set version_tag [lindex $argv 8];
+    set null_value "";
+    set base_url "http://tn100build/cgi-bin/viewvc.cgi/nms-releases/"
+    set download_dir ${upgrade_to_version}_${version_tag}
+    set nms_file_ver ${upgrade_to_version}_${version_tag}
+    set ems_file EMS_Release_${upgrade_to_version}_${version_tag}
+    set nms_file NMS_Release_${upgrade_to_version}_${version_tag}
+    set ems_file_path ${base_url}tejnms-sn/REL_${upgrade_to_version}/${version_tag}/builds/${ems_file}.tgz
+    set nms_file_path ${base_url}tejnms-nm/REL_${upgrade_to_version}/${version_tag}/build/${nms_file}.tgz
+    #EMS
+    set ems_reconfig_mysql_passwd "y"
+    set ems_root_pw_db_server "iltwat"
+    set ems_new_root_pwd_db_server "iltwat"
+    set ems_name "EPG-EMS"
+    set ems_application_mode "SDH"
+    set user_ems_password "iltwat"
+    set concurrent_login "true"
+    set nbi_over_nat "false"
+    set run_ems_at_startup "y"
+    set install_in_hot_standby_mode "n"
+    set start_ems_after_install "y"
+    #NMS
+    set nms_installtion_mode "1"
+    set nms_reconfigure_mysql_pass "y"
+    set nms_root_pw_db_server "iltwat"
+    set nms_new_root_pwd_db_server "iltwat"
+    set upgrade_now "y"
+    set is_ems_upgraded "y"
+    set ems_upgraded_to $upgrade_to_version
+    regsub -all {_} $ems_upgraded_to . ems_upgraded_to
+    set ems_upgraded_to [string range $ems_upgraded_to 0 2]
+    set reconfig_application_mode "y"
+    set nms_application_mode "SDH"
+    set run_nms_at_startup "y"
+    set nms_install_hotstandby_mode "n"
+
+#flexible IP addressing
+#So that u can provide 102 or 241.244 or 169.143.102 or 172.124.36.102 as IP.
+    regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $ems_ip_part all first second third fourth
+if { $fourth != $null_value } {
+   set ip "$all"
+} elseif { $third != $null_value } {
+   set ip "192\.$first\.$second\.$third"
+} elseif { $second != $null_value } {
+   set ip "192\.168\.$first\.$second"
+} elseif { $first != $null_value } {
+   set ip "192\.168\.230\.$first"
+} else { puts "Invalid IP"; exit; }
+   set ems_ip $ip
+puts "\nEMS IP is $ems_ip \n"
+
+    regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $nms_ip_part all first second third fourth
+if { $fourth != $null_value } {
+   set ip "$all"
+} elseif { $third != $null_value } {
+   set ip "192\.$first\.$second\.$third"
+} elseif { $second != $null_value } {
+   set ip "192\.168\.$first\.$second"
+} elseif { $first != $null_value } { 
+   set ip "192\.168\.230\.$first"
+} else { puts "Invalid IP"; exit; }
+set nms_ip $ip
+
+puts "\nNMS IP is $nms_ip \n"
+puts "Upgrading EMS\n"
+
+spawn ssh $ems_user@$ems_ip -X
+set ems_spawn_id $spawn_id
+expect {
+	    "*yes/no*" {
+			        send "yes\r"
+			        exp_continue
+				    }
+
+	    "assword:" {
+			        send "$ems_user_pass\r"
+				   }
+}
+expect "*#"
+send "/sbin/service ems stop\r"
+expect "*#"
+send "/sbin/service ems status\r"
+expect "*#"
+puts "Current Version of EMS is : \n"
+send "cat /opt/ems/release/version/version.txt\r"
+expect "*#"
+send "/opt/ems/release/install/ems_uninstall.sh\r"
+expect "*you want to remove*"
+send "$remove_db\r"
+expect {
+        "*you want*" {
+                    send "\r"
+                    exp_continue
+                    }
+
+             "*#" {
+                    send "\r"
+                   }
+           default {
+                    send "\r"
+			       }
+}
+expect "*#"
+send "cd /home/\r"
+expect "*#"
+send "mkdir -p $download_dir ; cd $download_dir ; rm ${ems_file}.tgz* \r"
+expect {
+         "*remove regular file*" {
+                                   send "y\r"
+                                   exp_continue
+                                 }
+                            "*#" {
+                                   send "\r"
+                                 }
+       }
+expect "*#"
+send "wget $ems_file_path\r"
+expect "*#"
+send "tar -zxvf $ems_file.tgz\r"
+expect "*#"
+send "cd EMS*/install/ ; ls \r"
+expect "*#"
+send "./ems_install.sh\r"
+expect "*like to reconfigure*"
+send "$ems_reconfig_mysql_passwd\r"
+expect "*specify root password*"
+send "$ems_root_pw_db_server\r"
+expect "*specify new root password*"
+send "$ems_new_root_pwd_db_server\r"
+expect "*re-enter the new root password*"
+send "$ems_new_root_pwd_db_server\r"
+expect "*enter unique EMS Name*"
+send "$ems_name\r"
+expect "*enter ems application mode*"
+send "$ems_application_mode\r"
+expect "*enter the password for user ems*"
+send "$user_ems_password\r"
+expect "*Concurrent User*"
+send "$concurrent_login\r"
+expect "*NBI over NAT*"
+send "$nbi_over_nat\r"
+expect "*Services to run at Startup*"
+send "$run_ems_at_startup\r"
+expect "*application in Hot Standby mode*"
+send "$install_in_hot_standby_mode\r"
+expect "*you want to start TJ5100 services now*"
+send "$start_ems_after_install\r"
+#expect "*#"
+#send "/sbin/service ems status\r"
+expect "*#"
+send "exit\r"
+close $ems_spawn_id
+
+puts "EMS is Upgraded to ${upgrade_to_version}_${version_tag}\n."
+
+puts "\nUpgrading NMS\n"
+
+spawn ssh $nms_user@$nms_ip -X
+set nms_spawn_id $spawn_id
+expect {
+        "*yes/no*" {
+                    send "yes\r"
+                    exp_continue
+                    }
+
+        "assword:" {
+                    send "$nms_user_pass\r"
+                   }
+}
+expect "*#"
+send "/sbin/service nms stop\r"
+expect "*#"
+send "/sbin/service nms status\r"
+expect "*#"
+puts "Current Version of NMS is : \n"
+send "cat /opt/nms/release/version.properties\r"
+expect "*#"
+send "ps -ef | grep \"java\"\r"
+expect "*#"
+send "kill -9 \$(ps -ef | grep  java | awk '{print \$2}') 2>/dev/null\r"
+expect "*#"
+send "ps -ef | grep java\r"
+expect "*#"
+#send "/opt/nms/release/install/nms_uninstall.sh\r"
+#expect "*#"
+send "cd /home/\r"
+expect "*#"
+send "mkdir -p $download_dir ; cd $download_dir ; rm ${ems_file}.tgz* \r"
+expect {
+         "*remove regular file*" {
+                                   send "y\r"
+                                   exp_continue
+                                 }
+                            "*#" {
+                                   send "\r"
+                                 }
+       }
+
+expect "*#"
+send "wget $nms_file_path\r"
+expect "*#"
+send "tar -zxvf $nms_file.tgz\r"
+expect "*#"
+send "cd NMS*/install/ ; ls \r"
+expect "*#"
+send "./nms_install.sh\r"
+interact
+######################################################## Interact is better #################################################
+expect "*the Installation mode*"
+send "$nms_installtion_mode\r"
+expect "*like to reconfigure the same*"
+send "$nms_reconfigure_mysql_pass\r"
+expect "*specify root password for Database*"
+send "$nms_root_pw_db_server\r"
+expect "*specify new root password for Database*"
+send "$nms_new_root_pwd_db_server\r"
+expect "*re-enter the new root password for Database*"
+send "$nms_new_root_pwd_db_server\r"
+expect "*you want*"
+send "$upgrade_now\r"
+expect "*been upgraded*"
+send "$is_ems_upgraded\r"
+expect "*enter the upgraded version number*"
+send "$ems_upgraded_to\r"
+expect "*you want to continue NMS upgradation*"
+send "y\r"
+expect "*you want to reconfigure*"
+send "$reconfig_application_mode\r"
+expect "*enter nms application mode*"
+send "$nms_application_mode\r"
+expect "*you want NMS Services to run at Startup*"
+send "$run_nms_at_startup\r"
+expect "*install application in Hot Standby mode*"
+send "$nms_install_hotstandby_mode\r"
+expect "*#"
+send "nms_file_ver=$nms_file_ver ; cp /opt/nms/\${nms_file_ver//_/.}*/license/license.dat /opt/nms/release/license/\r"
+expect "*#"
+send "/sbin/service nms start\r"
+#expect "*#"
+#send "/sbin/service nms status\r"
+#expect "*#"
+#send "exit\r"
+interact
+close $nms_spawn_id
+
+puts "\nNMS is Upgraded to ${upgrade_to_version}_${version_tag}\n."
+

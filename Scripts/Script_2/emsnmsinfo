@@ -1,0 +1,69 @@
+#!/usr/bin/env expect 
+##########################################################Generic Auto Telnet (gat)###########################################################
+if {[llength $argv] < 4} {
+puts "\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\
+\n               Usages: gat \[IP_or_IP_part\]   Username      Password     remote_rel_details_path\n 
+\
+\n               Node_IP : 102 will be treated as 192.168.143.102\
+\n                         241.244 will be treated as 192.168.241.244\
+\n                         169.200.100 will be treated as 192.169.200.100\
+\n                         172.124.143.102 will be Taken as complete IP as it is given.\n
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+if {[llength $argv] < 3} { exit;
+}
+}
+ # timeout -1 means infinite
+    set timeout 600
+    set ip_part [lindex $argv 0];
+    set user [lindex $argv 1];
+    set user_pass [lindex $argv 2];
+    set remote_release_details_path [lindex $argv 3];
+    set null_value "";
+#    set release_details_path "/tmp/releases_details.txt"
+    set release_images_path "/swtn100/hobbes/hobbes/cvsroot/nms-releases/tejnms-nm/"
+#flexible IP addressing
+#So that u can provide 102 or 241.244 or 169.143.102 or 172.124.36.102 as IP.
+    regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $ip_part all first second third fourth
+if { $fourth != $null_value } {
+   set ip "$all"
+} elseif { $third != $null_value } {
+   set ip "192\.$first\.$second\.$third"
+} elseif { $second != $null_value } {
+   set ip "192\.168\.$first\.$second"
+} elseif { $first != $null_value } {
+   set ip "192\.168\.143\.$first"
+} else { puts "Invalid IP"; exit; }
+puts "\nEntity IP is $ip \n"
+
+if {[llength $argv] == 4} {
+        spawn telnet $ip
+        set node_spawn_id $spawn_id
+        expect "*login*"
+        send "$user\r"
+	expect  {
+		"*asswor*" {
+				send "$user_pass\r"
+				exp_continue
+			   }
+     "*command not found*" {
+				send "\r"
+				exp_continue
+			   }
+ 
+             "*incorrect*" {
+                                return 1
+                           }
+
+		     "*$*" {
+			         send "stty -echo \r rel_det=\"$remote_release_details_path\" ; echo -n \> \$rel_det ; pushd $release_images_path ; for direc in \$\(ls -d1 REL\*\); do pushd \$direc 2\>/dev/null ;suc=\$\? ;if \[ \$suc == 0 \];then echo \"\$direc\" \>\> \$rel_det ; ls -1d a\* \>\> \$rel_det 2\>/dev/null ;echo \"end\$direc\" \>\> \$rel_det; popd >/dev/null ;fi; done ; popd ; echo \"DONE\" \r"
+                     expect "*DONE"
+                     #interact
+                     exit ;
+			       }
+
+		   default {
+				interact
+			   }
+		}
+}
+

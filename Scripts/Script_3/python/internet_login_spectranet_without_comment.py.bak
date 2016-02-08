@@ -1,0 +1,26 @@
+import urllib.request, urllib.parse, urllib.error, urllib.request, urllib.error, urllib.parse, http.cookiejar
+print("Welcome to python script. Trying to login to spectranet.")
+cj = http.cookiejar.CookieJar()
+
+opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+
+opener.open('http://202.38.180.2/userportal/?requesturi=http%3a%2f%2f1%2e254%2e254%2e254%2f%3fN%3d1418042578796&ip=192%2e168%2e72%2e45&mac=20%3ae5%3a2a%3ae5%3aa4%3a53&nas=varshithacn&requestip=1%2e254%2e254%2e254&sc=a5680e5a9d6b1f8a94e264b0a053ae52')
+
+opener.addheaders.append(('User-agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'))
+opener.addheaders.append( ('Referer', 'http://202.38.180.2/userportal/login.do?requesturi=http%3A%2F%2F1.254.254.254%2F%3FN%3D1418042578796') )
+
+login_data = urllib.parse.urlencode({
+'username' : 'srinath5432',
+'password' : 'meowmeow',
+'type' : '2', # 2 for internet access 1 for account.
+'rememberme' : 'on',
+'phone' : '0',
+'fromTemplate' : '1'
+})
+binary_data = login_data.encode('ascii')
+resp = opener.open('http://202.38.180.2/userportal/newlogin.do', binary_data)
+
+print(resp.read())
+resp.close()
+
+

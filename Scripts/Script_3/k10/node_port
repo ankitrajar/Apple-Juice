@@ -1,0 +1,149 @@
+#!/usr/bin/env expect 
+if {[llength $argv] <= 2} {
+puts "\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\
+\n               Usages: node \[Node_IP\] \[Card_Slot(Optional)\]\n\
+\
+\n               Node_IP : 102 will be treated as 192.168.143.102\
+\n                         241.244 will be treated as 192.168.241.244\
+\n                         169.200.100 will be treated as 192.169.200.100\
+\n                         172.124.143.102 will be Taken as complete IP as it is given.\
+\
+\n               Card_Slot:Give only if want to goto that card directly. If not given you will taken to node not to card.\
+\n                         Script will try to get icc ip automatically.Ex:For BR_10_0_2 its 127.7.1.slot but for BR_8_0_1 its 127.1.1.slot\n
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+if {[llength $argv] < 1} { exit;
+}
+}
+ # timeout -1 means infinite
+    set timeout 300
+    set ip_part [lindex $argv 0];
+    set slot [lindex $argv 1];
+#    set icc_ip_second_byte [lindex $argv 2];
+    set user "guest";
+    set user_pass "iltwat";
+    set su_user "root";
+    set su_user_pass "swtn100tj";
+    set null_value "";
+    set port "2023";
+
+#flexible IP addressing
+#So that u can provide 102 or 241.244 or 169.143.102 or 172.124.36.102 as IP.
+    regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $ip_part all first second third fourth
+if { $fourth != $null_value } {
+   set ip "$all"
+} elseif { $third != $null_value } {
+   set ip "192\.$first\.$second\.$third"
+} elseif { $second != $null_value } {
+   set ip "192\.168\.$first\.$second"
+} elseif { $first != $null_value } {
+   set ip "192\.168\.143\.$first"
+} else { puts "Invalid IP"; exit; }
+puts "\n\nNODE IP is $ip \n"
+
+if {[llength $argv] == 1} {
+        spawn telnet $ip $port
+        set node_spawn_id $spawn_id
+        expect "*login*"
+        send "$user\r"
+        expect "*assword*"
+        send "$user_pass\r"
+        expect "*>"
+        send "su\r"
+        expect "*assword*"
+        send "$su_user_pass\r"
+        expect "*#"
+        send "cat /usr/sbin/tejas/version.h\r"
+        expect "*#"
+        send "cd \/etc\/tejas\/log\r"
+        expect "*#"
+		send "#tail \-f /etc/tejas/log/*log00*\r"
+		expect "*"
+send "
+export LD_LIBRARY_PATH=/usr/sbin/tejas/sharedobj/
+PATH=\$PATH:/bin:/sbin;
+timeint=5s
+while \[ 1 \]
+do
+echo For slot 4 port 1 Making it UP.
+echo \"13 0x10080 9 3 0 0 81 13 6 f0 2 97 q\" | /usr/sbin/tejas/testPPFpga -q 4 >/dev/null
+echo \"Reading Status\"
+echo \"12 0x10080 9 q\" | /usr/sbin/tejas/testPPFpga -q 4 | grep -i \"offset 6\"
+echo \"Sleeping for \$timeint\"
+sleep \$timeint
+echo For slot 4 port 1 Making it Down.
+echo \"13 0x10080 9 3 0 0 81 13 6 0 2 97 q\" | /usr/sbin/tejas/testPPFpga -q 4 >/dev/null
+echo \"Reading Status\"
+echo \"12 0x10080 9 q\" | /usr/sbin/tejas/testPPFpga -q 4 | grep -i \"offset 6\"
+sleep \$timeint
+done
+
+"
+interact
+        #stty raw -echo
+        #expect_after {
+        #        -i $user_spawn_id
+        #        "y" {send "rm -fr SysConf.* backconf.*\rcp defaultCfg\/* .\r"; exp_continue}
+        #        "n" {send "\r\r"; exp_continue}
+        #}
+        #expect "> "
+        #send "ls /usr/sbin/tejas | grep 'initialize.sh'
+}
+
+if {[llength $argv] == 2} {
+spawn telnet $ip $port
+#       spawn telnet 10.51.182.$node_ip 2023
+       set node_spawn_id_2 $spawn_id
+       expect "*login*"
+       send "$user\r"
+       expect "*assword*"
+       send "$user_pass\r"
+       expect "*>"
+       send "su\r"
+       expect "*assword*"
+       send "$su_user_pass\r"
+       expect "*#"
+send -i $node_spawn_id_2 "\
+total_icc=`route|grep icc|wc -l`;echo \$total_icc;\r\
+basic_icc=`route|grep icc|grep 127.\[0-1\]|wc -l`;echo \$basic_icc;\r\
+special_icc=\$(( \$total_icc - \$basic_icc ))\r\
+if \[ \"\$special_icc\" == \"0\" \]; then\r\
+route|grep icc|grep 127\.1\r\
+else\r\
+route|grep icc|grep 127\.\[2-9\]\r\
+fi\r\
+\r"
+       expect {
+               -re {127\.(\S+)\.1\.[0-9]} {
+               				 set icc_ip_string $expect_out(1,string)
+             				 regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $icc_ip_string icc_ip_second_byte
+               			      }
+              } 
+#       send "cd \/tmp\r"
+#       expect "# "
+#       send "rm *.hex\r"
+#       expect "# "
+#	send "ncftpget -uhexftp -piltwat 192.168.0.14 /tmp /home/hexftp/hex/mc/plc02/elk/fpga_edited/$wld\r"
+#	expect "# "
+       send "telnet 127.$icc_ip_second_byte.1.$slot $port\r"
+       expect "*login*"
+       send "$user\r"
+       expect "*assword*"
+       send "$user_pass\r"
+       send "su\r"
+       expect "*assword*"
+       send "$su_user_pass\r"
+       expect "*#"
+       send "cd \/etc\/tejas\/log\r"
+       expect "# "
+       send "export LD_LIBRARY_PATH=/usr/sbin/tejas/sharedobj\r"
+#send "cd \/tmp\r"
+#        expect "# "
+#        send "ncftpget -uguest -piltwat 127.1.1.254 . /tmp/$wld\r"
+#        expect "# "
+#        send "mv $wld elk.hex\r"
+#        expect "# "
+
+ send "tail \-f *log00*\r"
+     expect "# "
+        interact
+}

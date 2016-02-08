@@ -1,0 +1,1013 @@
+06/02/15 12:01:50:695: CEF5_initbcmHaldlog001: UNKNOWN :1958: =========================================== 
+06/02/15 12:01:50:695: CEF5_initbcmHaldlog001: UNKNOWN :1958:  BCMHALTASK started with pid =1958
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: UNKNOWN :1958: =========================================== 
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: UNKNOWN :1958: Starting PPHalTask initialization
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: MainTask :1958: registerforSignalDebugMgr::registerforSignal 150006
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: MainTask :1958: registerforSIGABRT
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: MainTask :1958: DebugMgr::registerforSignal: true
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: MainTask :1958: registerforSignalDebugMgr::registerforSignal 1500011
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: MainTask :1958: registerforSIGSEGV
+06/02/15 12:01:50:710: CEF5_initbcmHaldlog001: MainTask :1958: DebugMgr::registerforSignal: false
+06/02/15 12:01:50:716: CEF5_initbcmHaldlog001: MainTask :1958: CEF5Card::CreateCEF5Card BEGIN
+06/02/15 12:01:50:717: CEF5_initbcmHaldlog001: MainTask :1958: Registering Card 269
+06/02/15 12:01:50:717: CEF5_initbcmHaldlog001: MainTask :1958: CEF5Card::createCEF5DriverIface BEGIN
+06/02/15 12:01:50:729: CEF5_initbcmHaldlog001: MainTask :1958: open shared library and load symbols 
+13/04/15 17:21:50:346: CEF5_initbcmHaldlog001: MainTask :1958: CEF5Card::createCEF5DriverIface END
+13/04/15 17:21:50:346: CEF5_initbcmHaldlog001: MainTask :1958: CEF5Card::CreateCEF5Card END
+13/04/15 17:21:50:346: CEF5_initbcmHaldlog001: MainTask :1958: initializing key
+13/04/15 17:21:50:347: CEF5_bcmHaldlog001: MainTask :1958: =========================================== 
+13/04/15 17:21:50:347: CEF5_bcmHaldlog001: MainTask :1958:  BCMHALTASK started with pid =1958
+13/04/15 17:21:50:347: CEF5_bcmHaldlog001: MainTask :1958: =========================================== 
+13/04/15 17:21:50:347: CEF5_initbcmHaldlog001: MainTask :1958: PPHalTask::InitTaskBEGIN
+13/04/15 17:21:50:347: CEF5_initbcmHaldlog001: MainTask :1958: =========================================== 
+13/04/15 17:21:50:347: CEF5_initbcmHaldlog001: MainTask :1958:  BCMHALTASK started with pid =1958
+13/04/15 17:21:50:347: CEF5_initbcmHaldlog001: MainTask :1958: =========================================== 
+13/04/15 17:21:50:359: CEF5_bcmHaldlog001: MainTask :1958: PPHalAuxTask::initAuxTask Creating the thread
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: PPHalAuxTask::PPHalAuxTask
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: PPHalProtectionDecisionTask::initProtectionDecisionTask Creating the thread
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: PPHalProtectionDecisionTask::PPHalProtectionDecisionTask
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: PPHalStatsTask::initStatsTask Creating the thread
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: PPHalFDBEventTask::initFDBEventTask Creating the thread
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:360: CEF5_bcmHaldlog001: MainTask :1958: PPHalFDBEventTask::PPHalFDBEventTask
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: PPHalProtectionReportTask::initProtectionTask Creating the thread
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: PPHalProtectionReportTask::PPHalProtectionReportTask
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: PPHalFDBTask::initFDBTask Creating the thread
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: PPHalFDBTask::PPHalFDBTask
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: PPHalTask::InitTaskEND
+13/04/15 17:21:50:361: CEF5_bcmHaldlog001: MainTask :1958: DaemonCtlClient::connectionEstablishedHandler
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2001: PPHalAuxTask::InitTask BEGIN
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2001: =========================================== 
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2001:  PPHalAuxTask started with pid =2001
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2001: =========================================== 
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: AUXTASK :2001: PPHalAuxTask::InitTask END
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2002: PPHalProtectionDecisionTask::InitTask BEGIN
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2002: =========================================== 
+13/04/15 17:21:50:363: CEF5_bcmHaldlog001: UNKNOWN :2002:  PPHalProtectionDecisionTask started with pid =2002
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2002: =========================================== 
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: ProtDecisionTask :2002: PPHalProtectionDecisionTask::InitTask END
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2004: PPHalFDBEventTask::InitTask BEGIN
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2004: =========================================== 
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2004:  PPHalFDBEventTask started with pid =2004
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2004: =========================================== 
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2005: PPHalProtectionReportTask::InitTask BEGIN
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: PROTECTION_TASK :2005: PPHalProtectionReportTask::InitTask END
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2006: PPHalFDBTask::InitTask BEGIN
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2006: =========================================== 
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2006:  PPHalFDBTask started with pid =2006
+13/04/15 17:21:50:364: CEF5_bcmHaldlog001: UNKNOWN :2006: =========================================== 
+13/04/15 17:21:50:366: CEF5_bcmHaldlog001: FDBTASK :2006: PPHalFDBTask::InitTask END
+13/04/15 17:21:50:366: CEF5_bcmHaldlog001: FDB_TASK :2004: PPHalFDBEventTask::InitTask FdbEventPollTimer started 
+13/04/15 17:21:50:366: CEF5_bcmHaldlog001: FDB_TASK :2004: PPHalFDBEventTask::InitTask END
+13/04/15 17:21:51:364: CEF5_bcmHaldlog001: MainTask :1958: DaemonCtlClient::currentSystemStateHandler pssState=BOOTING rebootType=NOT_KNOWN
+13/04/15 17:21:51:364: CEF5_bcmHaldlog001: MainTask :1958: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+13/04/15 17:21:51:364: CEF5_bcmHaldlog001: MainTask :1958: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED
+13/04/15 17:21:55:366: CEF5_bcmHaldlog001: MainTask :1958: PPHalServer::createPPSubSystem():  BEGIN
+13/04/15 17:21:55:366: CEF5_bcmHaldlog001: MainTask :1958: PPSubSystemMgr::createPPSubSystem BEGIN
+13/04/15 17:21:55:366: CEF5_bcmHaldlog001: MainTask :1958: PPFactory::createPPSubSystem BEGIN
+13/04/15 17:21:55:366: CEF5_bcmHaldlog001: MainTask :1958: Card::instantiatePPSubSystem BEGIN
+13/04/15 17:21:55:366: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem BEGIN: FwdEngId0 restartType:Cold Start
+13/04/15 17:21:55:367: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystemFwdEngId: 0 operMode: 0
+13/04/15 17:21:55:367: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::initDriver BEGIN
+13/04/15 17:21:55:367: CEF5_bcmHaldlog001: MainTask :1958: BCMCard::initBCMDriver BEGIN
+13/04/15 17:21:55:367: CEF5_bcmHaldlog001: MainTask :1958: BCMCard::initBCMDriver FwdEngId: 0 Restart Type: Cold Start PortMode: CEF5 6*10G svcSwitchMode: CEF5 Mesh ModecardL1ModeCEF5 L1Mode None
+13/04/15 17:21:55:367: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::initializeSAL():  BEGIN
+13/04/15 17:21:55:617: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::initializeSAL():  Setting config file after cold reboot
+13/04/15 17:21:55:617: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::initializeSAL(): COLD_START. card port mode is 6x1G_4x10G
+13/04/15 17:21:55:648: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::sysconf_init():  BEGIN
+13/04/15 17:21:55:655: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::sysconf_probe():  BEGIN
+13/04/15 17:21:55:656: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::_setup_bus():  BEGIN
+13/04/15 17:21:55:656: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::_setup_bus(): PCI unit 0Dev 0x41216 Rev 0x Chip PETRAB_A0 Driver PETRAB_A0
+13/04/15 17:21:55:656: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::_setup_bus():  END
+13/04/15 17:21:55:656: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::sysconf_probe():  END
+13/04/15 17:22:30:513: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraBootConf BEGIN
+13/04/15 17:22:30:513: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraBootConf Starting cold boot
+13/04/15 17:22:30:513: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::setWarmBootStatus BEGIN
+13/04/15 17:22:30:518: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::setWarmBootStatus END
+13/04/15 17:22:30:518: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraScache BEGIN
+13/04/15 17:22:30:518: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraScache stable_location = 3 stable_flags = 0 stable_size = 0
+13/04/15 17:22:30:522: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraScache Non empty scache init done.
+13/04/15 17:22:30:522: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraScache END
+13/04/15 17:22:30:522: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraBootConf Initialized Petra scache and stable without any error
+13/04/15 17:22:30:522: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::initPetraBootConf END
+13/04/15 17:22:30:522: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::reloadPetra BEGIN
+13/04/15 17:22:30:522: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::petraSocInit BEGIN
+13/04/15 17:22:35:677: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::petraSocInit END
+13/04/15 17:22:35:677: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::petraBcmInit BEGIN
+13/04/15 17:22:38:471: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::petraBcmInit END
+13/04/15 17:22:38:471: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::reloadPetra COLD Boot. Writing config to Sw Db
+13/04/15 17:22:38:471: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::petraSwDbSync BEGIN
+13/04/15 17:22:38:531: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::petraSwDbSync END
+13/04/15 17:22:38:531: CEF5_bcmHaldlog001: MainTask :1958: PetraBootConf::reloadPetra END
+13/04/15 17:22:38:531: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::initializeSAL():  END
+13/04/15 17:22:38:531: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::initializeBCMX():  BEGIN
+13/04/15 17:22:38:540: CEF5_bcmHaldlog001: MainTask :1958: BcmSysconf::initializeBCMX():  END
+13/04/15 17:22:38:540: CEF5_bcmHaldlog001: MainTask :1958: PetraSerdesConf::initializePetraSerdesConf BEGIN
+13/04/15 17:22:38:540: CEF5_bcmHaldlog001: MainTask :1958: PetraSerdesConf::doPetraSerdesConf BEGIN
+13/04/15 17:22:39:037: CEF5_bcmHaldlog001: MainTask :1958: PetraSerdesConf::doPetraSerdesConf END
+13/04/15 17:22:39:037: CEF5_bcmHaldlog001: MainTask :1958: PetraSerdesConf::initializePetraSerdesConf END
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: BCMCard::initBCMDriver :END
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem Instantiating the pcpoamint device
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem Enabling interrupts on the device
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: pcpoamint::initialize BEGIN
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: pcpoamint::initializeEND
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem Installing device event handler
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem initializing PetraOamProcessingBlock
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem Registering OAM event handler
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5PortMap::CEF5PortMap():  cef5L1Mode = CEF5 L1Mode None. cardPortMode = CEF5 6*10G. mIOEXPMode = CEF5_IOEXP_Uninitialized
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5PortMap::PopulatePortMap():  BEGINS . cardPortMode = CEF5 6*10G
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5PortMap::PopulatePortMap():  L1 mode = CEM . Filling only port 21 and 22. 
+13/04/15 17:22:39:203: CEF5_bcmHaldlog001: MainTask :1958: CEF5PortMap::PopulatePortMap():  ENDS. 
+13/04/15 17:22:39:204: CEF5_bcmHaldlog001: MainTask :1958: FILENAME: /etc/tejas/config/BCMHAL/PPHAL-0
+13/04/15 17:22:39:204: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystemFwdEngId: 0 executing rm -f /etc/tejas/config/BCMHAL/PPHAL-0
+13/04/15 17:22:39:221: CEF5_bcmHaldlog001: MainTask :1958: DBManager :: Creating the DBManager Instance)
+13/04/15 17:22:39:221: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::determineFileStates MISSING true
+13/04/15 17:22:39:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::checkAndCreateMetaInfoTable: sqlite3_prepare_v2 successfully CREATED STATEMENT for command name = DEL_MetaInfo
+13/04/15 17:22:39:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::checkAndCreateMetaInfoTableCommand = DELETE from MetaInfo where Key=@key
+13/04/15 17:22:39:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::checkAndCreateMetaInfoTable: sqlite3_prepare_v2 successfully CREATED STATEMENT for command name = INS_MetaInfo
+13/04/15 17:22:39:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::checkAndCreateMetaInfoTableCommand = REPLACE INTO MetaInfo (Key,Value) values(@key, @value)
+13/04/15 17:22:39:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::checkAndCreateMetaInfoTable: sqlite3_prepare_v2 successfully CREATED STATEMENT for command name = MODIFY_MetaInfo
+13/04/15 17:22:39:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::checkAndCreateMetaInfoTableCommand = Update MetaInfo SET Value=@value where Key=@key
+13/04/15 17:22:39:734: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PetraAC -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:39:735: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PetraPWE -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:39:737: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PetraVSI -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:39:738: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PetraVlanDomain -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:39:739: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PetraMgmtVlan -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:39:740: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PetraRingletVlan -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initDscpIndexFrequency BEGIN
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initDscpIndexFrequency END
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::createPPSubSystem END
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::petraInitializationPhase2 BEGIN
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::stackModuleInit BEGIN
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::stackModuleInit called with unit 0
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::stackModuleInit END
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::moduleInit Setting Module ID my slot : 3 mode : CEF5 Mesh Mode
+13/04/15 17:22:39:742: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::moduleInit min slot : 2
+13/04/15 17:22:41:211: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::moduleInitSetting Module-Id : 1 for device number 0 Card Slot 3
+13/04/15 17:22:41:211: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::moduleInit END
+13/04/15 17:22:41:211: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setUpSystemPort BEGIN
+13/04/15 17:22:41:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setUpSystemPort END
+13/04/15 17:22:41:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::enableModule BEGIN
+13/04/15 17:22:41:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::enableModuleSetting Module-Id : 1 for device number 0 Card Slot 3
+13/04/15 17:22:41:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::enableModule END
+13/04/15 17:22:41:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::petraInitializationPhase2 END
+13/04/15 17:22:41:262: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::petraFAPInitialization BEGIN
+13/04/15 17:22:41:262: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::configureDelayTolerance BEGIN
+13/04/15 17:22:41:262: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::configureDelayTolerance END
+13/04/15 17:22:41:262: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFMQ BEGIN
+13/04/15 17:22:41:262: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFMQ END
+13/04/15 17:22:41:262: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupOTMPorts BEGIN
+13/04/15 17:22:44:546: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupOTMPorts END
+13/04/15 17:22:44:547: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupVOQ BEGIN
+13/04/15 17:22:51:239: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupVOQ END
+13/04/15 17:22:51:239: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::connectVOQ BEGIN
+13/04/15 17:22:51:578: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::connectVOQ END
+13/04/15 17:22:51:579: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeGlobalTCMapping BEGIN
+13/04/15 17:22:51:580: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeGlobalTCMapping END
+13/04/15 17:22:51:581: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::configureTCToFMQMapping BEGIN
+13/04/15 17:22:51:582: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::configureTCToFMQMapping END
+13/04/15 17:22:51:582: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper BEGIN
+13/04/15 17:22:51:582: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 0
+13/04/15 17:22:51:582: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:51:583: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:51:583: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:51:584: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:51:585: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:51:585: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:51:585: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 0
+13/04/15 17:22:51:585: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 0 shaper value : 8192
+13/04/15 17:22:52:229: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 1
+13/04/15 17:22:52:229: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:52:230: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:52:230: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:52:230: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:52:231: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:52:232: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:52:232: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 1
+13/04/15 17:22:52:232: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 1 shaper value : 10000000
+13/04/15 17:22:52:575: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 2
+13/04/15 17:22:52:575: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:52:577: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:52:577: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:52:577: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:52:578: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:52:578: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:52:578: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 2
+13/04/15 17:22:52:578: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 2 shaper value : 10000000
+13/04/15 17:22:52:970: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 3
+13/04/15 17:22:52:970: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:52:971: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:52:972: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:52:972: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:52:973: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:52:973: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:52:973: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 3
+13/04/15 17:22:52:973: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 3 shaper value : 10000000
+13/04/15 17:22:53:316: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 4
+13/04/15 17:22:53:316: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:53:318: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:53:318: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:53:318: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:53:319: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:53:319: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:53:319: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 4
+13/04/15 17:22:53:319: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 4 shaper value : 10000000
+13/04/15 17:22:53:662: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 5
+13/04/15 17:22:53:662: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:53:663: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:53:664: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:53:664: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:53:665: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:53:665: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:53:665: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 5
+13/04/15 17:22:53:665: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 5 shaper value : 1310720
+13/04/15 17:22:54:086: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 6
+13/04/15 17:22:54:086: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:54:087: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:54:087: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:54:087: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:54:088: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:54:089: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:54:089: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 6
+13/04/15 17:22:54:089: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 6 shaper value : 1310720
+13/04/15 17:22:54:462: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 7
+13/04/15 17:22:54:462: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:54:463: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:54:464: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:54:464: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:54:465: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:54:465: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:54:465: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 7
+13/04/15 17:22:54:465: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 7 shaper value : 1310720
+13/04/15 17:22:54:886: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 8
+13/04/15 17:22:54:886: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:54:887: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:54:887: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:54:888: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:54:889: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:54:889: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:54:889: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 8
+13/04/15 17:22:54:889: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 8 shaper value : 1310720
+13/04/15 17:22:55:258: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 9
+13/04/15 17:22:55:258: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:55:259: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:55:260: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:55:260: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:55:261: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:55:261: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:55:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 9
+13/04/15 17:22:55:261: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 9 shaper value : 1310720
+13/04/15 17:22:55:641: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 10
+13/04/15 17:22:55:641: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:55:642: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:55:643: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:55:643: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:55:644: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:55:644: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:55:644: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 10
+13/04/15 17:22:55:644: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 10 shaper value : 1310720
+13/04/15 17:22:56:081: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 11
+13/04/15 17:22:56:081: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:083: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:083: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:083: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:084: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:084: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:084: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 11
+13/04/15 17:22:56:084: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 11 shaper value : 1310720
+13/04/15 17:22:56:469: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 12
+13/04/15 17:22:56:469: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:470: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:471: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:471: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:472: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:472: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:472: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 12
+13/04/15 17:22:56:472: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 12 shaper value : 1310720
+13/04/15 17:22:56:900: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 13
+13/04/15 17:22:56:900: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:902: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:902: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:902: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:903: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:903: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:903: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 13
+13/04/15 17:22:56:903: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 14
+13/04/15 17:22:56:903: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:905: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:905: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:905: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:906: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:906: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:906: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 14
+13/04/15 17:22:56:906: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 15
+13/04/15 17:22:56:906: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:907: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:908: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:908: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:56:909: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:56:909: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:56:909: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 15
+13/04/15 17:22:56:909: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 15 shaper value : 10000000
+13/04/15 17:22:57:256: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 16
+13/04/15 17:22:57:256: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:57:257: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:57:257: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:57:257: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:57:258: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:57:259: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:57:259: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 16
+13/04/15 17:22:57:259: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 16 shaper value : 10000000
+13/04/15 17:22:57:605: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 17
+13/04/15 17:22:57:605: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:57:606: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:57:607: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:57:607: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:57:608: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:57:608: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:57:608: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 17
+13/04/15 17:22:57:608: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 17 shaper value : 1310720
+13/04/15 17:22:58:047: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 18
+13/04/15 17:22:58:047: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:58:048: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:58:049: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:58:049: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:58:050: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:58:050: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:58:050: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 18
+13/04/15 17:22:58:050: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 18 shaper value : 1310720
+13/04/15 17:22:58:442: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 19
+13/04/15 17:22:58:442: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:58:443: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:58:443: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:58:443: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:58:444: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:58:445: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:58:445: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 19
+13/04/15 17:22:58:445: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 19 shaper value : 1310720
+13/04/15 17:22:58:884: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 20
+13/04/15 17:22:58:884: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:58:885: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:58:885: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:58:885: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:58:886: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:58:887: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:58:887: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 20
+13/04/15 17:22:58:887: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 20 shaper value : 1310720
+13/04/15 17:22:59:273: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 21
+13/04/15 17:22:59:273: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:275: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:275: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:275: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:276: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:276: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:276: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 21
+13/04/15 17:22:59:276: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 22
+13/04/15 17:22:59:276: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:278: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:278: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:278: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:279: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:279: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:279: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 22
+13/04/15 17:22:59:279: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 23
+13/04/15 17:22:59:279: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:280: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:281: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:281: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:282: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:282: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:282: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 23
+13/04/15 17:22:59:282: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 24
+13/04/15 17:22:59:282: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:283: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:283: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:283: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:284: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:285: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:285: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 24
+13/04/15 17:22:59:285: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 25
+13/04/15 17:22:59:285: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:286: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:286: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:286: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:287: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:287: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:287: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 25
+13/04/15 17:22:59:287: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 26
+13/04/15 17:22:59:287: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:289: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:289: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:289: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:290: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:290: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:290: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 26
+13/04/15 17:22:59:290: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 27
+13/04/15 17:22:59:290: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:291: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:292: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:292: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:293: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:293: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:293: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 27
+13/04/15 17:22:59:293: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 28
+13/04/15 17:22:59:293: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:294: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:294: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:294: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:295: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:296: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:296: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 28
+13/04/15 17:22:59:296: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 29
+13/04/15 17:22:59:296: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:297: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:297: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:297: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:298: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:298: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:298: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 29
+13/04/15 17:22:59:298: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 30
+13/04/15 17:22:59:299: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:300: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:300: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:300: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:301: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:301: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:301: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 30
+13/04/15 17:22:59:301: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 31
+13/04/15 17:22:59:301: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:302: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:303: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:303: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:304: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:304: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:304: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 31
+13/04/15 17:22:59:304: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 32
+13/04/15 17:22:59:304: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:305: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:305: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:305: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:306: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:307: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:307: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 32
+13/04/15 17:22:59:307: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 33
+13/04/15 17:22:59:307: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:308: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:308: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:308: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:309: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:309: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:309: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 33
+13/04/15 17:22:59:310: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 34
+13/04/15 17:22:59:310: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:311: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:311: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:311: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:312: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:312: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:312: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 34
+13/04/15 17:22:59:312: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 35
+13/04/15 17:22:59:312: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:313: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:314: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:314: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:315: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:315: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 35
+13/04/15 17:22:59:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 36
+13/04/15 17:22:59:315: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:316: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:316: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:316: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:317: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:318: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:318: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 36
+13/04/15 17:22:59:318: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 37
+13/04/15 17:22:59:318: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:319: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:319: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:319: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:320: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:320: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:321: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 37
+13/04/15 17:22:59:321: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 38
+13/04/15 17:22:59:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:322: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:322: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:322: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:323: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:323: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:323: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 38
+13/04/15 17:22:59:323: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 39
+13/04/15 17:22:59:323: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:324: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:325: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:325: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:326: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:326: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:326: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 39
+13/04/15 17:22:59:326: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 40
+13/04/15 17:22:59:326: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:327: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:327: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:327: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:329: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:329: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:329: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 40
+13/04/15 17:22:59:329: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 41
+13/04/15 17:22:59:329: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:330: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:330: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:330: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:331: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:331: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:332: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 41
+13/04/15 17:22:59:332: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 42
+13/04/15 17:22:59:332: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:333: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:333: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:333: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:334: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:334: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:334: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 42
+13/04/15 17:22:59:334: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 43
+13/04/15 17:22:59:334: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:335: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:336: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:336: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:337: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:337: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:337: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 43
+13/04/15 17:22:59:337: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 44
+13/04/15 17:22:59:337: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:338: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:338: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:338: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:340: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:340: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:340: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 44
+13/04/15 17:22:59:340: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 45
+13/04/15 17:22:59:340: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:341: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:341: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:341: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:342: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:343: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:343: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 45
+13/04/15 17:22:59:343: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 46
+13/04/15 17:22:59:343: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:344: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:344: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:344: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:345: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:345: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:345: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 46
+13/04/15 17:22:59:345: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 47
+13/04/15 17:22:59:345: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:347: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:347: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:347: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:348: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:348: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:348: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 47
+13/04/15 17:22:59:348: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 48
+13/04/15 17:22:59:348: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:349: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:350: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:350: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:351: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:351: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:351: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 48
+13/04/15 17:22:59:351: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 49
+13/04/15 17:22:59:351: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:352: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:352: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:352: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:353: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:354: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:354: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 49
+13/04/15 17:22:59:354: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 50
+13/04/15 17:22:59:354: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:355: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:355: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:355: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:356: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:356: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:356: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 50
+13/04/15 17:22:59:356: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 51
+13/04/15 17:22:59:356: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:358: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:358: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:358: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:359: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:359: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:359: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 51
+13/04/15 17:22:59:359: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 52
+13/04/15 17:22:59:359: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:360: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:361: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:361: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:362: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:362: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:362: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 52
+13/04/15 17:22:59:362: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 53
+13/04/15 17:22:59:362: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:363: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:363: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:363: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:364: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:365: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:365: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 53
+13/04/15 17:22:59:365: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 54
+13/04/15 17:22:59:365: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:366: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:366: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:366: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:367: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:367: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:367: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 54
+13/04/15 17:22:59:367: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 55
+13/04/15 17:22:59:368: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:369: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:369: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:369: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:370: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:370: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:370: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 55
+13/04/15 17:22:59:370: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 56
+13/04/15 17:22:59:370: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:371: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:372: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:372: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:373: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:373: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:373: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 56
+13/04/15 17:22:59:373: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 57
+13/04/15 17:22:59:373: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:374: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:374: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:374: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:375: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:376: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:376: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 57
+13/04/15 17:22:59:376: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 58
+13/04/15 17:22:59:376: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:377: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:377: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:377: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:378: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:378: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:378: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 58
+13/04/15 17:22:59:379: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 59
+13/04/15 17:22:59:379: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:380: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:380: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:380: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:381: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:381: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:381: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 59
+13/04/15 17:22:59:381: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 60
+13/04/15 17:22:59:381: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:382: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:383: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:383: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:384: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:384: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:384: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 60
+13/04/15 17:22:59:384: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 61
+13/04/15 17:22:59:384: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:385: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:385: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:385: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:387: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:387: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:387: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 61
+13/04/15 17:22:59:387: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 62
+13/04/15 17:22:59:387: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:388: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:388: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:388: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:389: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:390: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:390: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 62
+13/04/15 17:22:59:390: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 63
+13/04/15 17:22:59:390: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:391: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:391: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:391: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:392: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:392: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:392: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 63
+13/04/15 17:22:59:392: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 64
+13/04/15 17:22:59:392: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:393: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:394: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:394: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:395: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:395: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:395: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 64
+13/04/15 17:22:59:395: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 65
+13/04/15 17:22:59:395: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:396: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:396: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:396: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:398: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:398: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:398: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 65
+13/04/15 17:22:59:398: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 66
+13/04/15 17:22:59:398: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:399: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:399: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:399: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:400: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:401: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:401: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 66
+13/04/15 17:22:59:401: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 67
+13/04/15 17:22:59:401: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:402: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:402: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:402: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:403: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:403: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:403: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 67
+13/04/15 17:22:59:403: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 68
+13/04/15 17:22:59:403: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:404: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:405: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:405: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:406: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:406: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:406: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 68
+13/04/15 17:22:59:406: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 69
+13/04/15 17:22:59:406: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:407: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:407: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:407: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:409: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:409: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:409: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 69
+13/04/15 17:22:59:409: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 70
+13/04/15 17:22:59:409: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:410: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:410: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:410: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:411: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:411: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:412: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 70
+13/04/15 17:22:59:412: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 71
+13/04/15 17:22:59:412: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:413: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:413: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:413: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:414: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:414: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:414: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 71
+13/04/15 17:22:59:414: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 72
+13/04/15 17:22:59:414: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:415: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:416: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:416: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:417: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:417: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:417: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 72
+13/04/15 17:22:59:417: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 73
+13/04/15 17:22:59:417: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:418: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:418: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:418: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:22:59:420: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:22:59:420: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:22:59:420: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 73
+13/04/15 17:22:59:420: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 73 shaper value : 1000000
+13/04/15 17:23:00:070: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 74
+13/04/15 17:23:00:070: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:00:071: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:00:072: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:00:072: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:00:073: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:00:073: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:00:073: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 74
+13/04/15 17:23:00:073: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 74 shaper value : 1000000
+13/04/15 17:23:00:670: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 75
+13/04/15 17:23:00:671: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:00:672: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:00:672: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:00:672: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:00:673: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:00:673: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:00:673: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 75
+13/04/15 17:23:00:673: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 75 shaper value : 1000000
+13/04/15 17:23:01:320: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 76
+13/04/15 17:23:01:320: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:01:321: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:01:322: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:01:322: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:01:323: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:01:323: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:01:323: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 76
+13/04/15 17:23:01:323: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 76 shaper value : 1000000
+13/04/15 17:23:01:973: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 77
+13/04/15 17:23:01:973: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:01:974: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:01:974: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:01:975: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:01:976: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:01:976: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:01:976: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 77
+13/04/15 17:23:01:976: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 77 shaper value : 1000000
+13/04/15 17:23:02:574: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 78
+13/04/15 17:23:02:574: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:02:575: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:02:575: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:02:575: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:02:576: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:02:577: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:02:577: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 78
+13/04/15 17:23:02:577: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper local port : 78 shaper value : 1000000
+13/04/15 17:23:03:223: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Port no 79
+13/04/15 17:23:03:223: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:03:224: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:03:224: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:03:224: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry BEGIN
+13/04/15 17:23:03:226: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getObjectVersion: FAILED to read config for object PORTSHAPER -- PREP STATEMENT STEP FAILED
+13/04/15 17:23:03:226: CEF5_bcmHaldlog001: MainTask :1958: SQLPersistenceMgr::getEntry END
+13/04/15 17:23:03:226: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper Not Found the data base or DB is empty for port no 79
+13/04/15 17:23:03:226: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupPortShaper END
+13/04/15 17:23:03:226: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupWredTailDrop BEGIN
+13/04/15 17:23:03:295: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupWredTailDrop END
+13/04/15 17:23:03:295: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::petraFAPInitialization BEGIN
+13/04/15 17:23:03:295: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeMACTMgmt BEGIN
+13/04/15 17:23:03:299: CEF5_bcmHaldlog001: MainTask :1958: PetraSubsystem::initializeMACTMgmt: sysPort 79to Multicast Grp : 16383
+13/04/15 17:23:03:300: CEF5_bcmHaldlog001: MainTask :1958: PetraSubsystem::initializeMACTMgmt: sysPort 159to Multicast Grp : 16383
+13/04/15 17:23:03:300: CEF5_bcmHaldlog001: MainTask :1958: PetraSubsystem::initializeMACTMgmt: sysPort 239to Multicast Grp : 16383
+13/04/15 17:23:03:301: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeMACTMgmt END
+13/04/15 17:23:03:301: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeVlanEditingCommands BEGIN
+13/04/15 17:23:03:305: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeVlanEditingCommands END
+13/04/15 17:23:03:305: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeUPToTCMappingProfile END
+13/04/15 17:23:03:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeUPToTCMappingProfile END
+13/04/15 17:23:03:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeEXPToTCMappingProfile END
+13/04/15 17:23:03:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeEXPToTCMappingProfile END
+13/04/15 17:23:03:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeSystemProfilesforMPLS BEGIN
+13/04/15 17:23:03:315: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeSystemProfilesforMPLS Reserved MPLS Lable configuration starts 
+13/04/15 17:23:03:316: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeSystemProfilesforMPLS Reserved MPLS Lable configuration ends 
+13/04/15 17:23:03:319: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeSystemProfilesforMPLS END
+13/04/15 17:23:03:319: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeMeteringEngine Start
+13/04/15 17:23:03:319: CEF5_bcmHaldlog001: MainTask :1958: Sand device ID 0
+13/04/15 17:23:03:634: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeMeteringEngine END
+13/04/15 17:23:03:638: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeTrapMgmt BEGIN
+13/04/15 17:23:03:645: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeTrapMgmt END
+13/04/15 17:23:04:557: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFPForMEPandMIP BEGIN
+13/04/15 17:23:04:828: CEF5_bcmHaldlog001: MainTask :1958: initializeFPForMEPandMIP : createSpokePWTCAMDB = true ; createSpokePWTable = true
+13/04/15 17:23:05:318: CEF5_bcmHaldlog001: MainTask :1958: adding basic statements for FPV2
+13/04/15 17:23:05:319: CEF5_bcmHaldlog001: MainTask :1958: preparing statements
+13/04/15 17:23:05:319: CEF5_bcmHaldlog001: MainTask :1958: about to execute write statements
+13/04/15 17:23:06:782: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFPForMEPandMIP END
+13/04/15 17:23:06:782: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFP Start
+13/04/15 17:23:07:078: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFP END
+13/04/15 17:23:07:078: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFPForACLandMF BEGIN
+13/04/15 17:23:07:078: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeFPForACLandMF END
+13/04/15 17:23:07:078: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::createDefaultEgressMappingProfileBEGIN
+13/04/15 17:23:07:078: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::createDefaultCosqPcpMappingProfile BEGIN
+13/04/15 17:23:07:079: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::createDefaultCosqPcpMappingProfile END
+13/04/15 17:23:07:113: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::createDefaultEgressMappingProfileEND
+13/04/15 17:23:07:116: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeOpcodeProfile BEGIN
+13/04/15 17:23:07:130: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::initializeOpcodeProfile END
+13/04/15 17:23:07:130: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupCustomerVOQ BEGIN
+13/04/15 17:23:31:500: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupCustomerVOQ END
+13/04/15 17:23:31:500: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::connectCustomerVOQ BEGIN
+13/04/15 17:23:31:928: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::connectCustomerVOQ END
+13/04/15 17:23:31:929: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupCustomerPriorityLevels BEGIN
+13/04/15 17:23:32:476: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::setupCustomerPriorityLevels END
+13/04/15 17:23:32:476: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::l2cpMcProfileInit Start
+13/04/15 17:23:32:486: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::l2cpMcProfileInitEnd
+13/04/15 17:23:32:486: CEF5_bcmHaldlog001: MainTask :1958: PetraSubSystem::createDefaultLIF BEGIN
+13/04/15 17:23:32:494: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::cardSpecificPostInit BEGIN
+13/04/15 17:23:32:495: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::cardSpecificPostInit END
+13/04/15 17:23:32:495: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::populateRegistery BEGIN
+13/04/15 17:23:32:495: CEF5_bcmHaldlog001: MainTask :1958: TMConfigV2::TMConfigV2 BEGIN
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: TMConfigV2::TMConfigV2END
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: CEF5Card::populateRegistery END
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: Card::instantiatePPSubSystem END
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: PPFactory::createPPSubSystem END
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: OAMProcessingServer::PPSubSysLifeCycleInfoHandler BEGIN
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: In OAMProcessingServer::PPSubSysLifeCycleInfoHandler.
+13/04/15 17:23:32:497: CEF5_bcmHaldlog001: MainTask :1958: PPSubSystemMgr::createPPSubSystem END
+13/04/15 17:23:32:640: CEF5_bcmHaldlog001: AUXTASK :2001: OAMProcessingServer::getGenericDMTimer BEGIN 
+13/04/15 17:23:33:146: CEF5_bcmHaldlog001: MainTask :1958: pss_board::pss_board: constructer called
+13/04/15 17:23:33:146: CEF5_bcmHaldlog001: MainTask :1958: Cef5PssBoard constructor
+13/04/15 17:23:33:146: CEF5_bcmHaldlog001: MainTask :1958: opening slotid.....
+13/04/15 17:23:33:147: CEF5_bcmHaldlog001: MainTask :1958: pss_board::initializePssSlot slotNo = 3
+13/04/15 17:23:33:147: CEF5_bcmHaldlog001: MainTask :1958: The value of the cardType is eCard_CEF5
+13/04/15 17:23:33:147: CEF5_bcmHaldlog001: MainTask :1958:  Tj2kboard::create: asked to create eCard_CEF5 in slot 0. But creating eCard_CEF5 in slot 3 as per hardware info.
+13/04/15 17:23:33:147: CEF5_bcmHaldlog001: MainTask :1958: Tj2kBoard::create SlotNo : 3
+13/04/15 17:23:33:147: CEF5_bcmHaldlog001: MainTask :1958: tn100_cef5(): tn100_cef5 constructor
+13/04/15 17:23:33:147: CEF5_bcmHaldlog001: MainTask :1958: initialize(): Initialization BEGINS.
+13/04/15 17:23:33:168: CEF5_bcmHaldlog001: MainTask :1958: ZL30156::ZL30156:  /dev/slot3/zl301560 0x0 is e5 0xFA:50
+13/04/15 17:23:33:188: CEF5_bcmHaldlog001: MainTask :1958: ZL30156::ZL30156:  /dev/slot3/zl301561 0x0 is e5 0xFA:50
+13/04/15 17:23:33:208: CEF5_bcmHaldlog001: MainTask :1958: ZL30156::ZL30156:  /dev/slot3/zl301562 0x0 is e5 0xFA:50
+13/04/15 17:23:33:228: CEF5_bcmHaldlog001: MainTask :1958: ZL30156::ZL30156:  /dev/slot3/zl301563 0x0 is e5 0xFA:50
+13/04/15 17:23:33:228: CEF5_bcmHaldlog001: MainTask :1958: virtual void ProxyPhy::initializeRegMask() calling Tidl
+13/04/15 17:23:33:228: CEF5_bcmHaldlog001: MainTask :1958: ProxyPhy::ProxyPhy(EthPhyIface*, tej_struct)ProxyPhy Created
+13/04/15 17:23:33:228: CEF5_bcmHaldlog001: MainTask :1958: Vsc8574Phy::Constructing Vittesse: 
+13/04/15 17:23:33:228: CEF5_bcmHaldlog001: MainTask :1958: XGPHY:: Constructor called 
+13/04/15 17:23:33:228: CEF5_bcmHaldlog001: MainTask :1958: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: XGPHY:: Constructor called 
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): tn100_cef5: Initializing sfp/xfp start
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 0 NM port no: 15
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:fd
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 1 NM port no: 16
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:fd
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 2 NM port no: 13
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:fd
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 3 NM port no: 14
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:fd
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 5 NM port no: 11
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 6 NM port no: 12
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 7 NM port no: 9
+13/04/15 17:23:33:229: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 8 NM port no: 10
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 9 NM port no: 7
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 4 | sfp_port_in_nm_map[portNo] : 7
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 10 NM port no: 8
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 5 | sfp_port_in_nm_map[portNo] : 8
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 11 NM port no: 5
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 6 | sfp_port_in_nm_map[portNo] : 5
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): instantiate sfplaserctrl: 12 NM port no: 6
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize():  Creating temporary sfpmon devices | portNo : 7 | sfp_port_in_nm_map[portNo] : 6
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:0
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:0
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:0
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: XfpLaserCtrl::XfpLaserCtrl status:0
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): tn100_cef5: Initializing sfp/xfp end
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize():  card rev: 2
+13/04/15 17:23:33:230: CEF5_bcmHaldlog001: MainTask :1958: initialize(): tn100_cef5::initialize creating epls device
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::FpgaDev Constructor
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: ClockDevice::ClockDevice() | constructing ClockDevice | nr_clkDevs = 5 | CardType : 269
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: ClockDevice Constructed 
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |priority : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::FpgaDev Constructor
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: ClockDevice Constructed 
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |priority : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::FpgaDev Constructor
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: ClockDevice Constructed 
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |priority : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::FpgaDev Constructor
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: ClockDevice Constructed 
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |priority : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: initialize(): before creating device fo zarlink ......
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: initialize(): tn100_cef5::initialize END
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: tn100_cef5(): tn100_cef5 initialize done
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: tn100_cef5::tn100_cef5() : ChassisType : Chassis_Unknown
+13/04/15 17:23:33:231: CEF5_bcmHaldlog001: MainTask :1958: tn100_cef5::setHalInitializationCompleteFlag():  HAL_INITIALIZATIN_COMPLETE!
+13/04/15 17:23:33:232: CEF5_bcmHaldlog001: MainTask :1958: setHalInitializationCompleteFlag(): Card is not Configured in CEM mode
+13/04/15 17:23:33:232: CEF5_bcmHaldlog001: MainTask :1958: PPHalServer::createPPSubSystem():  END
+13/04/15 17:23:33:232: CEF5_bcmHaldlog001: MainTask :1958: PPHalServer::cardcfgHdlr cardspecificinfo is 2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:23:33:232: CEF5_bcmHaldlog001: MainTask :1958: PPHalServer::cardcfgHdlr cardspecificinfo is 2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:23:34:447: CEF5_bcmHaldlog001: AUXTASK :2001: PPHalAuxTask::ppHalL2SvcLowPrioIfaceConnectedHndlr  Connection established to LowPrio Iface  
+13/04/15 17:23:53:167: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:24:13:168: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:24:33:168: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:24:53:169: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:25:13:169: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:25:33:169: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:25:53:170: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:26:13:170: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:26:33:170: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:26:53:171: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:27:13:171: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:27:33:172: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:27:53:172: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:28:13:172: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:28:33:173: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:28:53:173: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:29:13:173: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:29:33:174: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:29:53:174: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:30:13:175: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:30:33:175: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 
+13/04/15 17:30:53:175: CEF5_bcmHaldlog001: AUXTASK :2001: PetraOamProcessingBlock::timeout BEGIN 

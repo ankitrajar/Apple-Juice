@@ -1,0 +1,105 @@
+#!/usr/bin/expect
+    set timeout 600
+    set ip_part [lindex $argv 0];
+    set slot [lindex $argv 1];
+#   set icc_ip_second_byte [lindex $argv 2];
+    set user "guest";
+    set user_pass "iltwat";
+    set su_user "root";
+    set su_user_pass "swtn100tj";
+    set null_value "";
+    set half_ip "192.168.";
+    set port "2023";
+    set compressed_file_dir "/etc/tejas";
+    set compressed_file_name "plc02_download.tgz";
+    set temp_dir "/tmp/parmil";
+    set out_of_temp_dir "/tmp";
+    set file_to_modify "card_defns.sh";
+    set string_to_replace "export SW_REMOTE_PATH_1=\\\"\\\/etc\\\/tejas\\\/builds\\\/cef5\\\"";
+    set replace_with "export SW_REMOTE_PATH_1=\\\"\\\/etc\\\/tejas\\\/builds\\\/parmil\\\"";
+    
+
+if {[llength $argv] <= 2} {
+puts "\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\
+\n               Usages: Script_Name \[Node_IP\] \[Slot_no\]
+\
+\n               Node_IP : 102 will be treated as 192.168.143.102\
+\n                         241.244 will be treated as 192.168.241.244\
+\n                         169.200.100 will be treated as 192.169.200.100\
+\n                         172.124.143.102 will be Taken as complete IP as it is given.\n
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+if {[llength $argv] < 2} { exit;
+}
+}
+
+#flexible IP addressing
+#So that u can provide 102 or 241.244 or 169.143.102 or 172.124.36.102 as IP.
+    regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $ip_part all first second third fourth
+if { $fourth != $null_value } {
+   set ip "$all"
+} elseif { $third != $null_value } {
+   set ip "192\.$first\.$second\.$third"
+} elseif { $second != $null_value } {
+   set ip "192\.168\.$first\.$second"
+} elseif { $first != $null_value } {
+   set ip "192\.168\.143\.$first"
+} else { puts "Invalid IP"; exit; }
+puts "\n\nNODE IP is $ip \n";
+
+spawn telnet $ip $port
+set node_spawn_id_2 $spawn_id
+expect "*login*"
+send "$user\r"
+expect "*assword*"
+send "$user_pass\r"
+expect "*>"
+send "su\r"
+expect "*assword*"
+send "$su_user_pass\r"
+expect "*#"
+send -i $node_spawn_id_2 "\
+total_icc=`route|grep icc|wc -l`;echo \$total_icc;\r\
+basic_icc=`route|grep icc|grep 127.\[0-1\]|wc -l`;echo \$basic_icc;\r\
+special_icc=\$(( \$total_icc - \$basic_icc ))\r\
+if \[ \"\$special_icc\" == \"0\" \]; then\r\
+route|grep icc|grep 127\.1\r\
+else\r\
+route|grep icc|grep 127\.\[2-9\]\r\
+fi\r\
+\r"
+       expect {
+               -re {127\.(\S+)\.1\.[0-9]} {
+                                         set icc_ip_string $expect_out(1,string)
+                                         regexp "(\[0-9]{1,3})?\.?(\[0-9]{1,3})?\.?(\[0-9]{1,3})?" $icc_ip_string icc_ip_second_byte
+                                      }
+              }
+send "telnet 127.$icc_ip_second_byte.1.$slot $port\r"
+expect "*login*"
+send "$user\r"
+expect "*assword*"
+send "$user_pass\r"
+send "su\r"
+expect "*assword*"
+send "$su_user_pass\r"
+expect "*#"
+send "mkdir -p $temp_dir;cd $temp_dir;pwd;\r";
+expect "*#";
+send "cp $compressed_file_dir/$compressed_file_name $temp_dir/;cd $temp_dir;ls;\r";
+expect "*#";
+send "tar -xvzf $temp_dir/$compressed_file_name;ls;\r";
+expect "*#";
+send "sed -i 's/$string_to_replace/$replace_with/' $file_to_modify\r";
+expect "*#";
+send "cat $file_to_modify\r";
+expect "*#"
+send "rm $temp_dir/$compressed_file_name\r"
+expect "*#"
+send "tar -cvz * -f $compressed_file_name;chmod 777 $compressed_file_name;ls;\r";
+expect "*#"
+send "cp $temp_dir/$compressed_file_name $compressed_file_dir/$compressed_file_name;\r";
+expect "*#";
+send "ls -l $compressed_file_dir/$compressed_file_name;cd $out_of_temp_dir;ls;rm -rf $temp_dir;ls\r";
+expect "*#";
+interact
+
+

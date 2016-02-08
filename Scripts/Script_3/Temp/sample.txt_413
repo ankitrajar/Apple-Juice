@@ -1,0 +1,5 @@
+##################################################################################################
+          Total No. of Warnings of Type 413 is : 1
+##################################################################################################
+
+WARNING:HDLCompiler:413 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/packages/telecom/hdl/oofa_sm.v" Line 163: Result of 17-bit expre ssion is truncated to fit in 16-bit target.

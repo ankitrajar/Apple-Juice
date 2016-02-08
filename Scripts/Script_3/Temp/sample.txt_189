@@ -1,0 +1,10 @@
+##################################################################################################
+          Total No. of Warnings of Type 189 is : 6
+##################################################################################################
+
+WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 555: Size mismatch in connection of port <RXSYSCLKSEL>. Formal port size is 2-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod_gt.v" Line 694: Size mismatch in connection of port <TXSYSCLKSEL>. Formal port size is 2-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 411: Size mismatch in co nnection of port <GT0_QPLLCLK_IN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 412: Size mismatch in co nnection of port <GT0_QPLLREFCLK_IN>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 491: Size mismatch in co nnection of port <GT0_DRPADDR_IN>. Formal port size is 9-bit while actual signal size is 8-bit.
+WARNING:HDLCompiler:189 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/bp_gtx_k7.v" Line 976: Size mismatch in co nnection of port <cntr_len>. Formal port size is 17-bit while actual signal size is 18-bit.

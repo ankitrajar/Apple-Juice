@@ -1,0 +1,577 @@
+ > "LEFT">Node Inventory                       CHASSIS 1 (TJ1400 Type-
+7SR)                       |Slot|Card type |Operational|Equipment|Product Code
+|Serial Number |
+
+|0   |BackPlane |UP         |Present  |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|2   |XA60G     |UP         |Present  |141-PCA000049-E |AB-1313-17-2747 |
+|3   |ST24E3/DS3|UP         |Present  |141-PCA000162-E |AB-2015-15-4459 |
+|8   |DPU18     |UP         |Present  |141-PCA000087-E |AC-2012-13-2095 |
+|10  |FTU20     |UP         |Present  |142-PCA000002-E |AB-0214-32-0574 |
+Delete Cards Delete SFPs
+                                         SFP                                          
+|Name |Port |Operational|Is |Laser Type |Product |Serial Number |
+
+|P622M-1-
+[Unknown|1-2-1|UP |Present|IR1 1310nm |400-C12 |BE0915460076  |   |INPUT |
+
+|type]   
+ > "LEFT">Node Inventory                          CHASSIS 1 (TJ1400 Type-
+7SR)                         
+|Slot|Card type|Operational Status|Equipment  |Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present    |142-PCA000034-E|AC-1512-11-7533|
+|1   |CEF4     |UP                |Present    |141-PCA000054-E|AC-4412-15-9962|
+|3   |CEF4     |DOWN              |Not Present|              |              |
+|4   |XA60G    |UP                |Present    |141-PCA000049-E|AB-5013-20-3101|
+|10  |FTU20    |UP                |Present    |142-PCA000002-E|AC-3411-29-9963|
+Delete Cards Delete SFPs
+                                           SFP                                           
+|Name |Port |Operational|Is |Laser Type |Product |Serial Number |
+
+|P10GETH-
+[Unknown|1-3 |UP |Present|EW 40km 1550nm |2TD+   |A0214063244  |  
+|INPUT 
+|type]   
+|P10G-1- 
+|[Unknown|1-4-5 |UP |Present|SR2 1550nm |2TD+   |A0214063236  |  
+|INPUT 
+|type]   
+ > "LEFT">Node Inventory                          CHASSIS 1 (TJ1400 Type-
+7SR)                         
+|Slot|Card type|Operational Status|Equipment  |Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present    |142-PCA000001-E|AC-4310-16-1075|
+|2   |CEF4C    |DOWN              |Not Present|              |              |
+|4   |CEF4C    |UP                |Present    |141-PCA000054-E|AB-3813-36-1185|
+|9   |DPU8     |UP                |Present    |141-PCA000006-E|AP-3809-13-0017|
+|10  |FTU20    |UP                |Present    |142-PCA000002-E|AB-0613-31-2008|
+Delete Cards Delete SFPs
+                                         SFP                                         
+|Name |Port|Operational|Is |Laser Type |Product |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204104842829
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204103640098
+
+|type]   
+|P10GETH-
+[Unknown|1-4-|UP |Present|EW 40km 1550nm |03    |023221N00078  |  
+|INPUT |3 
+|type]   
+ > "LEFT">Node Inventory                          CHASSIS 1 (TJ1400 Type-
+7SR)                         
+|Slot|Card type|Operational Status|Equipment  |Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present    |142-PCA000001-E|AC-1211-19-3457|
+|2   |CEF4C    |UP                |Present    |141-PCA000054-E|AB-3513-34-0322|
+|4   |CEF4C    |DOWN              |Not Present|              |              |
+|9   |DPU8     |UP                |Present    |141-PCA000006-E|AC-2511-26-0656|
+|10  |FTU20    |UP                |Present    |142-PCA000002-E|AC-4810-23-9210|
+Delete Cards Delete SFPs
+                                         SFP                                          
+|Name |Port|Operational|Is |Laser Type |Product |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204094230642
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204100572090
+
+|type]   
+|P10GETH-
+[Unknown|1-2-|UP |Present|LW 10km 1310nm |H     |0YT703100564  |  
+|INPUT |3 
+|type]   
+ > "LEFT">Node Inventory                       CHASSIS 1 (TJ1400 Type-
+7SR)                        |Slot|Card type|Operational|Equipment |Product Code
+|Serial Number |
+
+|0   |BackPlane|UP         |Present    |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|1   |SOT18    |DOWN       |Not Present|141-PCA000008-E |AC-0810-14-4638 |
+|2   |CEF4C    |UP         |Present    |141-PCA000054-E |AB-1515-42-1230 |
+|4   |CEF4C    |DOWN       |Not Present|141-PCA000054-E |AB-3813-36-1177 |
+|5   |CEL-6    |UP         |Present    |141-PCA000080-E |AB-0715-17-6399 |
+|6   |CEL-5    |DOWN       |Not Present|141-PCA000074-E |AB-4114-19-5273 |
+|8   |DPU18    |UP         |Present    |141-PCA000087-E |AB-1215-24-1729 |
+|9   |DPU18    |UP         |Present    |141-PCA000087-E |AB-1215-24-1774 |
+|10  |FTU20    |DOWN       |Present    |142-PCA000002-E |AC-5210-23-9495 |
+Delete Cards Delete SFPs
+                                            SFP                                            
+|Name |Port|Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 15km 131|FTM-3128C-SL15G|19T202110231117
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PP259TA    |     |INPUT |2 |
+
+|type]   
+|P10GETH-UP
+|Present|LW 10km 1310nm |SXP3104NV-H  |48T018200201  |   |INPUT |3 
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PNM3SDD    |     |INPUT |1 |
+
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseLX 15km 131|RTXM191-400  |BE0812170036  |   |INPUT
+|2 
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseLX 40km 131|RTXM191-450  |BE0909230051  |   |INPUT
+|3 
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PP25A4Y    |     |INPUT |4 |
+
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseT  |FCLF8521P2BTL |PL14XPL    |     |INPUT |5 |
+
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T204104835762
+
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseT  |FCLF8521P2BTL |PP259U0    |     |INPUT |7 |
+
+|type]   
+ > "LEFT">Node Inventory                         CHASSIS 1 (TJ1400 Type-
+7SR)                        
+|Slot|Card type|Operational Status|Equipment|Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present  |142-PCA000001-E|AC-4310-16-1020|
+|1   |CEF1     |UP                |Present  |141-PCA000024-E|AC-4710-24-0278|
+|2   |XA10G    |UP                |Present  |141-PCA000005-E|AB-1013-28-1308|
+|3   |CEF1     |UP                |Present  |141-PCA000024-E|AC-2610-22-2565|
+|5   |CEF1     |DOWN              |Present  |141-PCA000024-E|AS-1311-32-0035|
+|9   |DPU8     |UP                |Present  |141-PCA000006-E|AP-0710-13-0066|
+|10  |FTU20    |UP                |Present  |142-PCA000002-E|AC-1210-14-4714|
+Delete Cards Delete SFPs
+                                          SFP                                          
+|Name |Port |Operational|Is |Laser Type |Product |Serial Number |
+
+|P155M-1-DOWN
+|Present|0 1310nm |SLG    |14T204102035361
+|type]   
+|P622M-1-
+[Unknown|1-2-3|UP |Present|LR2 1550nm |B     |BE0703070005  |   |INPUT
+
+|type]   
+ > "LEFT">Node Inventory                                CHASSIS 1 
+(iPASOLINK 650)                                |Slot|Card
+type|Operational|Equipment|Product Code |Serial Number |Manufacturing |
+
+|0   |BackPlane|UP         |Present  |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|2 |DCPSU |DOWN |Not |  |  |  |
+
+|3   |DCPSU    |UP         |Present  |CBG-013820-101  |AS-1411-11-0021 |AS-
+1411-11-0021 
+
+|7   |MAINB    |UP         |Present  |               |               |               |
+|13 |FAN |DOWN |Not |CBG-013820-131 |AS-4811-12-0039 |022012 |
+
+Delete Cards Delete SFPs               RADIOTRP-1-5-1               
+|Operational Status        |DOWN            |
+|Is Present                |Not Present     |
+|Code Number               |****************|
+|Serial Number             |********        |
+|Hardware Version          |********        |
+|Manufacturing Date        |*******         Firmware Version1 
+(Active)|********        
+ > "LEFT">Node Inventory                        CHASSIS 1 (TJ1400 Type-
+7SR)                        |Slot|Card type |Operational|Equipment |Product
+Code |Serial Number |
+
+|0   |BackPlane |UP         |Present    |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|2   |CEF4C     |DOWN       |Not Present|               |               |
+|4   |CEF4C     |UP         |Present    |141-PCA000054-E |AB-3813-36-1392 |
+|5   |ST24E3/DS3|UP         |Present    |141-PCA000162-E |AB-2015-15-4455 |
+|6   |CEL-6     |UP         |Present    |141-PCA000080-E |AS-0314-17-0006 |
+|9   |DPU8      |UP         |Present    |141-PCA000006-E |AP3434343434343 |
+|10  |FTU20     |UP         |Present    |142-PCA000002-E |AC-3411-29-9864 |
+Delete Cards Delete SFPs
+                                          SFP                                           
+|Name |Port|Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T210074290169
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T210074290186
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 15km 131|400     |BE0924140042  |   |INPUT |1 |
+
+|type]   
+ > "LEFT">Node Inventory                           CHASSIS 1 
+(iPASOLINK 250)                           |Slot|Card
+type|Operational|Equipment|Product Code|Serial Number|Manufacturing|
+
+|0   |BackPlane|UP         |Present  |NA          |NA           |NA           |
+|1 |MAINA |UP |Present |CBG-013820- |AC-1411-15- |201106 |
+
+|2 |PSU |UP |Present |CBG-013820- |AS-0711-12- |201106 |
+
+|3 |PSU |UP |Present |CBG-013820- |AS-2211-11- |201112 |
+
+|4   |MAINA    |UP         |Present  |           |            |            |
+|7   |FAN      |DOWN       |Present  |           |            |            |
+Delete Cards Delete SFPs
+                                            SFP                                            
+|Name |Port|Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PFEFX-1-DOWN
+|Present|1000 BaseT  |FCLF8521P2BTL |PM13X1C    |     |INPUT |1 |
+
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T204103636098
+
+|type]   
+|PFEFX-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PM13X1C    |     |INPUT |1 |
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PNM3M8Q    |     |INPUT |2 |
+
+|type]   
+ > "LEFT">Node inventory                        CHASSIS 1 
+(TJ1600 MODEL POTP)                       
+|Slot|Card type|Operational Status|Equipment|Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present  |170-PCA000052-E|ED-4710-21-2433|
+|4   |CEF6 4G  |UP                |Present  |170-PCA000117-E|AB-1413-23-0023|
+|6   |HCPXCC01 |UP                |Present  |170-PCA000005-E|AC-4112-35-1002|
+|11  |CEF5     |UP                |Present  |170-PCA000117-E|AB-3913-30-0485|
+|13  |HCPPFU01 |UP                |Present  |170-PCA000004-E|AC-4210-25-3211|
+|14  |HCPOAM01 |UP                |Present  |170-PCA000003-E|AC-3810-21-0663|
+|15  |HCPFTU01 |DOWN              |Present  |170-PCA000002-E|AC-4710-34-0126|
+Delete Cards Delete SFPs
+                                         SFP                                         
+|Name |Port|Operational|Is |Laser Type |Product |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204110332228
+
+|type]   
+|PGEFC-1-1-
+4-|UP |Present|48 15km 1310nm |W1-ZNE  |868002D00760  |   |INPUT |2 
+
+|type]   
+|PGEFC-1-1-
+4-|UP |Present|48 15km 1310nm |W1-ZNE  |868002D00237  |   |INPUT |3 
+
+|type]   
+|PGEFC-1-1-
+4-|UP |Present|48 15km 1310nm |W1-ZNE  |7X8002D00508  |   |INPUT |4 
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204103636042
+
+|type]   
+|PGEFC-1-
+[Unknown|1- |UP |Present|48 15km 1310nm |W1-ZNE  |798002D00209  |  
+|INPUT |11-8
+|type]   
+|PGEFC-1-|ETH-
+[Unknown|11- |UP |Present|48 15km 1310nm |W1-ZNE  |748002D00241  |  
+|INPUT |10 
+|type]   
+|PGEFC-1-|ETH-
+[Unknown|11- |UP |Present|48 15km 1310nm |W1-ZNE  |758002D00059  |  
+|INPUT |12 
+|type]   
+ > "LEFT">Node inventory                            CHASSIS 1 
+(TJ3301)                            |Slot|Card type|Operational|Equipment
+|Product Code |Serial Number |
+
+|0   |BackPlane|UP         |Present    |170-PCA000131-E |EO6786786786786 |
+|6   |OAM 16006|UP         |Present    |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|8   |HCPPFU04 |UP         |Present    |170-PCA000113-E |AS-5213-41-0018 |
+|9   |OSMC01   |UP         |Present    |170-PCA000095-E |AA-1114-17-0471 |
+|10  |OSMC01   |DOWN       |Not Present|170-PCA000095-E |EO-5014-18-0223 |
+Delete Cards Delete SFPs
+ > "LEFT">Node inventory                      CHASSIS 1 
+(TJ1600 MODEL POTP)                      |Slot|Card type |Operational|Equipment
+|Product Code |Serial Number |
+
+|0   |BackPlane |UP         |Present    |170-PCA000052-E|CZ-2710-21-2778|
+|1   |HCPSLine01|DOWN       |Not Present|170-PCA000006-E|AC-1109-18-2644|
+|2   |CEF-5     |UP         |Present    |170-PCA000117-E|AS-3456-67-8900|
+|3   |CEF-5     |UP         |Present    |170-PCA000117-E|AB-3013-30-0123|
+|4   |HCPULine01|UP         |Present    |170-PCA000007-E|AB-1013-26-2252|
+|5   |HCPXCC01  |DOWN       |Not Present|170-PCA000005-E|AB-1113-36-0523|
+|6   |HCPXCC01  |UP         |Present    |170-PCA000005-E|AB-1113-36-0523|
+|7   |CEF-5     |DOWN       |Not Present|170-PCA000117-E|AC-5211-16-4722|
+|8   |CEF-5     |DOWN       |Not Present|170-PCA000117-E|AB-1413-23-0020|
+|9   |CEF-5     |DOWN       |Not Present|170-PCA000117-E|AB-3913-30-0482|
+|11  |HCPSLine01|DOWN       |Not Present|170-PCA000006-E|AC-1711-29-9118|
+|12  |HCPPFU01  |DOWN       |Not Present|170-PCA000004-E|AC-5010-25-5520|
+|13  |HCPPFU01  |UP         |Present    |170-PCA000004-E|AC-3710-25-2414|
+|14  |HCPOAM01  |UP         |Present    |170-PCA000003-E|AC-0409-15-6016|
+|15  |HCPFTU01  |UP         |Present    |170-PCA000002-E|AC-4210-34-0019|
+Delete Cards Delete SFPs
+                                             SFP                                             
+|Name |Port |Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PP259TC    |     |INPUT 
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseT  |FCLF8521P2BTL |PLF7J78    |     |INPUT 
+
+|type]   
+|P622M-1-
+[Unknown|1-4-1 |DOWN |Present|LR2 1550nm |FTM-5106C-L80 |4P220054802514 |
+|INPUT 
+|type]   
+|P622M-1-
+[Unknown|1-4-2 |UP |Present|IR1 1310nm |FTM-3128C-SL15G|19T202104934904|
+|INPUT 
+|type]   
+|P155M-1-UP
+|Present|0 1310nm |FTM-3112C-SLG |14T204103538476
+|type]   
+|P155M-1-UP
+|Present|0 1310nm |FTM-3112C-SLG |14T204104843005
+|type]   
+|P2488M- 
+[Unknown|1-4-11|DOWN |Present|IR1 1310nm |SCP6808-W1-
+ZNE |868002D00397  |   |INPUT 
+|type]   
+ > "LEFT">Node inventory                         CHASSIS 1 
+(TJ1600 MODEL POTP)                        
+|Slot|Card type|Operational Status|Equipment  |Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present    |170-PCA000001-E|EO-2234-33-3345|
+|4   |CEF-5    |UP                |Present    |170-PCA000117-E|AB-2314-34-1967|
+|5   |HCPXCC01 |UP                |Present    |170-PCA000005-E|AC-0610-28-0247|
+|6   |HCPXCC01 |DOWN              |Not Present|170-PCA000005-E|AB-0413-36-0183|
+|12  |HCPPFU01 |UP                |Present    |170-PCA000004-E|AC-4210-25-3221|
+|14  |HCPOAM01 |UP                |Present    |170-PCA000003-E|AC-0411-21-5100|
+|15  |HCPFTU01 |UP                |Present    |170-PCA000002-E|AC-1209-13-1424|
+Delete Cards Delete SFPs
+                                     SFP                                     
+|Name |Port |Operational|Is |Laser Type |Product |Serial Number |
+
+|P10GETH-
+[Unknown|1-4-1|UP |Present|EW 40km 1550|03    |02E141N00058  |  
+|INPUT 
+|type]   
+|P10GETH-
+[Unknown|1-4-2|UP |Present|EW 40km 1550|03    |02E141N00055  |  
+|INPUT 
+|type]   
+ > "LEFT">Node inventory                        CHASSIS 1 
+(TJ1600 MODEL POTP)                       
+|Slot|Card type|Operational Status|Equipment|Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present  |170-PCA000052-E|AS-1234-45-5678|
+|5   |HCPXCC01 |UP                |Present  |170-PCA000005-E|AC-0809-17-4655|
+|8   |CEF3     |UP                |Present  |170-PCA000048-E|AC-2511-22-5009|
+|13  |HCPPFU01 |UP                |Present  |170-PCA000004-E|AC-9876-11-9876|
+|14  |HCPOAM01 |UP                |Present  |170-PCA000003-E|AC-0411-21-5039|
+|15  |HCPFTU01 |UP                |Present  |170-PCA000002-E|AC-2610-20-6779|
+Delete Cards Delete SFPs
+                                      SFP                                      
+|Name |Port|Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PGEFC-1-1-
+8-|UP |Present|48 15km 1310|450     |BG0852990040  |   |INPUT |5 
+
+|type]   
+ > "LEFT">Node inventory                         CHASSIS 1 
+(TJ1600 MODEL POTP)                        
+|Slot|Card type|Operational Status|Equipment  |Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present    |00000000001    |AN-1111-22-2222|
+|3   |CEF-5    |UP                |Present    |170-PCA000117-E|AB-3013-30-0130|
+|4   |CEF-5    |UP                |Present    |170-PCA000117-E|AB-3913-30-0481|
+|5   |HCPXCC03 |UP                |Present    |170-PCA000053-E|AC-1011-19-2773|
+|8   |CEF-5    |DOWN              |Not Present|170-PCA000117-E|AB-3913-30-0481|
+|13  |HCPPFU01 |UP                |Present    |170-PCA000004-E|AC-9999-11-9999|
+|14  |HCPOAM01 |UP                |Present    |170-PCA000003-E|AC-1111-22-2222|
+|15  |HCPFTU01 |UP                |Present    |170-PCA000002-E|AC-0310-20-1079|
+Delete Cards Delete SFPs
+                                         SFP                                          
+|Name |Port|Operational|Is |Laser Type |Product |Serial Number |
+
+|P10GETH-
+[Unknown|1-3-|DOWN |Present|LW 10km 1310nm |H     |0XT703100260  |  
+|INPUT |1 
+|type]   
+|P10GETH-
+[Unknown|1-3-|DOWN |Present|LW 10km 1310nm |02     |03T609100040  |  
+|INPUT |2 
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204104839808
+
+|type]   
+|PGEFC-1-DOWN
+|Present|Unknown |  |  
+|type]   
+|P10GETH-
+[Unknown|1-4-|DOWN |Present|LW 10km 1310nm |H     |0XT703100260  |  
+|INPUT |1 
+|type]   
+|PGEFC-1-DOWN
+|Present|1000 BaseLX 10km 131|SLG    |14T204104839808
+
+|type]   
+ > "LEFT">Node Inventory
+                                                                        CHASSIS 1 
+(TJ1400P-
+D)                                                                         
+|Slot|Card |Operational|Equipment|Product Code |Serial Number |
+
+|1 |PCPE02|UP |Present |Base Card:140-PCA000030-E, XG:140-PCA000029-E, CEM:
+140-PCA000021|Base Card:EO-2414-15-0042, XG:EO-3814-14-0010, CEM:EO-2314-14|
+
+|2 |DCPSU |DOWN |Not |140-PCA000031-E |AS-3434-33-3434 |
+
+|3 |DCPSU |DOWN |Not |140-PCA000031-E |AS-3434-33-3433 |
+
+|4 |DCPSU |UP |Present |Base Card:140-PCA000030-E, XG:140-PCA000029-E, CEM:
+140-PCA000021|Base Card:EO-2414-15-0042, XG:EO-3814-14-0010, CEM:EO-2314-14|
+
+|5   |DCPSU |DOWN       |Present  |                                                                  |                                                               |
+Delete Cards Delete SFPs
+                                            SFP                                            
+|Name |Port|Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T210074390403
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T20410046692610
+
+|type]   
+|PGEFC-1-DOWN
+|Present|Unknown |SPP5200LR-GL-M |34T826100016  |   |INPUT |11 
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T20410483601312
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T20410483969413
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T21007171430015
+
+|type]   
+|P10GETH-DOWN
+|Present|Unknown |SPP5200LR-GL-M |34T826100031  |   |INPUT |17 
+|type]   
+|P10GETH-DOWN
+|Present|Unknown |SPP5200LR-GL-M |34T826100035  |   |INPUT |18 
+|type]   
+|P10GETH-DOWN
+|Present|Unknown |TPP2XGFLRC000E2G|7130424    |     |INPUT |19 
+
+|type]   
+|P10GETH-DOWN
+|Present|Unknown |SPP5200LR-GL-M |34T826100009  |   |INPUT |20 
+|type]   
+ > "LEFT">Node Inventory
+                                                                        CHASSIS 1 
+(TJ1400P-
+D)                                                                         
+|Slot|Card |Operational|Equipment|Product Code |Serial Number |
+
+|1 |PCPE02|UP |Present |Base Card:140-PCA000030-E, XG:140-PCA000029-E, CEM:
+140-PCA000021|Base Card:EO-2514-15-0056, XG:AS-0000-00-0000, CEM:EO-2314-14|
+
+Delete Cards Delete SFPs
+                                            SFP                                            
+|Name |Port|Operational|Is |Laser Type |Product Code |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T210074390399
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T27007230732411
+
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|FTM-3112C-SLG |14T20411033212412
+
+|type]   
+|P10GETH-UP
+|Present|EW 10km 1310nm |TPP2XGFLRC000E2G|7130422    |     |INPUT
+|17 
+|type]   
+|P10GETH-UP
+|Present|EW 10km 1310nm |SPP5300LR-GL-M |41T005400054  |   |INPUT |18 
+
+|type]   
+ > "LEFT">Node inventory                         CHASSIS 1 
+(TJ1600 MODEL POTP)                        
+|Slot|Card type|Operational Status|Equipment|Product Code    |Serial Number   |
+|0   |BackPlane|UP                |Present  |170-PCA000099-E |AI-4911-12-0006 |
+|5   |HCPFTU01 |DOWN              |Present  |170-PCA000097-E |AS-4613-11-0015 |
+|6   |OAM 16006|UP                |Present  |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|8   |HCPPFU01 |UP                |Present  |170-PCA000113-E |AA-1114-21-0697 |
+|9   |OSMC01   |UP                |Present  |170-PCA000095-E |AC-5311-10-8237 |
+|10  |OSMC01   |UP                |Present  |170-PCA000095-E |EO-5014-18-0223 |
+Delete Cards Delete SFPs
+ > "LEFT">Node inventory                         CHASSIS 1 
+(TJ1600 MODEL POTP)                        
+|Slot|Card type|Operational Status|Equipment|Product Code    |Serial Number   |
+|0   |BackPlane|UP                |Present  |Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+|5   |HCPXCC01 |UP                |Present  |170-PCA000005-E |AB-0413-36-0183 |
+|8   |CEF-5    |UP                |Present  |170-PCA000117-E |AB-3013-30-0089 |
+|10  |CEF-5    |UP                |Present  |170-PCA000117-E |EO2222222111223 |
+|12  |HCPPFU01 |UP                |Present  |170-PCA000004-E |AP-5309-30-0002 |
+|14  |HCPOAM01 |UP                |Present  |170-PCA000003-E |AC-0710-21-4497 |
+|15  |HCPFTU01 |UP                |Present  |170-PCA000002-E |AC-3910-33-0159 |
+Delete Cards Delete SFPs
+                                         SFP                                          
+|Name |Port|Operational|Is |Laser Type |Product |Serial Number |
+
+|P10GETH-
+[Unknown|1-8-|UP |Present|LW 10km 1310nm |H     |0YT703100365  |  
+|INPUT |1 
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 40km 131|AWE   |89T500N00160  |   |INPUT |7 
+
+|type]   
+|P10GETH-
+[Unknown|1- |UP |Present|LW 10km 1310nm |02     |03T609100040  |  
+|INPUT |10-2
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|SLG    |14T204105239083
+
+|type]   
+ > "LEFT">Node inventory                        CHASSIS 1 
+(TJ1600 MODEL POTP)                       
+|Slot|Card type|Operational Status|Equipment|Product Code   |Serial Number  |
+|0   |BackPlane|UP                |Present  |170-PCA000052-E|ED-4710-21-2451|
+|3   |CEF5     |UP                |Present  |170-PCA000117-E|AB-2313-24-4297|
+|5   |HCPXCC03 |UP                |Present  |170-PCA000053-E|AC-1011-19-2785|
+|13  |HCPPFU01 |UP                |Present  |170-PCA000004-E|AC-1109-14-5504|
+|14  |HCPOAM01 |UP                |Present  |170-PCA000003-E|AC-3810-21-0793|
+|15  |HCPFTU01 |UP                |Present  |170-PCA000002-E|AC-5010-34-0302|
+Delete Cards Delete SFPs
+                                        SFP                                         
+|Name |Port|Operational|Is |Laser Type |Product |Serial Number |
+
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|3112C- |14T204110332261
+|SLG   
+|type]   
+|PGEFC-1-UP
+|Present|1000 BaseLX 10km 131|3112C- |14T210074390377
+|SLG   
+|type]   

@@ -1,0 +1,67 @@
+#! /usr/bin/env expect
+#! /bin/bash
+    
+
+
+
+set ip [lindex $argv 0] 
+
+set timeout -1
+set node_ip $ip
+if {[llength $argv] == 1} {
+        spawn telnet 192.168.241.$node_ip 2023
+        set node_spawn_id $spawn_id
+        expect "login: "
+        send "guest\r"
+        expect "Password: "
+        send "iltwat\r"
+        expect "> "
+        send "su\r"
+        expect "Password: "
+        send "swtn100tj\r"
+        expect "# "
+        send "cat /usr/sbin/tejas/version.h\r"
+        expect "# "
+        send "cd \/etc\/tejas\/builds\/cef5\r"
+        expect "# "
+        send "uptime\r"
+        expect "# "
+        send "rm /etc/tejas/config/db/node.* \r"
+        expect "# "
+        send "rm /etc/tejas/config/db/system.db \r"
+        expect "# "
+        send "rm /etc/tejas/config/backup/backup.* \r"
+        expect "# "
+        send "rm /etc/tejas/builds/cef5/* \r"
+    
+
+        expect "# "
+        send "cd /etc/bin/tejasNext/ \r"
+        expect "# "
+        send "mount -o remount rw /etc/bin/ \r"
+        expect "# "
+        send "rm * \r"
+        expect "# "
+        send "ncftpget -uswtn100 -ptn100sw 192.168.0.14 . /home/swtn100/releases/REL_10_0_0/a_x/a9_1/builds/tj1700_unified_tarkit/tj1700-ppc-REL_10_0_0_a9_1.squash.img \r"
+        expect "# "
+        send "rm /etc/tejas/builds/cef5/* \r"
+        expect "# "
+        send "reboot \r"
+        
+
+
+#       expect "# "
+#		send "tail -f *log00*"
+
+        #stty raw -echo
+        #expect_after {
+        #        -i $user_spawn_id
+        #        "y" {send "rm -fr SysConf.* backconf.*\rcp defaultCfg\/* .\r"; exp_continue}
+        #        "n" {send "\r\r"; exp_continue}
+        #}
+        #expect "> "
+        #send "ls /usr/sbin/tejas | grep 'initialize.sh'
+}
+
+        interact
+  

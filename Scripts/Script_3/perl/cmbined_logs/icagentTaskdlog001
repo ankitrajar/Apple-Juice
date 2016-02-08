@@ -1,0 +1,459 @@
+06/02/15 12:01:14:846: CEF5_icagentTaskdlog001: mainTask :1917: =========================================== 
+06/02/15 12:01:14:846: CEF5_icagentTaskdlog001: mainTask :1917:  IntelligentCardAgentTask started with pid =1917
+06/02/15 12:01:14:846: CEF5_icagentTaskdlog001: mainTask :1917: =========================================== 
+06/02/15 12:01:14:854: CEF5_icagentTaskdlog001: mainTask :1917: pss_board::pss_board: constructer called
+06/02/15 12:01:14:854: CEF5_icagentTaskdlog001: mainTask :1917: Cef5PssBoard constructor
+06/02/15 12:01:14:854: CEF5_icagentTaskdlog001: mainTask :1917: Cef5PssBoard::instantiate_pss_board
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_board Found Baseisabs = 1
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: opening slotid.....
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: pss_board::initializePssSlot slotNo = 3
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: The value of the cardType is eCard_CEF5
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: Cef5PssBoard::instantiateCard slot=3-269
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5(): instantiate_cef5: instantiate
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card():  BEGINS. slotNo = 3 , cardType = eCard_CEF5
+06/02/15 12:01:14:855: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_board : slotNo=3 base= 80008000
+06/02/15 12:01:14:857: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_board : slotNo=3 base= 80000000
+06/02/15 12:01:14:857: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): instantiate_CEF5_card READING CEF5 CARD INFO CARDTYPE:eCard_Magic_Flag1 | CPLD Ver : 0x2c | Card Type : 0x64
+06/02/15 12:01:14:857: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card():  card version : 2
+06/02/15 12:01:14:857: CEF5_icagentTaskdlog001: mainTask :1917: bootFlagsCntl::areAllFlagsClear:  All flags are clear0
+06/02/15 12:01:14:857: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card():  Initializing Clock Devices: Boot Flags Clear 
+06/02/15 12:01:15:135: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card():  value of val in elk reset true
+06/02/15 12:01:15:135: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Resetting And Intializing ZARLINK 4......  
+06/02/15 12:01:16:687: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301563 0x0 is 85 0xFA:53
+06/02/15 12:01:16:687: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::Cef5SpecificSettings:  CLOCK Initialization for ZL30155_4start :2
+06/02/15 12:01:19:408: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Resetting And Intializing ZARLINK 30343......  
+06/02/15 12:01:20:960: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x1f, with error -1
+06/02/15 12:01:20:980: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x2c, with error -1
+06/02/15 12:01:21:000: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x38, with error -1
+06/02/15 12:01:21:020: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x3b, with error -1
+06/02/15 12:01:21:041: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x3f, with error -1
+06/02/15 12:01:21:061: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x4a, with error -1
+06/02/15 12:01:21:081: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x40, with error -1
+06/02/15 12:01:21:101: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x52, with error -1
+06/02/15 12:01:21:122: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x60, with error -1
+06/02/15 12:01:21:142: CEF5_icagentTaskdlog001: mainTask :1917: ZL30343::setByte failed for register 0x62, with error -1
+06/02/15 12:01:21:142: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Resetting And Intializing ZARLINK 1......  
+06/02/15 12:01:22:694: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301560 0x0 is 85 0xFA:53
+06/02/15 12:01:22:694: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::Cef5SpecificSettings:  CLOCK Initialization for ZL30155_1start :2
+06/02/15 12:01:25:224: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Resetting And Intializing ZARLINK 2......  
+06/02/15 12:01:26:776: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301561 0x0 is 85 0xFA:53
+06/02/15 12:01:26:776: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::Cef5SpecificSettings:  CLOCK Initialization for ZL30155_2start :2
+06/02/15 12:01:29:306: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Resetting And Intializing ZARLINK 3......  
+06/02/15 12:01:30:858: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301562 0x0 is 85 0xFA:53
+06/02/15 12:01:30:858: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::Cef5SpecificSettings:  CLOCK Initialization for ZL30155_3start :2
+06/02/15 12:01:33:394: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card():  No need to program CFPGA ....
+
+06/02/15 12:01:46:049: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Successfully progarammed  FPGA file-/etc/tejas/fpga/elk.hex
+06/02/15 12:01:46:049: CEF5_icagentTaskdlog001: mainTask :1917: scanPciBus(): resetting pcie controller
+06/02/15 12:01:46:843: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): Successfully progarammed fpga  FPGA file-/usr/sbin/tejas/fpga/dcfpga.hex
+06/02/15 12:01:47:075: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): DC devreset value: 65535
+06/02/15 12:01:47:105: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5_card(): DC devreset wriring value: 65532
+06/02/15 12:01:48:504: CEF5_icagentTaskdlog001: mainTask :1917: setPetraPUC(): programming  petra puc
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: instantiate_cef5(): instantiate_cef5: instantiate done 
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgentTask::going to create board
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: The value of the cardType is eCard_CEF5
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: The value of the cardType is eCard_CEF5
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: Tj2kBoard::create SlotNo : 3
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5(): tn100_cef5 constructor
+06/02/15 12:01:48:686: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): Initialization BEGINS.
+06/02/15 12:01:48:706: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301560 0x0 is e5 0xFA:50
+06/02/15 12:01:48:726: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301561 0x0 is e5 0xFA:50
+06/02/15 12:01:48:747: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301562 0x0 is e5 0xFA:50
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: ZL30156::ZL30156:  /dev/slot3/zl301563 0x0 is e5 0xFA:50
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: virtual void ProxyPhy::initializeRegMask() calling Tidl
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: ProxyPhy::ProxyPhy(EthPhyIface*, tej_struct)ProxyPhy Created
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: Vsc8574Phy::Constructing Vittesse: 
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: XGPHY:: Constructor called 
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: XGPHY:: Constructor called 
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): tn100_cef5: Initializing sfp/xfp start
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 0 NM port no: 15
+06/02/15 12:01:48:767: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 1 NM port no: 16
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 2 NM port no: 13
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 3 NM port no: 14
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 5 NM port no: 11
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 6 NM port no: 12
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 7 NM port no: 9
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 8 NM port no: 10
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:48:768: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 9 NM port no: 7
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 4 | sfp_port_in_nm_map[portNo] : 7
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 10 NM port no: 8
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 5 | sfp_port_in_nm_map[portNo] : 8
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 11 NM port no: 5
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 6 | sfp_port_in_nm_map[portNo] : 5
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): instantiate sfplaserctrl: 12 NM port no: 6
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  Creating temporary sfpmon devices | portNo : 7 | sfp_port_in_nm_map[portNo] : 6
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): tn100_cef5: Initializing sfp/xfp end
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize():  card rev: 2
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): tn100_cef5::initialize creating epls device
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:48:769: CEF5_icagentTaskdlog001: mainTask :1917: ClockDevice::ClockDevice() | constructing ClockDevice | nr_clkDevs = 5 | CardType : 269
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: ClockDevice Constructed 
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: ClockDevice Constructed 
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: ClockDevice Constructed 
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: ClockDevice Constructed 
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): before creating device fo zarlink ......
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: initialize(): tn100_cef5::initialize END
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5(): tn100_cef5 initialize done
+06/02/15 12:01:48:770: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::tn100_cef5() : ChassisType : Chassis_Unknown
+06/02/15 12:01:48:771: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::IntelligentCardAgt: creating eCard_CEF5 in slot 3 , mCardSubType: 4294967295
+06/02/15 12:01:48:771: CEF5_icagentTaskdlog001: mainTask :1917: PlatformSpecificCardAgent::getInstance called
+06/02/15 12:01:48:771: CEF5_icagentTaskdlog001: mainTask :1917:  IntelligentCardAgt::Constructor: Early Ejector Available
+06/02/15 12:01:48:771: CEF5_icagentTaskdlog001: mainTask :1917: Software Version => branch: BR_10_0_2 PrivateBuild:parmil, Fri Mar 13 15:08:08 2015
+06/02/15 12:01:48:772: CEF5_icagentTaskdlog001: mainTask :1917:  IntelligentCardAgt::initialize() . ccs.cardSpecificConfig = 
+06/02/15 12:01:48:772: CEF5_icagentTaskdlog001: mainTask :1917: initializeOSS(): cef5 in slot 3:InitializeOSS called, will be doinginitialization in initializeCardConfig
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: tn100_CEF5::initializeOSS() | ENABLE_HW_WATCHDOG available
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: tn100_CEF5::initializeOSS() | Watchdog enabled
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: tn100_CEF5::initializeOSS Calling getBoardInfo() 
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: In Util::getBoardInfo() Initilized Flag = 444 ppcboot_ver = UBOOT_2009_PLC02_1_3 processorVer = 5.1
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices called
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhydevices | initializing VSC849x-Phy0
+06/02/15 12:01:48:784: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss with 0
+06/02/15 12:01:48:785: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss | ch0-1
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | VTSS_PORT_ARRAY_SIZE: 4
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 0
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 1
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 2
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 3
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | vtss_restart_status_get returns0
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 0 Prescale: 512
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 1 Prescale: 512
+06/02/15 12:01:48:868: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | It's a cold reboot | initializing again
+06/02/15 12:01:48:873: CEF5_icagentTaskdlog001: mainTask :1917: isFECTimerRequired set is false
+06/02/15 12:01:48:873: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | restartStatus: 0 prev_ver 0 curr_ver 1
+06/02/15 12:01:48:873: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices |Initialization VSC849x-Phy0 die0 succeeded
+06/02/15 12:01:48:873: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss with 1
+06/02/15 12:01:48:873: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss | ch1-2
+06/02/15 12:01:48:957: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | VTSS_PORT_ARRAY_SIZE: 4
+06/02/15 12:01:48:957: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 0
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 1
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 2
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 3
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | vtss_restart_status_get returns0
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 0 Prescale: 512
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 1 Prescale: 512
+06/02/15 12:01:48:958: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | It's a cold reboot | initializing again
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: isFECTimerRequired set is false
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | restartStatus: 0 prev_ver 0 curr_ver 1
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices |Initialization VSC849x-Phy0 die1 succeeded
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices |initialization of VSC849x-Phy0 die success
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): retryCount is 0
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhydevices | initializing VSC849x-Phy1
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss with 0
+06/02/15 12:01:48:963: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss | ch0-1
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | VTSS_PORT_ARRAY_SIZE: 4
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 0
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 1
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 2
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 3
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | vtss_restart_status_get returns0
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 0 Prescale: 512
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 1 Prescale: 512
+06/02/15 12:01:49:047: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | It's a cold reboot | initializing again
+06/02/15 12:01:49:052: CEF5_icagentTaskdlog001: mainTask :1917: isFECTimerRequired set is false
+06/02/15 12:01:49:052: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | restartStatus: 0 prev_ver 0 curr_ver 1
+06/02/15 12:01:49:052: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices |Initialization VSC849x-Phy1 die0 succeeded
+06/02/15 12:01:49:052: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss with 1
+06/02/15 12:01:49:053: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::initialize | initializing vtss | ch1-2
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | VTSS_PORT_ARRAY_SIZE: 4
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 0
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 1
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 2
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::portSetup | portNo: 3
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | vtss_restart_status_get returns0
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 0 Prescale: 512
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x::i2cSetup | i2c configuring port: 1 Prescale: 512
+06/02/15 12:01:49:137: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | It's a cold reboot | initializing again
+06/02/15 12:01:49:142: CEF5_icagentTaskdlog001: mainTask :1917: isFECTimerRequired set is false
+06/02/15 12:01:49:142: CEF5_icagentTaskdlog001: mainTask :1917: Vsc849x | restartStatus: 0 prev_ver 0 curr_ver 1
+06/02/15 12:01:49:142: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices |Initialization VSC849x-Phy1 die1 succeeded
+06/02/15 12:01:49:142: CEF5_icagentTaskdlog001: mainTask :1917: initializePhyDevices(): tn100_cef5::initializePhyDevices |initialization of VSC849x-Phy1 die success
+06/02/15 12:01:49:143: CEF5_icagentTaskdlog001: mainTask :1917:  IntellCardAgt::initialize: initializeOSS() SUCCEEDED.
+06/02/15 12:01:49:143: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeCardConfig Called
+06/02/15 12:01:49:143: CEF5_icagentTaskdlog001: mainTask :1917: initializeCardConfigWithRedundancyMode(): cef5 in slot 3:InitializeCardConfig: Received config-
+06/02/15 12:01:49:143: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeMvel6131Switch: Initialization: 
+06/02/15 12:01:49:143: CEF5_icagentTaskdlog001: mainTask :1917: bootFlagsCntl::areAllFlagsClear:  All flags are clear0
+06/02/15 12:01:49:143: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeMvel6131Switch: boot flags clear
+06/02/15 12:01:49:217: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeMvel6131Switch | Vlan: 10 FWD Map: 0x40 Untag Map: 0x4
+06/02/15 12:01:49:223: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeMvel6131Switch | Vlan: 4050 FWD Map: 0x43
+06/02/15 12:01:49:233: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeMvel6131Switch: Initialization Done
+06/02/15 12:01:49:233: CEF5_icagentTaskdlog001: mainTask :1917: tn100_CEF5::initializeCardConfigWithRedundancyMode() | DONE
+06/02/15 12:01:49:233: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::initialize... Start
+06/02/15 12:01:49:233: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getCpldVersion | version: CFPGA:2.12 |DC:2.3 |ELK:2e.1c
+06/02/15 12:01:49:233: CEF5_icagentTaskdlog001: mainTask :1917:  tn100_cef5::getFpgaVersion | version 
+06/02/15 12:01:49:237: CEF5_icagentTaskdlog001: mainTask :1917: initializeMY Rootfs versionRootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+06/02/15 12:01:49:237: CEF5_icagentTaskdlog001: mainTask :1917: CardAgent::initialize - finished for Slot = 3, eCard_CEF5
+06/02/15 12:01:49:237: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCard::initializeCommIface Called  
+06/02/15 12:01:49:239: CEF5_icagentTaskdlog001: mainTask :1917: NetInterface::up :ifname=eth0
+06/02/15 12:01:49:241: CEF5_icagentTaskdlog001: mainTask :1917: NetInterface::up :ifname=eth1
+06/02/15 12:01:49:244: CEF5_icagentTaskdlog001: mainTask :1917: Unable to read chassisId from licenseConfig.xml file. Hence Rebooting.............
+06/02/15 12:01:49:245: CEF5_icagentTaskdlog001: mainTask :1917: NetInterface::up :ifname=ethicc
+06/02/15 12:01:49:265: CEF5_icagentTaskdlog001: mainTask :1917: Unable to read chassisId from licenseConfig.xml file. Hence Rebooting.............
+06/02/15 12:01:49:266: CEF5_icagentTaskdlog001: mainTask :1917: NetInterface::up :ifname=ethpp
+06/02/15 12:01:49:284: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::startCommIf mCardType = eCard_CEF5 mySlot = 3
+06/02/15 12:01:49:284: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initialize called 
+06/02/15 12:01:49:285: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initialize initialization is done
+06/02/15 12:01:49:285: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::platformSpecificInitializationComplete called
+06/02/15 12:01:49:285: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::postPlatformSpecificInit called
+06/02/15 12:01:49:285: CEF5_icagentTaskdlog001: mainTask :1917: Ntp::Ntp: Ntp Task created with serverip = 127.1.1.254
+06/02/15 12:01:49:286: CEF5_icagentTaskdlog001: mainTask :1917: DaemonCtlClient::connectionEstablishedHandler
+06/02/15 12:01:49:290: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgentTask::Connection Esatblished with tn_init daemon
+06/02/15 12:01:49:290: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgentTask::startOtherLineCardDaemons called
+06/02/15 12:01:49:295: CEF5_icagentTaskdlog001: mainTask :1917: DaemonCtlClient::currentSystemStateHandler pssState=BOOTING rebootType=NOT_KNOWN
+06/02/15 12:01:49:298: CEF5_icagentTaskdlog001: UNKNOWN :1953: Ntp::run(): Thread instantiated with PID:1953
+06/02/15 12:01:50:304: CEF5_icagentTaskdlog001: mainTask :1917: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+06/02/15 12:01:50:304: CEF5_icagentTaskdlog001: mainTask :1917: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::ppHalSubSystemMgmtIfaceConnEstdHdlr() : Connection Established with ppHal daemon
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getPortModefromCCS(): No CardPortMode found in card config. tCCS = 
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getSSModeFromCCS(): No ServiceSwitchMode found in card config. tCCS = 
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getControlCardTypeFromCCS(): No ControlCardType found in card config.
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo called
+13/04/15 17:21:51:137: CEF5_icagentTaskdlog001: mainTask :1917: test:IntellCAgt::getCardAgtInfo ci.rootfs=Rootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getCardAgtInfo OEM product, serial and clei code ,  , 
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo 
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo Part number 170-PCA000117-E nr_Eth_10Gbps 4 nr_Eth_1Gbps 12 nr_Eth_10_100Mbps 0 nr_Eth_tx_ports 0
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo  cardType = eCard_CEF5 cpldVersion = CFPGA:2.12 |DC:2.3 |ELK:2e.1c fpgaVersion =  LaserMonSupported =  NO 
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getPortModefromCCS(): No CardPortMode found in card config. tCCS = 
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getSSModeFromCCS(): No ServiceSwitchMode found in card config. tCCS = 
+13/04/15 17:21:51:139: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getControlCardTypeFromCCS(): No ControlCardType found in card config.
+13/04/15 17:21:51:140: CEF5_icagentTaskdlog001: mainTask :1917:  IntellCardAgt::setBackPlaneSerialLines called swversion = branch: BR_10_0_2 PrivateBuild:parmil
+13/04/15 17:21:51:140: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:51:140: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getPortModefromCCS(): No CardPortMode found in card config. tCCS = 
+13/04/15 17:21:51:140: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 
+13/04/15 17:21:51:140: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getSSModeFromCCS(): No ServiceSwitchMode found in card config. tCCS = 
+13/04/15 17:21:51:140: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getControlCardTypeFromCCS(): No ControlCardType found in card config.
+13/04/15 17:21:51:141: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:51:141: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getPortModefromCCS(): No CardPortMode found in card config. tCCS = 
+13/04/15 17:21:51:141: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 
+13/04/15 17:21:51:141: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getSSModeFromCCS(): No ServiceSwitchMode found in card config. tCCS = 
+13/04/15 17:21:51:141: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getControlCardTypeFromCCS(): No ControlCardType found in card config.
+13/04/15 17:21:54:092: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::cardMgrConnEstHandler called
+13/04/15 17:21:54:094: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:54:094: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getPortModefromCCS(): No CardPortMode found in card config. tCCS = 
+13/04/15 17:21:54:094: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 
+13/04/15 17:21:54:094: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getSSModeFromCCS(): No ServiceSwitchMode found in card config. tCCS = 
+13/04/15 17:21:54:094: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getControlCardTypeFromCCS(): No ControlCardType found in card config.
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo called
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: test:IntellCAgt::getCardAgtInfo ci.rootfs=Rootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getCardAgtInfo OEM product, serial and clei code ,  , 
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo 
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo Part number 170-PCA000117-E nr_Eth_10Gbps 4 nr_Eth_1Gbps 12 nr_Eth_10_100Mbps 0 nr_Eth_tx_ports 0
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo  cardType = eCard_CEF5 cpldVersion = CFPGA:2.12 |DC:2.3 |ELK:2e.1c fpgaVersion =  LaserMonSupported =  NO 
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getPortModefromCCS(): No CardPortMode found in card config. tCCS = 
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getSSModeFromCCS(): No ServiceSwitchMode found in card config. tCCS = 
+13/04/15 17:21:54:095: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::getControlCardTypeFromCCS(): No ControlCardType found in card config.
+13/04/15 17:21:54:724: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::setCardConfig cardSpecificConfig2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:21:54:724: CEF5_icagentTaskdlog001: mainTask :1917:  IntellCardAgt::setCardConfig() calling initialize()
+13/04/15 17:21:54:724: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeCardConfigChangeInNmContext 
+13/04/15 17:21:54:725: CEF5_icagentTaskdlog001: mainTask :1917: initializeCardConfigChangeInNmContext():  cardConfig : 
+13/04/15 17:21:54:725: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch os: 2.6.32-LINUX_2_6_32_PLC02_1_4 #1 Fri Oct 11 15:15:22 IST 2013BootLoader: UBOOT_2009_PLC02_1_3rootfs: Rootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+13/04/15 17:21:54:728: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatchreadInputInformation from /usr/sbin/tejas/catalog.xml status=true
+13/04/15 17:21:54:728: CEF5_icagentTaskdlog001: mainTask :1917: slot No : 3
+13/04/15 17:21:54:728: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatchread from catalog file ROOTFS_PLC02_1_4  ROOTFS_PLC02_1_4 LINUX_2_6_32_PLC02_1_4 UBOOT_2009_PLC02_1_3
+13/04/15 17:21:54:728: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: name=Rootfs Version value=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013
+13/04/15 17:21:54:728: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: name=Etc Partition Version value=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013
+13/04/15 17:21:54:729: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: expected linux LINUX_2_6_32_PLC02_1_4 == 2.6.32-LINUX_2_6_32_PLC02_1_4 #1 Fri Oct 11 15:15:22 IST 2013
+13/04/15 17:21:54:729: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: expected uboot UBOOT_2009_PLC02_1_3 == UBOOT_2009_PLC02_1_3
+13/04/15 17:21:54:729: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::updateCardConfigChange called with 2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:21:54:729: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::updateCardConfigChange Done
+13/04/15 17:21:54:729: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::initializePPHal called after connection established
+13/04/15 17:21:54:729: CEF5_icagentTaskdlog001: mainTask :1917: int Cef5CardAgent::getSSModeFromCCS(std::string) CardConfigString = 2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:21:54:730: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::platformSpecificInitializationComplete called
+13/04/15 17:21:54:730: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::postPlatformSpecificInit called
+13/04/15 17:21:54:730: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::actOnPostIO | handling cardcfgchange
+13/04/15 17:21:54:730: CEF5_icagentTaskdlog001: mainTask :1917:  tn100_cef5::getFpgaVersion | version 
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo called
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: test:IntellCAgt::getCardAgtInfo ci.rootfs=Rootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getCardAgtInfo OEM product, serial and clei code ,  , 
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo 
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo Part number 170-PCA000117-E nr_Eth_10Gbps 4 nr_Eth_1Gbps 12 nr_Eth_10_100Mbps 0 nr_Eth_tx_ports 0
+13/04/15 17:21:54:763: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo  cardType = eCard_CEF5 cpldVersion = CFPGA:2.12 |DC:2.3 |ELK:2e.1c fpgaVersion =  LaserMonSupported =  NO 
+13/04/15 17:21:55:632: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::setCardConfig cardSpecificConfig2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:21:55:632: CEF5_icagentTaskdlog001: mainTask :1917:  IntellCardAgt::setCardConfig() calling initialize()
+13/04/15 17:21:55:632: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::initializeCardConfigChangeInNmContext 
+13/04/15 17:21:55:632: CEF5_icagentTaskdlog001: mainTask :1917: initializeCardConfigChangeInNmContext():  cardConfig : 
+13/04/15 17:21:55:632: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch os: 2.6.32-LINUX_2_6_32_PLC02_1_4 #1 Fri Oct 11 15:15:22 IST 2013BootLoader: UBOOT_2009_PLC02_1_3rootfs: Rootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+13/04/15 17:21:55:757: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatchreadInputInformation from /usr/sbin/tejas/catalog.xml status=true
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: slot No : 3
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatchread from catalog file ROOTFS_PLC02_1_4  ROOTFS_PLC02_1_4 LINUX_2_6_32_PLC02_1_4 UBOOT_2009_PLC02_1_3
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: name=Rootfs Version value=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: name=Etc Partition Version value=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: expected linux LINUX_2_6_32_PLC02_1_4 == 2.6.32-LINUX_2_6_32_PLC02_1_4 #1 Fri Oct 11 15:15:22 IST 2013
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: checkfor_DocandFirmwareMismatch: expected uboot UBOOT_2009_PLC02_1_3 == UBOOT_2009_PLC02_1_3
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::updateCardConfigChange called with 2:0:0:0:2:0:289::0::CardPortMode Mode_6_10G ServiceSwitchMode Mesh :IOExpansionMode = IOEXP_Uninitialized :
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::updateCardConfigChange Done
+13/04/15 17:21:55:758: CEF5_icagentTaskdlog001: mainTask :1917: Cef5CardAgent::actOnPostIO | handling cardcfgchange
+13/04/15 17:21:55:759: CEF5_icagentTaskdlog001: mainTask :1917:  tn100_cef5::getFpgaVersion | version 
+13/04/15 17:21:55:766: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 1
+13/04/15 17:21:55:766: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isXFPPresent called with portno: 1 | Hal Portno : 3
+13/04/15 17:21:55:772: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::createSFPInHardware 1
+13/04/15 17:21:55:772: CEF5_icagentTaskdlog001: mainTask :1917: SFP has not been created so far for port 1
+13/04/15 17:21:55:772: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 1
+13/04/15 17:21:55:772: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isXFPPresent called with portno: 1 | Hal Portno : 3
+13/04/15 17:21:55:772: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: portNo: 1
+13/04/15 17:21:55:773: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device() XFP Hal portNo: 3
+13/04/15 17:21:55:773: CEF5_icagentTaskdlog001: mainTask :1917: create_xfps:: on portNo3
+13/04/15 17:21:55:773: CEF5_icagentTaskdlog001: mainTask :1917: Could not open device file :/dev/slot3/3, errno: 2
+13/04/15 17:21:56:425: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: setting Optical with laserMonPtr:failed
+13/04/15 17:21:56:425: CEF5_icagentTaskdlog001: mainTask :1917: successfully created SFP in hardware
+13/04/15 17:21:56:428: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getSFPInfoFromHardware() 1
+13/04/15 17:21:56:428: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 1
+13/04/15 17:21:56:428: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isXFPPresent called with portno: 1 | Hal Portno : 3
+13/04/15 17:21:56:428: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getXFPInfo is called with portNo 1 | myPortNo : 3
+13/04/15 17:21:56:474: CEF5_icagentTaskdlog001: mainTask :1917:  Xfp::getSFPInfo: wavelength's 9.36851e+07 72.7874 0.4116 0 4116 4116 tunability = 2
+13/04/15 17:21:56:474: CEF5_icagentTaskdlog001: mainTask :1917:  Xfp::getSFPInfo: 56.25
+13/04/15 17:21:56:474: CEF5_icagentTaskdlog001: mainTask :1917: Xfp::getSFPInfo : info.VendorName:  ode        »@ |info.productCode:        pÔ Me | info.serialNumber: »ˆ»(»hkœ |info.laserType: 140ee9131410146b |info.wavelength 177.001 | info.bitRateMin: 10.7 | info.bitRateMax: 10.7 |info.distance: bc |info.reachType: 1
+13/04/15 17:21:56:474: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5:inside xfps: calling getSFPInfo
+13/04/15 17:21:56:474: CEF5_icagentTaskdlog001: mainTask :1917: getSFPInfoFromHardware completed
+13/04/15 17:21:57:213: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 2
+13/04/15 17:21:57:213: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isXFPPresent called with portno: 2 | Hal Portno : 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::createSFPInHardware 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: SFP has not been created so far for port 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isXFPPresent called with portno: 2 | Hal Portno : 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: portNo: 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device() XFP Hal portNo: 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: create_xfps:: on portNo2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: Could not open device file :/dev/slot3/2, errno: 2
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: setting Optical with laserMonPtr:failed
+13/04/15 17:21:57:219: CEF5_icagentTaskdlog001: mainTask :1917: successfully created SFP in hardware
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getSFPInfoFromHardware() 2
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 2
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isXFPPresent called with portno: 2 | Hal Portno : 2
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getXFPInfo is called with portNo 2 | myPortNo : 2
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917:  Xfp::getSFPInfo: wavelength's 9.36851e+07 72.7874 0.4116 0 4116 4116 tunability = 2
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917:  Xfp::getSFPInfo: 56.25
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: Xfp::getSFPInfo : info.VendorName:  ode        »@ |info.productCode:        pÔ Me | info.serialNumber: »ˆ»(»hkœ |info.laserType: 140ee9131410146b |info.wavelength 177.001 | info.bitRateMin: 10.7 | info.bitRateMax: 10.7 |info.distance: bc |info.reachType: 1
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5:inside xfps: calling getSFPInfo
+13/04/15 17:21:57:221: CEF5_icagentTaskdlog001: mainTask :1917: getSFPInfoFromHardware completed
+13/04/15 17:21:57:746: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 5
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::createSFPInHardware 5
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: SFP has not been created so far for port 5
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 5
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: portNo: 5
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: create_sfp_mon_device():  Done deleting Portnum = 10
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_scpsfp_mon_device() | NM PortNo : 5 | HAL Port # 6
+13/04/15 17:21:57:751: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_scpsfp():: on portNo10
+13/04/15 17:21:58:652: CEF5_icagentTaskdlog001: mainTask :1917: Changing access mechanism for the SFP
+13/04/15 17:21:58:918: CEF5_icagentTaskdlog001: mainTask :1917: scpsfp::isSupportedCopperSFP   productCode = FTM-3112C-SLG   
+13/04/15 17:21:58:918: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: setting Optical with laserMonPtr:failed
+13/04/15 17:21:58:918: CEF5_icagentTaskdlog001: mainTask :1917: successfully created SFP in hardware
+13/04/15 17:21:58:919: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getSFPInfoFromHardware() 5
+13/04/15 17:21:58:920: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 5
+13/04/15 17:21:59:815: CEF5_icagentTaskdlog001: mainTask :1917: Changing access mechanism for the SFP
+13/04/15 17:22:00:894: CEF5_icagentTaskdlog001: mainTask :1917: release details: 0 byte:ÿ 1 byte: end
+13/04/15 17:22:00:894: CEF5_icagentTaskdlog001: mainTask :1917: Read serial number as 14T270072307312 product code as FTM-3112C-SLG   vendor info as FIBERXON INC.   
+ CLEICode as 29-23.00ÿÿPECCode as -5.83914 01release Number as -5.83914 01laser type as 2
+ laser Reachtype as 0laser wavelength as 1310laser bitrate as 1.3laser distance as 10
+13/04/15 17:22:00:894: CEF5_icagentTaskdlog001: mainTask :1917: getSFPInfoFromHardware completed
+13/04/15 17:22:01:535: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 6
+13/04/15 17:22:01:536: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 7
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::createSFPInHardware 7
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: SFP has not been created so far for port 7
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 7
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: portNo: 7
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: create_sfp_mon_device():  Done deleting Portnum = 8
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_scpsfp_mon_device() | NM PortNo : 7 | HAL Port # 4
+13/04/15 17:22:01:542: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_scpsfp():: on portNo8
+13/04/15 17:22:02:704: CEF5_icagentTaskdlog001: mainTask :1917: scpsfp::isSupportedCopperSFP   productCode = FTM-3106C-L40   
+13/04/15 17:22:02:704: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: setting Optical with laserMonPtr:failed
+13/04/15 17:22:02:704: CEF5_icagentTaskdlog001: mainTask :1917: successfully created SFP in hardware
+13/04/15 17:22:02:706: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getSFPInfoFromHardware() 7
+13/04/15 17:22:02:706: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 7
+13/04/15 17:22:04:680: CEF5_icagentTaskdlog001: mainTask :1917: release details: 0 byte:ÿ 1 byte: end
+13/04/15 17:22:04:680: CEF5_icagentTaskdlog001: mainTask :1917: Read serial number as 4N220052701337  product code as FTM-3106C-L40   vendor info as FIBERXON INC.   
+ CLEICode as 69ÿÿÿÿÿÿÿÿPECCode as 0.179914 01release Number as 0.179914 01laser type as 1064960
+ laser Reachtype as 2laser wavelength as 1310laser bitrate as 0.6laser distance as 40
+13/04/15 17:22:04:680: CEF5_icagentTaskdlog001: mainTask :1917: getSFPInfoFromHardware completed
+13/04/15 17:22:05:204: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 8
+13/04/15 17:22:05:205: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 9
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::createSFPInHardware 9
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: SFP has not been created so far for port 9
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 9
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: portNo: 9
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: create_sfp_mon_device():  Done deleting Portnum = 6
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_scpsfp_mon_device() | NM PortNo : 9 | HAL Port # 2
+13/04/15 17:22:05:211: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_scpsfp():: on portNo6
+13/04/15 17:22:06:374: CEF5_icagentTaskdlog001: mainTask :1917: scpsfp::isSupportedCopperSFP   productCode = RTXM159-400-C12 
+13/04/15 17:22:06:374: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::create_sfp_mon_device: setting Optical with laserMonPtr:failed
+13/04/15 17:22:06:374: CEF5_icagentTaskdlog001: mainTask :1917: successfully created SFP in hardware
+13/04/15 17:22:06:376: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getSFPInfoFromHardware() 9
+13/04/15 17:22:06:376: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 9
+13/04/15 17:22:08:350: CEF5_icagentTaskdlog001: mainTask :1917: release details: 0 byte:  1 byte:  end
+13/04/15 17:22:08:350: CEF5_icagentTaskdlog001: mainTask :1917: Read serial number as BE0829380496    product code as RTXM159-400-C12 vendor info as WTD             
+ CLEICode as PECCode as  release Number as  laser type as 1057280
+ laser Reachtype as 2laser wavelength as 1310laser bitrate as 0.6laser distance as 15
+13/04/15 17:22:08:350: CEF5_icagentTaskdlog001: mainTask :1917: getSFPInfoFromHardware completed
+13/04/15 17:22:08:872: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 10
+13/04/15 17:22:08:873: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 11
+13/04/15 17:22:08:875: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 12
+13/04/15 17:22:08:876: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 17
+13/04/15 17:22:08:878: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 18
+13/04/15 17:22:08:879: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 19
+13/04/15 17:22:08:881: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::isSFPPresent called with portno: 20
+13/04/15 17:22:08:883: CEF5_icagentTaskdlog001: mainTask :1917:  IntelligentCardAgt::Switching LED Status to Green
+13/04/15 17:22:08:883: CEF5_icagentTaskdlog001: mainTask :1917:  LedCntlExtd::setLedState: Setting Status to Green in /dev/slot3/ledcntl_extd0
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917:  IntelligentCardAgt::Switching LED Active to Green
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917:  LedCntlExtd::setLedState: Setting Active to Green in /dev/slot3/ledcntl_extd1
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus | called 
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917:  tn100_cef5::getFpgaVersion | version 2c fpgatype 2
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917:  tn100_cef5::getFpgaVersion | version 23 fpgatype 3
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917:  tn100_cef5::getFpgaVersion | version 1c fpgatype 5
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus FPGA version curMfpgaVer: 2c newMfpgaVer: 2c
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus FPGA version actualFpgaVer: 2 fpgaVerInLoad: 2
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus FPGA version curMfpgaVer: 23 newMfpgaVer: 23
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus FPGA version actualFpgaVer: 23 fpgaVerInLoad: 23
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus FPGA version below baseline  curMfpgaVer: 1c newMfpgaVer: 1e for elk.hex
+13/04/15 17:22:08:921: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getFPGAVersionStatus FPGA version below baseline  actualFpgaVer: 1 fpgaVerInLoad: 1 for elk.hex
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo called
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: test:IntellCAgt::getCardAgtInfo ci.rootfs=Rootfs Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:24 2013;Etc Partition Version=ROOTFS_PLC02_1_4Mon Oct 21 16:53:48 2013;
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: tn100eeprom::getOEMSerialNo: Invalid OEM or OEM not supported
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: IntelligentCardAgt::getCardAgtInfo OEM product, serial and clei code ,  , 
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo 
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: tn100_cef5::getPortsInfo Part number 170-PCA000117-E nr_Eth_10Gbps 4 nr_Eth_1Gbps 12 nr_Eth_10_100Mbps 0 nr_Eth_tx_ports 0
+13/04/15 17:22:08:923: CEF5_icagentTaskdlog001: mainTask :1917: IntellCAgt::getCardAgtInfo  cardType = eCard_CEF5 cpldVersion = CFPGA:2.12 |DC:2.3 |ELK:2e.1c fpgaVersion =  LaserMonSupported =  NO 

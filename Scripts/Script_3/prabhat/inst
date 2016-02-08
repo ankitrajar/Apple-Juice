@@ -1,0 +1,10 @@
+#! /usr/bin/env expect
+set timeout -1
+set date [lindex $argv 0 ]
+set fir "cd \/home\/prabhath\/work\/$date"
+set sec "0114\/newcef5801mirror\/tj100_mc\/scripts"
+set th $fir$sec
+puts $th
+
+
+

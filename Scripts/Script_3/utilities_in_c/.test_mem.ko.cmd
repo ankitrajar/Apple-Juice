@@ -1,0 +1,1 @@
+cmd_/home/parmil/myscripts/utilities_in_c/test_mem.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-38-generic/scripts/module-common.lds --build-id -o /home/parmil/myscripts/utilities_in_c/test_mem.ko /home/parmil/myscripts/utilities_in_c/test_mem.o /home/parmil/myscripts/utilities_in_c/test_mem.mod.o

@@ -1,0 +1,252 @@
+06/02/15 12:01:51:172: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: =========================================== 
+06/02/15 12:01:51:173: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  L2SVCMGR started with pid =1955
+06/02/15 12:01:51:173: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: =========================================== 
+06/02/15 12:01:51:173: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Starting Initialization
+13/04/15 17:21:50:059: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: pss_board::pss_board: constructer called
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Cef5PssBoard constructor
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: opening slotid.....
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: pss_board::initializePssSlot slotNo = 3
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: 
+...Identified this card slot number as: 
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: The value of the cardType is eCard_CEF5
+13/04/15 17:21:50:060: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: 
+...Identified this card type as as: 269
+13/04/15 17:21:50:061: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  tjOsapiTaskInit 1955 
+13/04/15 17:21:50:063: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  pthread_create rc 0
+13/04/15 17:21:50:064: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  pthread_create rc 0
+13/04/15 17:21:50:069: CEF5_initl2Svcmgrdlog001: UNKNOWN :1987: L2SvcMgr::xSTPThread Started PID : 1987
+13/04/15 17:21:50:069: CEF5_initl2Svcmgrdlog001: xSTPBPDUTxRxTask :1987: FPIface::initSocket stpRxFd 64 stpTxFd 65
+13/04/15 17:21:50:069: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  pthread_create rc 0
+13/04/15 17:21:50:069: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Init of xSTP successful
+13/04/15 17:21:50:116: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase 1 Process of xSTP successful
+13/04/15 17:21:50:120: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase 2 Process of xSTP successful
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData####1 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****1 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****2 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****3 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****4 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****5 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****6 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****7 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****8 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****9 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****10 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****11 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****12 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****13 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****14 0
+ 
+13/04/15 17:21:50:121: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****15 0
+ 
+13/04/15 17:21:50:123: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****16 0
+ 
+13/04/15 17:21:50:123: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****17 0
+ 
+13/04/15 17:21:50:123: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: NetworkIfMgr::nimNextValidIntfNumberInL2Domain No interfaces in the maps
+13/04/15 17:21:50:123: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****18 0
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData####1 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****1 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****2 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****3 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****4 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****5 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****6 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****7 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****8 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****9 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****10 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****11 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****12 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****13 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****14 1
+ 
+13/04/15 17:21:50:124: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****15 1
+ 
+13/04/15 17:21:50:129: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****16 1
+ 
+13/04/15 17:21:50:129: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****17 1
+ 
+13/04/15 17:21:50:129: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: NetworkIfMgr::nimNextValidIntfNumberInL2Domain No interfaces in the maps
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****18 1
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData####1 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****1 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****2 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****3 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****4 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****5 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****6 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****7 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****8 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****9 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****10 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****11 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****12 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****13 2
+ 
+13/04/15 17:21:50:130: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****14 2
+ 
+13/04/15 17:21:50:131: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****15 2
+ 
+13/04/15 17:21:50:132: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****16 2
+ 
+13/04/15 17:21:50:132: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****17 2
+ 
+13/04/15 17:21:50:132: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: NetworkIfMgr::nimNextValidIntfNumberInL2Domain No interfaces in the maps
+13/04/15 17:21:50:132: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****18 2
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData####1 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****1 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****2 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****3 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****4 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****5 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****6 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****7 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****8 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****9 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****10 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****11 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****12 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****13 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****14 3
+ 
+13/04/15 17:21:50:139: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****15 3
+ 
+13/04/15 17:21:50:145: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****16 3
+ 
+13/04/15 17:21:50:145: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****17 3
+ 
+13/04/15 17:21:50:145: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: NetworkIfMgr::nimNextValidIntfNumberInL2Domain No interfaces in the maps
+13/04/15 17:21:50:145: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  dot1sApplyConfigData****18 3
+ 
+13/04/15 17:21:50:162: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  tjOsapiTaskInit 1955 
+13/04/15 17:21:50:163: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  pthread_create rc 0
+13/04/15 17:21:50:167: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Init of IGMP_Snooping successful
+13/04/15 17:21:50:167: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase1 Process of MFDB successful
+13/04/15 17:21:50:167: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase2 Process of MFDB successful
+13/04/15 17:21:50:167: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase3 Process of MFDB successful
+13/04/15 17:21:50:177: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase 1 Process of IGMP_Snooping successful
+13/04/15 17:21:50:178: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase 2 Process of IGMP_Snooping successful
+13/04/15 17:21:50:178: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopCnfgrInitPhase3Process called 
+13/04/15 17:21:50:178: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopCnfgrInitPhase3Process
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopApplyConfigData called 
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopApplyConfigData
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopAdminModeApply called
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopAdminModeApply
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: sysNetPduInterceptDeregister called
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopEntriesDoFlush called
+13/04/15 17:21:50:195: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopEntriesDoFlush
+13/04/15 17:21:50:196: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Phase 3 Process of IGMP_Snooping successful
+13/04/15 17:21:50:200: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: snoopAdminModeSet successfull
+13/04/15 17:21:50:201: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  IgmpSenderReceiver::IgmpSenderReceiver Constructor 
+13/04/15 17:21:50:201: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955:  MRT_INIT failed: 
+13/04/15 17:21:50:201: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: IgmpSenderReceiver::initSocket mRxFd 66 mTxFd 67
+13/04/15 17:21:50:201: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:201: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: initializing key
+13/04/15 17:21:50:202: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: Calling MplsOamMgr InitTask
+13/04/15 17:21:50:202: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: BfdMgr::initBfdMgr 
+13/04/15 17:21:50:202: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:202: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: BfdMgr::register_BfdAlarmHandler called
+13/04/15 17:21:50:202: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: BfdMgr::register_BfdStatusHandler called
+13/04/15 17:21:50:202: CEF5_initl2Svcmgrdlog001: UNKNOWN :1955: BfdMgr::register_BfdEventHandler called
+13/04/15 17:21:50:214: CEF5_initl2Svcmgrdlog001: MainTask :1955: L2SvcMgr::ConnectToIfMgrNotif:: Entry
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: L2SvcMgrAuxTask::startPm/LowPrioIface, Creating the thread
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: L2SvcMgrFDBTask, Creating the thread
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: L2SvcMgrApsTask::initApsTask, Creating the thread
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: EventReactorBase::clockTicks=100
+13/04/15 17:21:50:215: CEF5_initl2Svcmgrdlog001: MainTask :1955: L2SvcMgr::ConnectToIfMgrService:: Entry
+13/04/15 17:21:50:216: CEF5_initl2Svcmgrdlog001: MainTask :1955: socketInit Created read socket [73] for LBM/LTM
+13/04/15 17:21:50:216: CEF5_initl2Svcmgrdlog001: MainTask :1955: socketInit Created write socket [74] for LBM/LTM
+13/04/15 17:21:50:217: CEF5_initl2Svcmgrdlog001: MainTask :1955: DaemonCtlClient::connectionEstablishedHandler
+13/04/15 17:21:50:223: CEF5_initl2Svcmgrdlog001: MainTask :1955: L2SvcMgr::IfMgrServiceConnectionEstablishedHndlr
+13/04/15 17:21:50:223: CEF5_initl2Svcmgrdlog001: AuxTask :1996: L2SvcMgrAuxTask::InitTask()
+13/04/15 17:21:50:223: CEF5_initl2Svcmgrdlog001: AuxTask :1996: [1996] Scheduling policy = 2
+13/04/15 17:21:50:223: CEF5_initl2Svcmgrdlog001: AuxTask :1996: [1996] Scheduling priority = 20
+13/04/15 17:21:50:223: CEF5_initl2Svcmgrdlog001: FDBTask :1997: L2SvcMgrFDBTask::InitTask()
+13/04/15 17:21:50:224: CEF5_initl2Svcmgrdlog001: ApsTask :1998: L2SvcMgrApsTask::InitTask()
+13/04/15 17:21:50:224: CEF5_initl2Svcmgrdlog001: UNKNOWN :1991: snoopAdminModeApply called
+13/04/15 17:21:50:224: CEF5_initl2Svcmgrdlog001: UNKNOWN :1991: snoopAdminModeApply
+13/04/15 17:21:50:224: CEF5_initl2Svcmgrdlog001: UNKNOWN :1991: snoopAdminModeApply adminMode == L7_ENABLE
+13/04/15 17:21:50:227: CEF5_initl2Svcmgrdlog001: MainTask :1955: DaemonCtlClient::currentSystemStateHandler pssState=BOOTING rebootType=NOT_KNOWN
+13/04/15 17:21:50:227: CEF5_initl2Svcmgrdlog001: MainTask :1955: DaemonCtlClient::tidlIfaceConnReplyHandler Correlator: 21001
+13/04/15 17:21:50:228: CEF5_initl2Svcmgrdlog001: MainTask :1955: DaemonCtlClient::taskCompleted taskType=READY_TO_ACCEPT_CONFIG taskStatus=PASSED
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: UNKNOWN :1992: =========================================== 
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: UNKNOWN :1992:  L2SvcMgrProtocolTask started with pid =1992
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: UNKNOWN :1992: =========================================== 
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: BfdMgrTask :1993: BfdMgr::InitTask ...
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: BfdMgrTask :1993: [1993] Scheduling policy = 0
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: BfdMgrTask :1993: [1993] Scheduling priority = 0
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: BfdMgrTask :1993: BfdMgr::startTimer called 
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: BfdMgrTask :1993: BfdMgr::socketInit
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: FDBTask :1997: [1997] Scheduling policy = 0
+13/04/15 17:21:50:229: CEF5_initl2Svcmgrdlog001: FDBTask :1997: [1997] Scheduling priority = 0
+13/04/15 17:21:51:439: CEF5_initl2Svcmgrdlog001: MainTask :1955: l2svcmgr::cfmmanagerconnestdhandler
+13/04/15 17:21:51:439: CEF5_initl2Svcmgrdlog001: MainTask :1955: static void L2SVCMGR::L2SvcMgr::CfmManagerConnEstdHandler()

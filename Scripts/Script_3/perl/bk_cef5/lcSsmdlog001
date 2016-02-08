@@ -1,0 +1,282 @@
+06/02/15 12:01:49:708: MainTask :1960: registerforSignalDebugMgr::registerforSignal 191006
+06/02/15 12:01:49:709: MainTask :1960: registerforSIGABRT
+06/02/15 12:01:49:709: MainTask :1960: DebugMgr::registerforSignal: true
+06/02/15 12:01:49:709: MainTask :1960: registerforSignalDebugMgr::registerforSignal 1910011
+06/02/15 12:01:49:709: MainTask :1960: registerforSIGSEGV
+06/02/15 12:01:49:709: MainTask :1960: DebugMgr::registerforSignal: false
+06/02/15 12:01:49:709: MainTask :1960: EventReactorBase::clockTicks=100
+06/02/15 12:01:49:709: MainTask :1960: =========================================== 
+
+06/02/15 12:01:49:710: MainTask :1960:  LCD started with pid =1960
+06/02/15 12:01:49:710: MainTask :1960: =========================================== 
+
+06/02/15 12:01:49:710: MainTask :1960: pss_board::pss_board: constructer called
+06/02/15 12:01:49:710: MainTask :1960: Cef5PssBoard constructor
+06/02/15 12:01:49:710: MainTask :1960: opening slotid.....
+06/02/15 12:01:49:710: MainTask :1960: pss_board::initializePssSlot slotNo = 3
+06/02/15 12:01:49:710: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:49:710: MainTask :1960: init() | slotNo : 3 | cardType : eCard_CE03
+06/02/15 12:01:49:710: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:49:710: MainTask :1960:  tn100_board::create: asked to create eCard_CE03 in slot 3. But creating eCard_CEF5 in slot 3 as per hardware info.
+06/02/15 12:01:49:710: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:49:710: MainTask :1960: Tj2kBoard::create SlotNo : 3
+06/02/15 12:01:49:710: MainTask :1960: tn100_cef5(): tn100_cef5 constructor
+
+06/02/15 12:01:49:710: MainTask :1960: initialize(): Initialization BEGINS.
+06/02/15 12:01:49:869: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301560 0x0 is e5 0xFA:50
+06/02/15 12:01:50:040: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301561 0x0 is e5 0xFA:50
+06/02/15 12:01:50:188: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301562 0x0 is e5 0xFA:50
+06/02/15 12:01:50:308: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301563 0x0 is e5 0xFA:50
+06/02/15 12:01:50:309: MainTask :1960: virtual void ProxyPhy::initializeRegMask() calling Tidl
+06/02/15 12:01:50:309: MainTask :1960: ProxyPhy::ProxyPhy(EthPhyIface*, tej_struct)ProxyPhy Created
+06/02/15 12:01:50:309: MainTask :1960: Vsc8574Phy::Constructing Vittesse: 
+06/02/15 12:01:50:309: MainTask :1960: XGPHY:: Constructor called 
+06/02/15 12:01:50:309: MainTask :1960: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:50:309: MainTask :1960: XGPHY:: Constructor called 
+06/02/15 12:01:50:309: MainTask :1960: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:50:309: MainTask :1960: initialize(): tn100_cef5: Initializing sfp/xfp start
+06/02/15 12:01:50:309: MainTask :1960: initialize(): instantiate sfplaserctrl: 0 NM port no: 15
+06/02/15 12:01:50:309: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:309: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:50:309: MainTask :1960: initialize(): instantiate sfplaserctrl: 1 NM port no: 16
+06/02/15 12:01:50:309: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:309: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:50:309: MainTask :1960: initialize(): instantiate sfplaserctrl: 2 NM port no: 13
+06/02/15 12:01:50:309: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:309: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 3 NM port no: 14
+06/02/15 12:01:50:310: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 5 NM port no: 11
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 6 NM port no: 12
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 7 NM port no: 9
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 8 NM port no: 10
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 9 NM port no: 7
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 4 | sfp_port_in_nm_map[portNo] : 7
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 10 NM port no: 8
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 5 | sfp_port_in_nm_map[portNo] : 8
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 11 NM port no: 5
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 6 | sfp_port_in_nm_map[portNo] : 5
+06/02/15 12:01:50:310: MainTask :1960: initialize(): instantiate sfplaserctrl: 12 NM port no: 6
+06/02/15 12:01:50:310: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 7 | sfp_port_in_nm_map[portNo] : 6
+06/02/15 12:01:50:311: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:311: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:311: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:311: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:311: MainTask :1960: initialize(): tn100_cef5: Initializing sfp/xfp end
+06/02/15 12:01:50:311: MainTask :1960: initialize():  card rev: 2
+06/02/15 12:01:50:311: MainTask :1960: initialize(): tn100_cef5::initialize creating epls device
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:311: MainTask :1960: ClockDevice::ClockDevice() | constructing ClockDevice | nr_clkDevs = 5 | CardType : 269
+06/02/15 12:01:50:311: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:311: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:311: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:311: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:319: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:319: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:319: MainTask :1960: initialize(): before creating device fo zarlink ......
+06/02/15 12:01:50:319: MainTask :1960: initialize(): tn100_cef5::initialize END
+06/02/15 12:01:50:319: MainTask :1960: tn100_cef5(): tn100_cef5 initialize done
+06/02/15 12:01:50:319: MainTask :1960: tn100_cef5::tn100_cef5() : ChassisType : Chassis_Unknown
+06/02/15 12:01:50:319: MainTask :1960: init() | tempBd : 0x1011fe00
+06/02/15 12:01:50:319: MainTask :1960: init() | redundancyCtrl : 0
+06/02/15 12:01:50:319: MainTask :1960: Pack! No redundancycntrl pointer to find out status
+06/02/15 12:01:50:319: MainTask :1960: initializing key
+06/02/15 12:01:50:347: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:50:347: MainTask :1960: initTask() | slotNo : 3 | cardType : eCard_CEF5 | noSsm : false
+06/02/15 12:01:50:347: MainTask :1960: Asking for new Eth Phy Hal Daemon Connection
+06/02/15 12:01:50:347: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:50:348: MainTask :1960: Tj2kBoard::create SlotNo : 3
+06/02/15 12:01:50:348: MainTask :1960: tn100_cef5(): tn100_cef5 constructor
+
+06/02/15 12:01:50:348: MainTask :1960: initialize(): Initialization BEGINS.
+06/02/15 12:01:50:490: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301560 0x0 is e5 0xFA:50
+06/02/15 12:01:50:632: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301561 0x0 is e5 0xFA:50
+06/02/15 12:01:50:740: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301562 0x0 is e5 0xFA:50
+06/02/15 12:01:50:840: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301563 0x0 is e5 0xFA:50
+06/02/15 12:01:50:840: MainTask :1960: virtual void ProxyPhy::initializeRegMask() calling Tidl
+06/02/15 12:01:50:840: MainTask :1960: ProxyPhy::ProxyPhy(EthPhyIface*, tej_struct)ProxyPhy Created
+06/02/15 12:01:50:840: MainTask :1960: Vsc8574Phy::Constructing Vittesse: 
+06/02/15 12:01:50:840: MainTask :1960: XGPHY:: Constructor called 
+06/02/15 12:01:50:840: MainTask :1960: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:50:840: MainTask :1960: XGPHY:: Constructor called 
+06/02/15 12:01:50:840: MainTask :1960: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:50:840: MainTask :1960: initialize(): tn100_cef5: Initializing sfp/xfp start
+06/02/15 12:01:50:840: MainTask :1960: initialize(): instantiate sfplaserctrl: 0 NM port no: 15
+06/02/15 12:01:50:841: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 1 NM port no: 16
+06/02/15 12:01:50:841: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 2 NM port no: 13
+06/02/15 12:01:50:841: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 3 NM port no: 14
+06/02/15 12:01:50:841: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 5 NM port no: 11
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 6 NM port no: 12
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 7 NM port no: 9
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 8 NM port no: 10
+06/02/15 12:01:50:841: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:50:841: MainTask :1960: initialize(): instantiate sfplaserctrl: 9 NM port no: 7
+06/02/15 12:01:50:842: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 4 | sfp_port_in_nm_map[portNo] : 7
+06/02/15 12:01:50:842: MainTask :1960: initialize(): instantiate sfplaserctrl: 10 NM port no: 8
+06/02/15 12:01:50:842: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 5 | sfp_port_in_nm_map[portNo] : 8
+06/02/15 12:01:50:842: MainTask :1960: initialize(): instantiate sfplaserctrl: 11 NM port no: 5
+06/02/15 12:01:50:842: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 6 | sfp_port_in_nm_map[portNo] : 5
+06/02/15 12:01:50:842: MainTask :1960: initialize(): instantiate sfplaserctrl: 12 NM port no: 6
+06/02/15 12:01:50:842: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 7 | sfp_port_in_nm_map[portNo] : 6
+06/02/15 12:01:50:842: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:842: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:842: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:842: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:50:842: MainTask :1960: initialize(): tn100_cef5: Initializing sfp/xfp end
+06/02/15 12:01:50:842: MainTask :1960: initialize():  card rev: 2
+06/02/15 12:01:50:842: MainTask :1960: initialize(): tn100_cef5::initialize creating epls device
+06/02/15 12:01:50:842: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:842: MainTask :1960: ClockDevice::ClockDevice() | constructing ClockDevice | nr_clkDevs = 5 | CardType : 269
+06/02/15 12:01:50:842: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:842: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:842: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:842: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:842: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:843: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:843: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:50:843: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:50:843: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:50:843: MainTask :1960: initialize(): before creating device fo zarlink ......
+06/02/15 12:01:50:843: MainTask :1960: initialize(): tn100_cef5::initialize END
+06/02/15 12:01:50:843: MainTask :1960: tn100_cef5(): tn100_cef5 initialize done
+06/02/15 12:01:50:843: MainTask :1960: tn100_cef5::tn100_cef5() : ChassisType : Chassis_Unknown
+06/02/15 12:01:50:843: MainTask :1960: initTask() | ssmBd : 0x10131b30
+06/02/15 12:01:50:843: MainTask :1960: SSM_TM_Agent::setBoard : Creating agent for slot 3
+06/02/15 12:01:50:843: MainTask :1960: SsmPktIoCe::EzHalPktioInit() 
+06/02/15 12:01:50:862: MainTask :1960: installEvHndlrs
+06/02/15 12:01:50:862: MainTask :1960:  ESMCTimer :: constructor | timeval period | sec :0 | usec : 500000
+06/02/15 12:01:50:862: MainTask :1960:  SSM_TM_Agent::StartOneSecTimer: Starting timer for one sec
+06/02/15 12:01:50:862: MainTask :1960: SSM_TM_Agent::StartOneSecTimer : : Starting timer for one sec
+06/02/15 12:01:50:863: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:50:863: MainTask :1960: The value of the cardType is eCard_CEF5
+06/02/15 12:01:50:863: MainTask :1960: Tj2kBoard::create SlotNo : 3
+06/02/15 12:01:50:863: MainTask :1960: tn100_cef5(): tn100_cef5 constructor
+
+06/02/15 12:01:50:863: MainTask :1960: initialize(): Initialization BEGINS.
+06/02/15 12:01:50:947: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301560 0x0 is e5 0xFA:50
+06/02/15 12:01:51:000: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301561 0x0 is e5 0xFA:50
+06/02/15 12:01:51:052: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301562 0x0 is e5 0xFA:50
+06/02/15 12:01:51:105: MainTask :1960: ZL30156::ZL30156:  /dev/slot3/zl301563 0x0 is e5 0xFA:50
+06/02/15 12:01:51:106: MainTask :1960: virtual void ProxyPhy::initializeRegMask() calling Tidl
+06/02/15 12:01:51:106: MainTask :1960: ProxyPhy::ProxyPhy(EthPhyIface*, tej_struct)ProxyPhy Created
+06/02/15 12:01:51:106: MainTask :1960: Vsc8574Phy::Constructing Vittesse: 
+06/02/15 12:01:51:106: MainTask :1960: XGPHY:: Constructor called 
+06/02/15 12:01:51:106: MainTask :1960: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:51:106: MainTask :1960: XGPHY:: Constructor called 
+06/02/15 12:01:51:106: MainTask :1960: Vsc849x::Vsc849x creating VtssBoard instances: Count 2
+06/02/15 12:01:51:106: MainTask :1960: initialize(): tn100_cef5: Initializing sfp/xfp start
+06/02/15 12:01:51:106: MainTask :1960: initialize(): instantiate sfplaserctrl: 0 NM port no: 15
+06/02/15 12:01:51:106: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:51:106: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:51:106: MainTask :1960: initialize(): instantiate sfplaserctrl: 1 NM port no: 16
+06/02/15 12:01:51:106: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:51:106: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:51:106: MainTask :1960: initialize(): instantiate sfplaserctrl: 2 NM port no: 13
+06/02/15 12:01:51:106: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:51:106: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:51:106: MainTask :1960: initialize(): instantiate sfplaserctrl: 3 NM port no: 14
+06/02/15 12:01:51:107: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:fd
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 5 NM port no: 11
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 0 | sfp_port_in_nm_map[portNo] : 11
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 6 NM port no: 12
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 1 | sfp_port_in_nm_map[portNo] : 12
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 7 NM port no: 9
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 2 | sfp_port_in_nm_map[portNo] : 9
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 8 NM port no: 10
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 3 | sfp_port_in_nm_map[portNo] : 10
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 9 NM port no: 7
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 4 | sfp_port_in_nm_map[portNo] : 7
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 10 NM port no: 8
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 5 | sfp_port_in_nm_map[portNo] : 8
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 11 NM port no: 5
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 6 | sfp_port_in_nm_map[portNo] : 5
+06/02/15 12:01:51:107: MainTask :1960: initialize(): instantiate sfplaserctrl: 12 NM port no: 6
+06/02/15 12:01:51:107: MainTask :1960: initialize():  Creating temporary sfpmon devices | portNo : 7 | sfp_port_in_nm_map[portNo] : 6
+06/02/15 12:01:51:107: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:51:107: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:51:112: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:51:112: MainTask :1960: XfpLaserCtrl::XfpLaserCtrl status:0
+06/02/15 12:01:51:112: MainTask :1960: initialize(): tn100_cef5: Initializing sfp/xfp end
+06/02/15 12:01:51:112: MainTask :1960: initialize():  card rev: 2
+06/02/15 12:01:51:112: MainTask :1960: initialize(): tn100_cef5::initialize creating epls device
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:51:112: MainTask :1960: ClockDevice::ClockDevice() | constructing ClockDevice | nr_clkDevs = 5 | CardType : 269
+06/02/15 12:01:51:112: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:51:112: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:51:112: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:51:113: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::FpgaDev Constructor
+06/02/15 12:01:51:113: MainTask :1960: ClockDevice Constructed 
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::updateMuxRegisters() |numOfPrio  1 | numOfRegsPerPrio : 1
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::showClockMuxRegisters() |priority : 0
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::showClockMuxRegisters() |NumOfPrio : 1 |mNumOfRegsPerPrio : 1
+06/02/15 12:01:51:113: MainTask :1960: FpgaDev::showClockMuxRegisters() | priority : 1 | RegAdd  ( clkSelId ) : 0
+06/02/15 12:01:51:113: MainTask :1960: initialize(): before creating device fo zarlink ......
+06/02/15 12:01:51:113: MainTask :1960: initialize(): tn100_cef5::initialize END
+06/02/15 12:01:51:113: MainTask :1960: tn100_cef5(): tn100_cef5 initialize done
+06/02/15 12:01:51:113: MainTask :1960: tn100_cef5::tn100_cef5() : ChassisType : Chassis_Unknown
+06/02/15 12:01:51:113: MainTask :1960: LCd::InitTask() completed
+13/04/15 17:23:34:446: MainTask :1960: LCd:: Connection Established to EthPhy
+13/04/15 17:23:34:446: MainTask :1960: SsmPktIoCe::EzHalLowPrioIfaceConnected Handler
+13/04/15 17:23:34:446: MainTask :1960: Register Handlers
