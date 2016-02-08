@@ -1,5 +1,0 @@
-##################################################################################################
-          Total No. of Warnings of Type 552 is : 1
-##################################################################################################
-
-WARNING:HDLCompiler:552 - "/home/nis/shivamr/svn/hw/branches/elan04_br/pd/modules/bp_gtx_k7/hdl/gtx_k7_prod.v" Line 227: Input port CPLLPD _IN is not connected on this instance

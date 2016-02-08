@@ -1,6 +1,0 @@
-#!/bin/sh
-while [ 1 ]
-do 
- rsync -zac --timeout=60 /etc/tejas/config/db/ 127.1.2.254::rsyncarea/tejas/config/db
- sleep 1s
-done

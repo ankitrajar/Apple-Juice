@@ -1,9 +1,0 @@
-#! /usr/bin/env expect
-set date [lindex $argv 0 ]
-set sec "0314/BR_8_0_1"
-set date $date$sec
-set timeout -1
-spawn ./cm-utils/checkout -dir=/home/prabhath/work/$date BR_8_0_1
-set node_spawn_id $spawn_id
-
-

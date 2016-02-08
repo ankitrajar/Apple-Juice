@@ -1,1 +1,0 @@
-cat file2 | sed -e 's/_/ /g' | sed -e 's/Â//g' | sed -e 's/|\ .*|//g' 

@@ -1,2 +1,0 @@
-echo '--randomize' > /home/prabhath/.distcc/hosts
-avahi-browse _distcc._tcp -t -r | grep address | grep -v '10.0.0.2' | grep -v '192.168.230.53' |awk -F [ {'print $2'} | awk -F ] {'print $1'} | cat >> /home/prabhath/.distcc/hosts

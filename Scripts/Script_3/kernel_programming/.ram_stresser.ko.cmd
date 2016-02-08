@@ -1,1 +1,0 @@
-cmd_/home/parmil/myscripts/kernel_programming/./ram_stresser.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-2.6.32-38-generic/scripts/module-common.lds --build-id -o /home/parmil/myscripts/kernel_programming/./ram_stresser.ko /home/parmil/myscripts/kernel_programming/./ram_stresser.o /home/parmil/myscripts/kernel_programming/./ram_stresser.mod.o
